@@ -14,7 +14,7 @@
   </tr>
 </table>
 
-[<img src="./images/logo.lg.svg" width="180" height="180">](https://www.elsewhen.com/)
+[<img src="./images/logo.lg.svg" width="799" height="173">](https://www.independencepetgroup.com/)
 
 # Project Structure Guidelines
 
