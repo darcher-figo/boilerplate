@@ -14,17 +14,13 @@
   </tr>
 </table>
 
-[<img src="./images/elsewhen-logo.png" width="180" height="180">](https://www.elsewhen.com/)
+[<img src="./images/logo.lg.svg" width="799" height="173">](https://www.independencepetgroup.com/)
 
-# Project Guidelines &middot; [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-
-> While developing a new project is like rolling on a green field for you, maintaining it is a potential dark twisted nightmare for someone else.
-> Here's a list of guidelines we've found, written and gathered that (we think) works really well with most JavaScript projects here at [elsewhen](https://www.elsewhen.com).
-> If you want to share a best practice, or think one of these guidelines should be removed, [feel free to share it with us](http://makeapullrequest.com).
+# Project Structure Guidelines
 
 <hr>
 
-- [Project Guidelines · ](#project-guidelines--)
+- [Project Structure Guidelines](#project-structure-guidelines)
   - [1. Git](#1-git)
     - [1.1 Some Git rules](#11-some-git-rules)
     - [1.2 Git workflow](#12-git-workflow)
