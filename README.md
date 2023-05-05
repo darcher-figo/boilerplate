@@ -11,9 +11,9 @@
 <table><tr>
 <th align="center" valign="center"><img alt="Links" valign="middle" src="./img/icon-link.svg" width="18" /></th>
 <td align="center" valign="center"><a href="./docs/README.md"><sup><sub><strong>Project Guidelines</strong></sub></sup></a></td>
-<td align="center" valign="center"><a href="./docs/README.md"><sup><sub><strong>Code Owners</strong></sub></sup></a></td>
-<td align="center" valign="center"><a href="./docs/README.md"><sup><sub><strong>Contributing</strong></sub></sup></a></td>
-<td align="center" valign="center"><a href="./docs/README.md"><sup><sub><strong>Code of Conduct</strong></sub></sup></a></td>
+<td align="center" valign="center"><a href="./docs/CODEOWNER.md"><sup><sub><strong>Code Owners</strong></sub></sup></a></td>
+<td align="center" valign="center"><a href="./docs/CONTRIBUTING.md"><sup><sub><strong>Contributing</strong></sub></sup></a></td>
+<td align="center" valign="center"><a href="./docs/CODE_OF_CONDUCT.md"><sup><sub><strong>Code of Conduct</strong></sub></sup></a></td>
 </tr></table>
 
 This project is a Proof of Concept (POC) to showcase a stable vanilla typescript frontend implementation approach with [Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components). Our goals is the trial and thorough documentation of risk-reward benefit analysis over the course of this projects lifespan.
