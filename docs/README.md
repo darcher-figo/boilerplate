@@ -2,18 +2,13 @@
 <table align="right">
   <tr>
     <td valign="middle">
-      <details>
+      <details align="center">
         <summary> &nbsp;<sub><sup>VIEWING IN 
  <strong>ENGLISH</strong></sup></sub></summary>
-        <dl>
-          <dt><strong><sup><sub>CHANGE LANGUAGE TO</sub></sup></strong></dt>
-          <dd>&middot; <a href="./docs/README-it.md">Italiana</a></dd>
-        </dl>
-      </details>
-    </td>
+<sup><sub><strong><a href="./docs/README-it.md">ITALIANA</a></sub></sup></strong>
+
   </tr>
 </table>
-
 
 [<img alt="IPG Logo" src="../img/logo.md.svg" width="128">](https://www.independencepetgroup.com/)
 

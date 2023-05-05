@@ -1,15 +1,11 @@
+
 <table align="right">
   <tr>
     <td valign="middle">
-      <details>
-        <summary> &nbsp;<sub><sup>VISUALIZZAZIONE IN 
- <strong>ITALIANA</strong></sup></sub></summary>
-        <dl>
-          <dt><strong><sup><sub>CHANGE LANGUAGE TO</sub></sup></strong></dt>
-          <dd>&middot; <a href="./README.md">English</a></dd>
-        </dl>
-      </details>
-    </td>
+      <details align="center">
+        <summary> &nbsp;<sub><sup>VIEWING IN 
+ <strong>ITALIAN</strong></sup></sub></summary>
+         <strong><sup><sub><a href="./README.md">English</a></sub></sup></strong>
   </tr>
 </table>
 
