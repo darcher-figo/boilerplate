@@ -4,7 +4,7 @@
 
 <br /><br />
 
-# IPG Vanilla TS Starter Kit <img align="right" valign="bottom" src="./img/logo.sm.svg" alt="Logo of the project" width="64">
+# <img valign="bottom" src="./img/logo.sm.svg" alt="Logo of the project" width="54">Vanilla Typescript | <sub><sup> KIT</sup></sub>
 > Vanilla isn't just for a flavor burst in your over-sugared coffee addiction, check it out!
 
 This project is a Proof of Concept (POC) to showcase a stable vanilla typescript frontend implementation approach with [Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components). Our goals is the trial and thorough documentation of risk-reward benefit analysis over the course of this projects lifespan.

@@ -17,7 +17,7 @@
 
 [<img alt="IPG Logo" src="../img/logo.md.svg" width="128">](https://www.independencepetgroup.com/)
 
-# Guidelines [<img align="right" src="../img/logo.lg.svg" width="180">](https://www.independencepetgroup.com/)
+# Guidelines [<img align="right" src="../img/logo.lg.svg" width="164">](https://www.independencepetgroup.com/)
 
 <hr>
 
