@@ -37,6 +37,7 @@ $RECYCLE.BIN/
 /bower_components
 /jspm_packages
 /node_modules
+/coverage
 
 Desktop.ini
 Thumbs.db
