@@ -14,7 +14,7 @@
   </tr>
 </table>
 
-[<img src="./images/logo.lg.svg" width="799" height="173">](https://www.independencepetgroup.com/)
+[<img src="./img/logo.lg.svg" width="799" height="173">](https://www.independencepetgroup.com/)
 
 # Project Structure Guidelines
 
@@ -49,7 +49,7 @@
 
 ## 1. Git
 
-![Git](/images/branching.png)
+![Git](/img/branching.png)
 <a name="some-git-rules"></a>
 
 ### 1.1 Some Git rules
@@ -212,7 +212,7 @@ Having a good guideline for creating commits and sticking to it makes working wi
 
 ## 2. Documentation
 
-![Documentation](/images/documentation.png)
+![Documentation](/img/documentation.png)
 
 - Use this [template](./README.sample.md) for `README.md`, Feel free to add uncovered sections.
 - For projects with more than one repository, provide links to them in their respective `README.md` files.
@@ -227,7 +227,7 @@ Having a good guideline for creating commits and sticking to it makes working wi
 
 ## 3. Environments
 
-![Environments](/images/laptop.png)
+![Environments](/img/laptop.png)
 
 - Define separate `development`, `test` and `production` environments if needed.
 
@@ -310,7 +310,7 @@ Having a good guideline for creating commits and sticking to it makes working wi
 
 ## 4. Dependencies
 
-![Github](/images/modules.png)
+![Github](/img/modules.png)
 
 - Keep track of your currently available packages: e.g., `npm ls --depth=0`. [read more...](https://docs.npmjs.com/cli/ls)
 - See if any of your packages have become unused or irrelevant: `depcheck`. [read more...](https://www.npmjs.com/package/depcheck)
@@ -344,7 +344,7 @@ Having a good guideline for creating commits and sticking to it makes working wi
 
 ## 5. Testing
 
-![Testing](/images/testing.png)
+![Testing](/img/testing.png)
 
 - Have a `test` mode environment if needed.
 
@@ -394,7 +394,7 @@ Having a good guideline for creating commits and sticking to it makes working wi
 
 ## 6. Structure and Naming
 
-![Structure and Naming](/images/folder-tree.png)
+![Structure and Naming](/img/folder-tree.png)
 
 - Organize your files around product features / pages / components, not roles. Also, place your test files next to their implementation.
 
@@ -415,11 +415,11 @@ Having a good guideline for creating commits and sticking to it makes working wi
   ```
   .
   ├── product
-  |   ├── index.js
+  |   ├── main.js
   |   ├── product.js
   |   └── product.test.js
   ├── user
-  |   ├── index.js
+  |   ├── main.js
   |   ├── user.js
   |   └── user.test.js
   ```
@@ -457,7 +457,7 @@ Having a good guideline for creating commits and sticking to it makes working wi
 
 ## 7. Code style
 
-![Code style](/images/code-style.png)
+![Code style](/img/code-style.png)
 
 <a name="code-style-check"></a>
 
@@ -559,7 +559,7 @@ Having a good guideline for creating commits and sticking to it makes working wi
 
 ## 8. Logging
 
-![Logging](/images/logging.png)
+![Logging](/img/logging.png)
 
 - Avoid client-side console logs in production
 
@@ -579,7 +579,7 @@ Having a good guideline for creating commits and sticking to it makes working wi
 
 <a name="api-design"></a>
 
-![API](/images/api.png)
+![API](/img/api.png)
 
 ### 9.1 API design
 
@@ -867,7 +867,7 @@ For each endpoint explain:
 
 ## 10. Accessibility ([a11y](https://www.a11yproject.com/))
 
-![Accessibility](/images/accessibility.png)
+![Accessibility](/img/accessibility.png)
 
 ### 10.1 Laying accessibility practices in place
 
@@ -877,7 +877,7 @@ _Why:_
 
 > Web content is [accessible by default](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML). We compromise this when we build complex features. It's much easier to reduce this impact by considering accessibility from the start rather than re-implement these features later.
 
-- Arrange to do regular audits using [lighthouse](https://developers.google.com/web/tools/lighthouse#devtools) [accessibility](https://web.dev/lighthouse-accessibility/) or the [axe DevTools extension](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US). Agree on a minimum score based on your projects requirements. The scoring in both tools is based on [axe user impact assessments](https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md#wcag-21-level-a--aa-rules).
+- Arrange to do regular audits using [lighthouse](https://developers.google.com/web/tools/lighthouse#devtools) [accessibility](https://web.dev/lighthouse-accessibility/) or the [axe DevTools extension](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US). Agree on a minimum score based on your projects requirements. The scoring in both tools is based on [axe user impact assessments](https://github.com/dequelabs/axe-core/blob/develop/docs/rule-descriptions.md#wcag-21-level-a--aa-rules).
 
   > **Note:** [some important checks](https://web.dev/lighthouse-accessibility/#additional-items-to-manually-check) must be done manually, e.g. logical tab order. The above tools list these as manual/guided tests alongside the automated results. With axe you have to save your automated results to view these.
 
@@ -943,7 +943,7 @@ More accessibility rules can be found [here](https://dequeuniversity.com/rules/a
 
 ## 11. Licensing
 
-![Licensing](/images/licensing.png)
+![Licensing](/img/licensing.png)
 
 Make sure you use resources that you have the rights to use. If you use libraries, remember to look for MIT, Apache or BSD but if you modify them, then take a look at the license details. Copyrighted images and videos may cause legal problems.
 

@@ -1,40 +1,63 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "importHelpers": true,
-    "resolveJsonModule": true,
-    "sourceMap": true,
+    "rootDir": ".",
+    "baseUrl": ".",
     "declaration": true,
-
-    "alwaysStrict": true,
+    "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "removeComments": true,
-    "noImplicitAny": true,
-    "strictNullChecks": true,
-    "strictFunctionTypes": true,
-    "noImplicitThis": true,
-    "noUnusedLocals": false,
-    "noUnusedParameters": false,
-    "noImplicitReturns": true,
-    "strict": true,
-    "noFallthroughCasesInSwitch": true,
-    "emitDecoratorMetadata": true,
+    "importHelpers": true,
+    "module": "esnext",
     "experimentalDecorators": true,
-    "composite": true,
-    "skipLibCheck": true,
-    "noEmitHelpers": false,
-
+    "moduleResolution": "Node",
     "outDir": "dist",
-    "rootDir": "src",
-    "baseUrl": "."
+    "paths": {
+      "#/": [
+        "src/*"
+      ],
+      "#/api/*": [
+        "#/pages/api/*"
+      ],
+      "#/docs/*": [
+        "docs/*"
+      ],
+      "#/img/*": [
+        "img/*"
+      ],
+      "#/lib/*": [
+        "lib/*"
+      ],
+      "#/mocks/*": [
+        "mocks/*"
+      ],
+      "#/page/*": [
+        "pages/*"
+      ],
+      "#/res/*": [
+        "res/*"
+      ],
+      "#/ui/*": [
+        "#/components/*"
+      ]
+    },
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "esnext"
   },
   "exclude": [
     "dist",
-    "node_modules"
+    "*.md",
+    "docs/*.md"
   ],
-  "include": ["src"]
+  "include": [
+    "src",
+    "util",
+    "img",
+    "res",
+    "mocks",
+    "pages",
+    "css",
+  ]
 }

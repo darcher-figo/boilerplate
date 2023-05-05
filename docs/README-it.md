@@ -1,4 +1,3 @@
-
 <table align="right">
   <tr>
     <td valign="middle">
@@ -14,7 +13,7 @@
   </tr>
 </table>
 
-[<img src="./images/logo.lg.svg" width="799" height="173">](https://www.independencepetgroup.com/)
+[<img src="./img/logo.lg.svg" width="799" height="173">](https://www.independencepetgroup.com/)
 
 # Linee guida di un progetto &middot; [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
@@ -55,7 +54,7 @@
 
 ## 1. Git
 
-![Git](/images/branching.png)
+![Git](/img/branching.png)
 <a name="some-git-rules"></a>
 
 ### Alcune regole di Git
@@ -235,7 +234,7 @@ Avere buone linee guida per la creazione di _commit_ e osservarle rende molto pi
 
 ## 2. Documentazione
 
-![Documentazione](/images/documentation.png)
+![Documentazione](/img/documentation.png)
 
 - Usare questo [modello](./README.sample.md) per `README.md`. Si è liberi di aggiungere sezioni non trattate.
 - Per progetti con più di un *repository*, fornire collegamenti agli stessi nei rispettivi file `README.md`.
@@ -250,7 +249,7 @@ Avere buone linee guida per la creazione di _commit_ e osservarle rende molto pi
 
 ## 3. Ambienti
 
-![Environments](/images/laptop.png)
+![Environments](/img/laptop.png)
 
 - Definire ambienti `development` (sviluppo), `test` (collaudo) e `production` (produzione) separati se serve.
 
@@ -334,7 +333,7 @@ Avere buone linee guida per la creazione di _commit_ e osservarle rende molto pi
 
 ## 4. Dipendenze
 
-![Github](/images/modules.png)
+![Github](/img/modules.png)
 
 - Tenere traccia dei propri pacchetti attualmente disponibili: es. `npm ls --depth=0`. [maggiori informazioni...](https://docs.npmjs.com/cli/ls)
 - Verificare se qualcuno dei propri pacchetti è diventato irrilevante o inutilizzato: `depcheck`. [maggiori informazioni...](https://www.npmjs.com/package/depcheck)
@@ -369,7 +368,7 @@ Avere buone linee guida per la creazione di _commit_ e osservarle rende molto pi
 
 ## 5. Eseguire Test
 
-![Testing](/images/testing.png)
+![Testing](/img/testing.png)
 
 - Se necessario dotarsi di un ambiente in modalità `test`.
 
@@ -419,7 +418,7 @@ Avere buone linee guida per la creazione di _commit_ e osservarle rende molto pi
 
 ## 6. Struttura e Assegnazione dei Nomi
 
-![Structure and Naming](/images/folder-tree.png)
+![Structure and Naming](/img/folder-tree.png)
 
 - Organizzare i propri file attorno a funzionalità / pagine / componenti, non ruoli. Inoltre inserire i propri file di test vicino alla loro implementazione.
 
@@ -440,11 +439,11 @@ Avere buone linee guida per la creazione di _commit_ e osservarle rende molto pi
   ```
   .****
   ├── product
-  |   ├── index.js
+  |   ├── main.js
   |   ├── product.js
   |   └── product.test.js
   ├── user
-  |   ├── index.js
+  |   ├── main.js
   |   ├── user.js
   |   └── user.test.js
   ```
@@ -483,7 +482,7 @@ Avere buone linee guida per la creazione di _commit_ e osservarle rende molto pi
 
 ## 7. Stile di codice
 
-![Code style](/images/code-style.png)
+![Code style](/img/code-style.png)
 
 <a name="code-style-check"></a>
 
@@ -585,7 +584,7 @@ Avere buone linee guida per la creazione di _commit_ e osservarle rende molto pi
 
 ## 8. Logging
 
-![Logging](/images/logging.png)
+![Logging](/img/logging.png)
 
 - Evitare log su console  lato client in produzione.
 
@@ -605,7 +604,7 @@ Avere buone linee guida per la creazione di _commit_ e osservarle rende molto pi
 
 <a name="api-design"></a>
 
-![API](/images/api.png)
+![API](/img/api.png)
 
 ### 9.1 Progettazione API
 
@@ -899,7 +898,7 @@ Per ogni _endpoint_ spiegare:
 
 ## [Accessibiltà](https://www.a11yproject.com/)
 
-![Accessibilità](/images/accessibility.png)
+![Accessibilità](/img/accessibility.png)
 
 ### 10.1 Mettere a punto metodi di accessibilità
 
@@ -909,7 +908,7 @@ _Perchè:_
 
 > Il contenuto Web è [accessibile in modalità predefinita](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML).Questo concetto viene compromesso quando si costruiscono funzionalità complesse. E' molto più facile ridurre questo impatto tenendo in considerazione l'accessibilità dall'inizio invece che reimplementare queste funzionalità successivamente.
 
-- Disporsi per eseguire revisioni regolari usando [lighthouse](https://developers.google.com/web/tools/lighthouse#devtools) [accessibility](https://web.dev/lighthouse-accessibility/) o l'[estensione di DevTools axe](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US). Condividere un punteggio minimo in base alle proprie specifiche di progetto. Il punteggio per entrambi gli strumenti è basato su [usare l'impatto di valutazione utente di axe](https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md#wcag-21-level-a--aa-rules).
+- Disporsi per eseguire revisioni regolari usando [lighthouse](https://developers.google.com/web/tools/lighthouse#devtools) [accessibility](https://web.dev/lighthouse-accessibility/) o l'[estensione di DevTools axe](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US). Condividere un punteggio minimo in base alle proprie specifiche di progetto. Il punteggio per entrambi gli strumenti è basato su [usare l'impatto di valutazione utente di axe](https://github.com/dequelabs/axe-core/blob/develop/docs/rule-descriptions.md#wcag-21-level-a--aa-rules).
 
   > **Nota:** [alcune importanti verifiche](https://web.dev/lighthouse-accessibility/#additional-items-to-manually-check) devono essere fatte manualmente, es. ordine logico delle tabulazioni. Gli strumenti qui sopra elencano questi test manuali/guidati assieme ai risultati automatizzati. Con axe si devono salvare i propri risultati automatizzati per vedere questi.
 
@@ -973,7 +972,7 @@ Altre regole di accessibilità possono essere trovate [qui](https://dequeunivers
 
 ## 11. Gestione Licenza
 
-![Licensing](/images/licensing.png)
+![Licensing](/img/licensing.png)
 
 Assicurarsi di usare risorse per la quali si possiede il diritto di utilizzo. Se si utilizzano librerie, ricordarsi di cercare se licenza MIT, Apache o BSD ma se vengono modificate, verificare anche i dettagli della licenza. Le immagini o i video sottoposti a copyright potrebbero causare problemi legali.
 
