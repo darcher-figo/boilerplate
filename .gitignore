@@ -22,7 +22,10 @@ $RECYCLE.BIN/
 ._*
 .com.apple.timemachine.donotpresent
 .env
-.env.*
+.env.local
+.env.development
+.env.production
+.env.test
 .eslintcache
 .fseventsd
 .npm
