@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
+    "rootDir": ".",
     "baseUrl": ".",
     "declaration": true,
     "esModuleInterop": true,
-    "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
     "importHelpers": true,
     "module": "esnext",
+    "experimentalDecorators": true,
     "moduleResolution": "Node",
     "outDir": "dist",
     "paths": {
@@ -40,24 +41,23 @@
     },
     "removeComments": true,
     "resolveJsonModule": true,
-    "rootDir": ".",
     "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
     "target": "esnext"
   },
-  // "exclude": [
-  //   "docs",
-  //   "dist",
-  //   "workflows",
-  //   "node_modules",
-  // ],
-  // "include": [
-  //   "src",
-  //   "res",
-  //   "img",
-  //   "util",
-  //   "mocks",
-  //   "pages",
-  // ]
+  "exclude": [
+    "dist",
+    "*.md",
+    "docs/*.md"
+  ],
+  "include": [
+    "src",
+    "util",
+    "img",
+    "res",
+    "mocks",
+    "pages",
+    "css",
+  ]
 }
