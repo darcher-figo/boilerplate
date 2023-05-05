@@ -4,14 +4,14 @@
 
 <br /><br />
 
-# Name of the project <img align="right" valign="bottom" src="./img/logo.sm.svg" alt="Logo of the project" width="64">
+# IPG Vanilla TS Starter Kit <img align="right" valign="bottom" src="./img/logo.sm.svg" alt="Logo of the project" width="64">
 > Vanilla isn't just for a flavor burst in your over-sugared coffee addiction, check it out!
 
 This project is a Proof of Concept (POC) to showcase a stable vanilla typescript frontend implementation approach with [Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components). Our goals is the trial and thorough documentation of risk-reward benefit analysis over the course of this projects lifespan.
 
 ## Installing / Getting started
 
-A quick introduction of the minimal setup you need to get a hello world up & running.
+Here is a quick introduction of the *minimal* setup you need to get a `hello world` up & running locally.
 
 ```shell
 
@@ -73,57 +73,6 @@ npm run dev
 #   src/main.ts
 ```
 
-#### trigger this command to align the codebase format to our standardizations (code changes may occur)
-
-```shell
-npm run format
-
-# RUNS
-#   prettier --write --ignore-unknown
-```
-
-#### when problems arise in the package dependencies removing the following and doing a clean install # will resolve a plethora of time consuming tasks
-
-```shell
-npm run clean
-
-# RUNS
-#   rm -rf node_modules &&
-#   rm -rf dist &&
-#   rm -rf coverage &&
-#   rm -rf package-lock.json
-```
-
-#### runs a linter over entire codebase (code changes may occur)
-
-```shell
-npm run lint
-
-# RUNS
-#   eslint **/*.{ts,tsx} --fix
-```
-
-#### executes the entire playwright E2E and Jest Unit Testing suite these tasks generate a wealth of information # stored in the `/coverage` directory
-
-```shell
-npm run test
-
-# RUNS
-#   jest **/*.{ts,tsx} --colors --coverage
-```
-#### this isn't technically logs; however, it is a safe-guard to ensure git commit messages adhere to high-quality standards (subject to change, does make assumptions)
-
-```shell
-npm run logs
-
-# RUNS
-#   npx
-#     --no-install commitlint
-#     --config commitlint.config.cjs
-#     --edit
-
-```
-
 Here you should say what actually happens when you execute the code above.
 
 ## Developing
@@ -175,12 +124,47 @@ And again you'd need to tell what the previous code actually does.
 
 ## Versioning
 
-We can maybe use [SemVer](http://semver.org/) for versioning. For the versions available, see the [link to tags on this repository](/tags).
+Will likely implement something to automate this process away, added a few options below, but haven't settled on the approach yet.
+
+**Resources**
+
+- [SemVer](http://semver.org/)
+- [link to tags on this repository](/tags).
 
 
 ## Configuration
 
-Here you should write what are all of the configurations a user can enter when using the project.
+### Environment Variables
+
+More to come for this area, I intend to incorperate the `dotenv` library to aid in easy dynamic globally accessible data points.
+
+```javascript
+
+const _env = process.env;
+
+["HOST", "NODE_ENV", "PORT", "PROTOCOL", "PUBLIC_URL", "HREF"].forEach(
+  (name) => {
+    if (_env[name]) {
+      throw new Error(`EnvVar ${name} is missing`);
+    }
+  },
+);
+
+const config = {
+  env: _env.NODE_ENV,
+  logger: {
+    level: _env.LOG_LEVEL || "info",
+    enabled: Boolean(_env.BOOLEAN?.toLowerCase().localeCompare("true")),
+  },
+  server: {
+    port: Number(_env.PORT),
+  },
+};
+
+module.exports = config;
+
+
+```
 
 ## Tests
 
@@ -193,18 +177,67 @@ Give an example
 
 ## Style guide
 
-Explain your code style and show how to check it.
+### trigger this command to align the codebase format to our standardizations (code changes may occur)
+
+```shell
+npm run format
+
+# RUNS
+#   prettier --write --ignore-unknown
+```
+
+### runs a linter over entire codebase (code changes may occur)
+
+```shell
+npm run lint
+
+# RUNS
+#   eslint **/*.{ts,tsx} --fix
+```
+
+#### when problems arise in the package dependencies removing the following and doing a clean install # will resolve a plethora of time consuming tasks
+
+```shell
+npm run clean
+
+# RUNS
+#   rm -rf node_modules &&
+#   rm -rf dist &&
+#   rm -rf coverage &&
+#   rm -rf package-lock.json
+```
+
+#### executes the entire playwright E2E and Jest Unit Testing suite these tasks generate a wealth of information # stored in the `/coverage` directory
+
+```shell
+npm run test
+
+# RUNS
+#   jest **/*.{ts,tsx} --colors --coverage
+```
+#### this isn't technically logs; however, it is a safe-guard to ensure git commit messages adhere to high-quality standards (subject to change, does make assumptions)
+
+```shell
+npm run logs
+
+# RUNS
+#   npx
+#     --no-install commitlint
+#     --config commitlint.config.cjs
+#     --edit
+
+```
 
 ## Api Reference
 
-If the api is external, link to api documentation. If not describe your api including authentication methods as well as explaining all the endpoints with their required parameters.
-
+> Will update with details on where fixtures & mocked data resides in project when I get that work implemented.
 
 ## Database
 
-Explaining what database (and version) has been used. Provide download links.
-Documents your database design and schemas, relations etc...
+Linking up to a DB for this effort is probably not necessary, I will be building out fixtures/mocks to display real data...
+
+Due to how small this project is, avoiding all the configurations and complexities that come along with integrating a full ecosystem.
 
 ## Licensing
 
-State what the license is and how to find the text version of the license.
+Licensing is likely unnecessary for this initiative but may get something included here.
