@@ -1,38 +1,42 @@
 #!/usr/bin/env node
 
-/**
- * This is a sample HTTP server.
- * Replace this with your implementation.
- */
+import "dotenv/config";
+import {
+  createServer,
+  type IncomingMessage,
+  type Server,
+  type ServerResponse,
+} from "http";
+import { resolve } from "path";
+import { fileURLToPath } from "url";
 
-import 'dotenv/config'
-import { createServer, IncomingMessage, ServerResponse } from 'http'
-import { resolve } from 'path'
-import { fileURLToPath } from 'url'
-import { Config } from './config.js'
+const _isCLI = Boolean(
+  resolve(process.argv[1]).localeCompare(
+    resolve(fileURLToPath(import.meta.url)),
+  ),
+);
 
-const nodePath = resolve(process.argv[1])
-const modulePath = resolve(fileURLToPath(import.meta.url))
-const isCLI = nodePath === modulePath
+console.info(_isCLI);
 
-export default function main(port: number = Config.port) {
-  const requestListener = (request: IncomingMessage, response: ServerResponse) => {
-    response.setHeader('content-type', 'text/plain;charset=utf8')
-    response.writeHead(200, 'OK')
-    response.end('Olá, Hola, Hello!')
+export function main(): Server<
+  typeof IncomingMessage,
+  typeof ServerResponse
+> {
+  const server = createServer((_, response): void => {
+    response.setHeader("content-type", "text/plain;charset=utf8");
+    response.writeHead(200, "OK");
+    response.end("Such foo, much bar.");
+  });
+
+  if (_isCLI) {
+    server.listen(parseInt(`${process.env.PORT || 6969}`));
   }
 
-  const server = createServer(requestListener)
-
-  if (isCLI) {
-    server.listen(port)
-    // eslint-disable-next-line no-console
-    console.log(`Listening on port: ${port}`)
-  }
-
-  return server
+  return server;
 }
 
-if (isCLI) {
-  main()
+if (_isCLI) {
+  main();
 }
+
+export default main;

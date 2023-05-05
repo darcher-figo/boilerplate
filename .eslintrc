@@ -1,0 +1,28 @@
+{
+  "env": {
+    "browser": true,
+    "jest": true,
+    "node": true
+  },
+  "extends": ["plugin:@typescript-eslint/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "ignorePatterns": [
+    "*.md",
+    "docs/*.md",
+    "**/*.css",
+    "**/*.scss",
+    "**/*.svg",
+    "**/*.html"
+  ],
+  "plugins": [
+    "@typescript-eslint/eslint-plugin",
+    "eslint-plugin-tsdoc",
+    "import"
+  ],
+  "root": true
+}

@@ -3,10 +3,7 @@
   "exclude": [
     "dist",
     "node_modules",
-    "__test",
-    "**/*.spec.ts",
-    "**/*.spec.js",
-    "*.spec.ts",
-    "**/spec.ts"
+    "*.test.ts",
+    "**/*.test.js"
   ]
 }

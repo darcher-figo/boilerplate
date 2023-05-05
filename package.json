@@ -1,26 +1,10 @@
 {
-  "name": "my-app",
-  "type": "module",
-  "main": "dist/main.js",
-  "types": "dist/main.d.ts",
-  "scripts": {
-    "start": "node dist/main.js",
-    "start:dev": "nodemon --ext js,ts,json,env --exec 'node --experimental-specifier-resolution=node --loader ts-node/esm' src/main.ts",
-    "prepare": "husky install",
-    "build": "tsc --project tsconfig.build.json",
-    "build:clean": "rm -rf tsconfig.build.tsbuildinfo && rm -rf ./dist",
-    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --detectOpenHandles",
-    "test:coverage": "npm run test -- --coverage",
-    "test:ci": "npm run test -- --colors --coverage --ci",
-    "lint": "eslint --ext .ts,.js .",
-    "format": "prettier \"./**\" --write --ignore-unknown",
-    "format:check": "prettier \"./**\" --ignore-unknown --check"
-  },
-  "engine": {
-    "node": ">=18.x",
-    "npm": "please-use-npm"
+  "author": {
+    "email": "darcher@insurefigo.com",
+    "name": "Dylan Archer"
   },
   "dependencies": {
+    "@types/next": "^9.0.0",
     "dotenv": "^16.0.0",
     "tslib": "^2.3.1"
   },
@@ -29,8 +13,9 @@
     "@commitlint/config-conventional": "^17.0.0",
     "@jest/globals": "^28.0.0",
     "@jest/types": "^28.0.0",
-    "@types/jest": "^27.4.1",
-    "@types/node": "^18.0.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^18.16.3",
     "@types/supertest": "^2.0.12",
     "@typescript-eslint/eslint-plugin": "^5.17.0",
     "@typescript-eslint/parser": "^5.17.0",
@@ -41,12 +26,59 @@
     "eslint-plugin-tsdoc": "^0.2.14",
     "husky": "^8.0.1",
     "jest": "^27.5.1",
-    "lint-staged": "^13.0.0",
     "nodemon": "^2.0.15",
     "prettier": "^2.6.1",
     "supertest": "^6.2.2",
     "ts-jest": "^27.1.4",
-    "ts-node": "^10.7.0",
+    "ts-node": "^10.9.1",
     "typescript": "^4.6.3"
-  }
+  },
+  "engine": {
+    "node": ">=18.15.0",
+    "npm": "please-use-npm"
+  },
+  "keywords": [
+    "outline",
+    "hirearchy",
+    "micro-frontend",
+    "frontend",
+    "boilerplate",
+    "dart scss",
+    "documentation",
+    "framework free",
+    "guidelines",
+    "javascript",
+    "markdown",
+    "styleguide",
+    "svg icons",
+    "template",
+    "typescript",
+    "vanilla css4",
+    "vanilla jsx/tsx",
+    "web components"
+  ],
+  "license": "UNLICENSED",
+  "main": "dist/src/main.js",
+  "name": "boilerplate-vts",
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:darcher-figo/boilerplate.git"
+  },
+  "scripts": {
+    "format": "prettier --write --ignore-unknown .",
+    "build": "tsc --project tsconfig.build.json",
+    "dev": "nodemon --ext '*' --exec && 'node --experimental-specifier-resolution=node --loader && ts-node/esm' src/main.ts",
+    "test": "jest --colors --coverage **/*.{ts,tsx}",
+    "lint": "eslint --fix **/*.{ts,tsx}",
+    "logs": "npx --no-install commitlint --config commitlint.config.cjs --edit",
+    "start": "node dist/src/main.js",
+    "clean": "rm -rf node_modules && rm -rf dist && rm -rf coverage && rm -rf package-lock.json"
+  },
+  "type": "module",
+  "types": "dist/src/main.d.ts"
 }
