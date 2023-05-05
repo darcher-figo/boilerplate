@@ -1,6 +1,4 @@
-# Contributor Covenant Code of Conduct
-
-[<img src="../img/logo.lg.svg" width="799" height="173">](https://www.independencepetgroup.com/)
+# <img valign="bottom" src="./img/logo.sm.svg" alt="Logo of the project" width="54">Contributor Covenant Code of Conduct
 
 ## Our Pledge
 

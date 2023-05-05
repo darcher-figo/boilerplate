@@ -1,6 +1,4 @@
-# Contributing
-
-[<img src="../img/logo.lg.svg" width="799" height="173">](https://www.independencepetgroup.com/)
+# Contributing[<img valign="middle" align="right" src="../img/logo.lg.svg" width="164">](https://www.independencepetgroup.com/)
 
 <!-- TODO: align to our processes -->
 > **NOTE:** This is an working example `CONTRIBUTING.md` document and _**<u>NEEDS</u>**_ additional alignment with our processes.
