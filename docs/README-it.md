@@ -13,7 +13,7 @@
   </tr>
 </table>
 
-[<img src="./img/logo.lg.svg" width="799" height="173">](https://www.independencepetgroup.com/)
+[<img src="../img/logo.lg.svg" width="799" height="173">](https://www.independencepetgroup.com/)
 
 # Linee guida di un progetto &middot; [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
