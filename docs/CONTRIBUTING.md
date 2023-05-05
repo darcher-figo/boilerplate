@@ -16,7 +16,7 @@ Owners are subject to change, the most up-to-date owners list can be found in th
 | Name          | Role                                         | Branch                                   | Email                   | Github         |
 | :------------ | :------------------------------------------- | :--------------------------------------- | :---------------------- | :------------- |
 | Chip Aubry    | <abbr title="Chief Technology Officer ">CTO  | <abbr title="Independence Pet Group">IPG | caubry@insurefigo.com   | @chipaubryfigo |
-| Chip Aubry    | <abbr title="Chief Information Officer ">CIO | <abbr title="Pet Partners">PPI           | tjoyner@petpartners.com | @tjoyner2      |
+| Tyler Joyner    | <abbr title="Chief Information Officer ">CIO | <abbr title="Pet Partners">PPI           | tjoyner@petpartners.com | @tjoyner2      |
 | Ming Tan      | Director, Engineering                        | <abbr title="Figo Pet Insurance">FPI     | mtan@insurefigo.com     | @mingster-t    |
 | Kirk Castro   | Director, Design                             | <abbr title="Figo Pet Insurance">FPI     | kcastro@insurefigo.com  | --             |
 | Manish Kapoor | Product Manager                              | <abbr title="Figo Pet Insurance">FPI     | mkapoor@insurefigo.com  | --             |
