@@ -29,7 +29,6 @@ $RECYCLE.BIN/
 .serverless/
 .vscode/*
 .yarn-integrity
-.configs/
 
 /.idea
 /bower_components

@@ -1,0 +1,63 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "baseUrl": ".",
+    "declaration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "module": "esnext",
+    "experimentalDecorators": true,
+    "moduleResolution": "Node",
+    "outDir": "dist",
+    "paths": {
+      "#/": [
+        "src/*"
+      ],
+      "#/api/*": [
+        "#/pages/api/*"
+      ],
+      "#/docs/*": [
+        "docs/*"
+      ],
+      "#/img/*": [
+        "img/*"
+      ],
+      "#/lib/*": [
+        "lib/*"
+      ],
+      "#/mocks/*": [
+        "mocks/*"
+      ],
+      "#/page/*": [
+        "pages/*"
+      ],
+      "#/res/*": [
+        "res/*"
+      ],
+      "#/ui/*": [
+        "#/components/*"
+      ]
+    },
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "esnext"
+  },
+  "exclude": [
+    "dist",
+    "*.md",
+    "docs/*.md"
+  ],
+  "include": [
+    "src",
+    "util",
+    "img",
+    "res",
+    "mocks",
+    "pages",
+    "css",
+  ]
+}
