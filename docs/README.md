@@ -14,13 +14,14 @@
   </tr>
 </table>
 
-[<img src="../img/logo.lg.svg" width="799" height="173">](https://www.independencepetgroup.com/)
 
-# Project Structure Guidelines
+[<img alt="IPG Logo" src="../img/logo.md.svg" width="128">](https://www.independencepetgroup.com/)
+
+# Guidelines [<img align="right" src="../img/logo.lg.svg" width="180">](https://www.independencepetgroup.com/)
 
 <hr>
 
-- [Project Structure Guidelines](#project-structure-guidelines)
+- [Guidelines ](#guidelines-)
   - [1. Git](#1-git)
     - [1.1 Some Git rules](#11-some-git-rules)
     - [1.2 Git workflow](#12-git-workflow)
