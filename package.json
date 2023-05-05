@@ -70,12 +70,12 @@
     "url": "git@github.com:darcher-figo/boilerplate.git"
   },
   "scripts": {
-    "format": "prettier --write --ignore-unknown .",
-    "build": "tsc --project tsconfig.build.json",
-    "dev": "nodemon --ext '*' --exec && 'node --experimental-specifier-resolution=node --loader && ts-node/esm' src/main.ts",
-    "test": "jest --colors --coverage **/*.{ts,tsx}",
-    "lint": "eslint --fix **/*.{ts,tsx}",
-    "logs": "npx --no-install commitlint --config commitlint.config.cjs --edit",
+    "format": "node_modules/.bin/prettier --write --ignore-unknown .",
+    "build": "node_modules/.bin/tsc --project tsconfig.build.json",
+    "dev": "node_modules/.bin/nodemon --ext .js, .ts, .json, .env --exec && node --experimental-specifier-resolution=node --loader ts-node/esm src/main.ts",
+    "test": "node_modules/.bin/jest --colors --coverage **/*.ts",
+    "lint": "node_modules/.bin/eslint --fix **/*.ts",
+    "logs": "npx --no-install node_modules/.bin/commitlint --config commitlint.config.cjs --edit",
     "start": "node dist/src/main.js",
     "clean": "rm -rf node_modules && rm -rf dist && rm -rf coverage && rm -rf package-lock.json"
   },
