@@ -12,11 +12,11 @@
 
 <table>
   <tr>
-    <th valign="middle"><sub><sup>VIEWING IN</sup></sub></th>
+    <th align="left" valign="middle"><sub><sup>VIEWING IN</sup></sub></th>
     <td valign="middle" colspan="2">🇮🇹</td>
   </tr>
   <tr>
-    <th valign="middle"><sub><sup>LANGUAGE(S)</sup></sub></th>
+    <th align="left" valign="middle"><sub><sup>LANGUAGE(S)</sup></sub></th>
     <td align="center" valign="middle">
       <a href="./README-it.md" title="Italiana"><sub><sup>🇮🇹 ITALIAN</sup></sub></a>
     </td>
