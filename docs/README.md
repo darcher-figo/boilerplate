@@ -12,14 +12,14 @@
 
 <table>
   <tr>
-    <th align="center" valign="middle" colspan="2"><sub><sup>LANGUAGE(S)</sup></sub></th>
+    <th align="center" valign="middle" colspan="2"><sub><sup>LANGUAGE(S): 🇺🇸</sup></sub></th>
   </tr>
   <tr>
     <td align="center" valign="middle">
       <a href="./README-it.md" title="Italian"><sub><sup>🇮🇹 ITALIAN</sup></sub></a>
     </td>
     <td bgColor="gold" align="center" valign="middle">
-      <a href="./README.md" title="English"><sub><sup>🇺🇸 ENGLISH</sup></sub></a>
+      <a href="./README.md" title="English"><sub><sup>🇺🇸 <b><i><u>ENGLISH</u></i></b></sup></sub></a>
     </td>
   </tr>
 </table>
