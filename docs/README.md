@@ -1,8 +1,8 @@
 <hr />
 
-<table align="center" valign="top"><tr><td><b><sub><sup>
-  <a href="./README.md">PROJECT GUIDELINES</a> <code><img alt="Language(s)" src="../img/language.svg" width="10" valign="text-top"> <a href="./README.md" title="English">🇺🇸</a> <a href="./README-it.md" title="Italian">🇮🇹</a></code>
-</sup></sub></b></td><td><b><sub><sup>
+<table align="center" valign="top"><tr><td>
+  <b><sub><sup>ROJECT GUIDELINES</sup></sub></b> <code> <img alt="Language(s)" src="../img/language.svg" width="16" valign="text-top"> <a href="./README.md" title="English"><sub><sup>🇺🇸&nbsp;ENGLISH</sup></sub></a> <a href="./README-it.md" title="Italian"><sub><sup>🇮🇹&nbsp;ITALIAN</sup></sub></a> </code>
+</td><td><b><sub><sup>
   <a href="./CODEOWNER.md">CODE OWNERS</a>
 </sup></sub></b></td><td><b><sub><sup>
   <a href="./CONTRIBUTING.md">CONTRIBUTING</a>
