@@ -1,4 +1,4 @@
-<table align="right"><tr>
+<table align="center"s><tr>
   <td align="center" valign="middle"><b>
     <a href="/docs/README.md" title="en-US">🇺🇸</a>
     <sup><sub><b><code>ENGLISH</code></b></sub></sup>
@@ -13,7 +13,7 @@
   </td>
 </tr></table>
 
-[<img align="bottom" alt="company brand" height="164" src="../img/logo.svg" width="164">](https://www.independencepetgroup.com/)
+[<img align="right" alt="company brand" src="../img/logo.lg.svg" width="164">](https://www.independencepetgroup.com/)
 
 # Project Guidelines
 

@@ -1,22 +1,22 @@
-<hr />
+[<img align="right" alt="company brand" src="../img/logo.lg.svg" width="164">](https://www.independencepetgroup.com/)
 
-<table align="right"><tr>
-    <td align="center" valign="middle"><img src="../img/logo.lg.svg" width="96" valign="text-top" />
-    <td align="center" valign="middle"><a href="/docs/README.md"><sub><sup><b>PROJECT GUIDELINES</a>
-    <td align="center" valign="middle"><a href="/docs/CODEOWNER.md"><sub><sup><b>REPOSITORY OWNERS</a>
-    <td align="center" valign="middle"><a href="/docs/CONTRIBUTING.md"><sub><sup><b>CONTRIBUTION RULES</a>
-    <td align="center" valign="middle"><a href="/docs/CODE_OF_CONDUCT.md"><sub><sup><b>CODE OF CONDUCT</a>
-</td></tr></table>
+# Ethos 
 
-<img src="../img/logo.svg" alt="Logo of the project" width="128">
+**Code of Conduct: The contributor covenant -** A set of rules outlining the policies, proper practices, and responsibilities of an individual, team, company, and/or organization.
 
-<p>&nbsp;</p>
-
-# Code of Conduct&mdash;Contributor Covenant
+<br /><table><tr align="center" valign="middle" style="color:slategray">
+<td><img src="../img/safety.svg" width="16" /> <a href="./CODEOWNERS.md"><sup><sub><b>CODE OWNERS
+<td><img src="../img/symbols.svg" width="16" /> <a href="./CODE_OF_CONDUCT.md"><sup><sub><b>CODE OF CONDUCT
+<td><img src="../img/branch.svg" width="16" /> <a href="./CONTRIBUTING.md"><sup><sub><b>CONTRIBUTION RULES
+<td><img src="../img/suitcase.svg" width="16" /> <a href="./README.md"><sup><sub><b>BEST PRACTICES
+<td><img src="../img/note.svg" width="16" /> <a href="../README.md"><sup><sub><b>DOCUMENTATION
+<tr><td colspan="6">
 
 ## Our Pledge
 
 In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
+
+<br /><tr><td colspan="6">
 
 ## Our Standards
 
@@ -36,15 +36,21 @@ Examples of unacceptable behavior by participants include:
 * Publishing others' private information, such as a physical or electronic address, without explicit permission
 * Other conduct which could reasonably be considered inappropriate in a professional setting
 
+<br /><tr><td colspan="6">
+
 ## Our Responsibilities
 
 Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
 
 Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
 
+<br /><tr><td colspan="6">
+
 ## Scope
 
 This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing a project or community include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers.
+
+<br /><tr><td colspan="6">
 
 ## Enforcement
 
@@ -52,11 +58,8 @@ Instances of abusive, harassing, or otherwise unacceptable behavior may be repor
 
 Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
 
-## Attribution
+<br /></tr></table><br />
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4, available at [http://contributor-covenant.org/version/1/4][version]
+### Attribution
 
-[homepage]: http://contributor-covenant.org
-[version]: http://contributor-covenant.org/version/1/4/
-
-<hr />
+This Code of Conduct is adapted from the [Contributor Covenant <sup>v1.4</sup>](http://contributor-covenant.org/version/1/4/)
