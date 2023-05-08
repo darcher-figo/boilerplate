@@ -13,7 +13,9 @@
   </td>
 </tr></table>
 
-[<img align="bottom" alt="marchio aziendale" height="164" src="../img/logo.svg" width="164">](https://www.independencepetgroup.com/)
+[<img align="left" alt="marchio aziendale" src="../img/logo.lg.svg" width="256">](https://www.independencepetgroup.com/)
+
+<br /><br /><br />
 
 # Linee guida di un progetto
 

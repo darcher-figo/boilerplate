@@ -7,11 +7,11 @@ This project is a Proof of Concept (POC) to showcase a stable vanilla typescript
 > Vanilla isn't just for a flavor burst in your sugarlicious coffee addiction, it excels in simiplifying cross platform projects, too!
 
 <br /><table><tr align="center" valign="middle" style="color:slategray">
-<td><img src="../img/safety.svg" width="16" /> <a href="./CODEOWNERS.md"><sup><sub><b>CODE OWNERS
-<td><img src="../img/symbols.svg" width="16" /> <a href="./CODE_OF_CONDUCT.md"><sup><sub><b>CODE OF CONDUCT
-<td><img src="../img/queue-list.svg" width="16" /> <a href="./CONTRIBUTING.md"><sup><sub><b>CONTRIBUTION RULES
-<td><img src="../img/suitcase.svg" width="16" /> <a href="./README.md"><sup><sub><b>BEST PRACTICES
-<td><img src="../img/note.svg" width="16" /> <a href="../README.md"><sup><sub><b>DOCUMENTATION
+<td><img src="./img/safety.svg" width="16" /> <a href="./docs/CODEOWNERS.md"><sup><sub><b>CODE OWNERS
+<td><img src="./img/symbols.svg" width="16" /> <a href="./docs/CODE_OF_CONDUCT.md"><sup><sub><b>CODE OF CONDUCT
+<td><img src="./img/queue-list.svg" width="16" /> <a href="./docs/CONTRIBUTING.md"><sup><sub><b>CONTRIBUTION RULES
+<td><img src="./img/suitcase.svg" width="16" /> <a href="./docs/README.md"><sup><sub><b>BEST PRACTICES
+<td><img src="./img/note.svg" width="16" /> <a href="./README.md"><sup><sub><b>DOCUMENTATION
 <tr><td colspan="6">
 
 ## Installing / Getting started

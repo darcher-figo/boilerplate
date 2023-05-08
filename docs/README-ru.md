@@ -13,7 +13,9 @@
   </td>
 </tr></table>
 
-[<img align="bottom" alt="брендинг компании" height="164" src="../img/logo.svg" width="164">](https://www.independencepetgroup.com/)
+[<img align="left" alt="брендинг компании" src="../img/logo.lg.svg" width="256">](https://www.independencepetgroup.com/)
+
+<br /><br /><br />
 
 # Советы по созданию проектов
 
