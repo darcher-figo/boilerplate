@@ -1,3 +1,4 @@
+<hr />
 
 <table align="right">
   <tr>
@@ -5,12 +6,12 @@
       <details align="center">
         <summary> &nbsp;<sub><sup>VIEWING IN 
  <strong>ENGLISH</strong></sup></sub></summary>
-<sup><sub><strong><a href="./docs/README-it.md">ITALIANA</a></sub></sup></strong>
+<sup><sub><strong><a href="./docs/README-it.md">ITALIAN</a></sub></sup></strong>
 
   </tr>
 </table>
 
-[<img alt="IPG Logo" src="../img/logo.md.svg" width="128">](https://www.independencepetgroup.com/)
+[<img alt="IPG Logo" src="../img/logo.md.svg" width="96">](https://www.independencepetgroup.com/)
 
 # Guidelines [<img align="right" src="../img/logo.lg.svg" width="164">](https://www.independencepetgroup.com/)
 

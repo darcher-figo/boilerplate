@@ -1,5 +1,4 @@
-
-<br />
+<hr />
 <table valign="bottom" align="right"><tr>
 <td colspan="5" align="center" valign="middle"><sub>
 
