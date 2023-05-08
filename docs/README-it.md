@@ -5,12 +5,12 @@
     <td valign="middle">
       <details align="center">
         <summary> &nbsp;<sub><sup>VIEWING IN 
- <strong>ITALIAN</strong></sup></sub></summary>
-         <strong><sup><sub><a href="./README.md">ENGLISH</a></sub></sup></strong>
+ <strong>🇮🇹</strong></sup></sub></summary>
+         <strong><sup><sub><a href="./README.md" title="Inglese">🇺🇸</a></sub></sup></strong>
   </tr>
 </table>
 
-[<img alt="IPG Logo" src="../img/logo.md.svg" width="96">](https://www.independencepetgroup.com/)
+[<img alt="IPG Logo" src="../img/logo.md.svg" width="64">](https://www.independencepetgroup.com/)
 
 # Linee guida di un progetto [<img align="right" alt="IPG Logo" src="../img/logo.lg.svg" width="164">](https://www.independencepetgroup.com/)
 
