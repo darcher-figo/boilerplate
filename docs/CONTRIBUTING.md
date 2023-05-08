@@ -1,20 +1,18 @@
 <hr />
 
 <table align="right"><tr>
-<td colspan="5" align="center" valign="bottom"><sub><img src="https://img.shields.io/travis/npm/npm/latest.svg?style=flat-square" /> &nbsp; &nbsp; <img src="https://img.shields.io/npm/v/npm.svg?style=flat-square" /> &nbsp; &nbsp; <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" /> &nbsp; &nbsp; <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" /></sub></td>
-</tr><tr>
-<th align="center" valign="center"><img alt="Links" valign="middle" src="../img/icon-link.svg" width="18" /></th>
-<td align="center" valign="center"><a href="/docs/README.md"><sup><sub><strong>Project Guidelines</strong></sub></sup></a></td>
-<td align="center" valign="center"><a href="./CODEOWNER.md"><sup><sub><strong>Code Owners</strong></sub></sup></a></td>
-<td align="center" valign="center"><a href="./CODE_OF_CONDUCT.md"><sup><sub><strong>Code of Conduct</strong></sub></sup></a></td>
-<td align="center" valign="center"><a href="./CONTRIBUTING.md"><sup><sub><strong>Contributing</strong></sub></sup></a></td>
-</tr></table>
+    <td align="center" valign="middle"><img src="../img/logo.lg.svg" width="96" valign="text-top" />
+    <td align="center" valign="middle"><a href="/docs/README.md"><sub><sup><b>PROJECT GUIDELINES</a>
+    <td align="center" valign="middle"><a href="/docs/CODEOWNER.md"><sub><sup><b>REPOSITORY OWNERS</a>
+    <td align="center" valign="middle"><a href="/docs/CONTRIBUTING.md"><sub><sup><b>CONTRIBUTION RULES</a>
+    <td align="center" valign="middle"><a href="/docs/CODE_OF_CONDUCT.md"><sub><sup><b>CODE OF CONDUCT</a>
+</td></tr></table>
 
 <img src="../img/logo.svg" alt="Logo of the project" width="128">
 
 <p>&nbsp;</p>
 
-# Contributing[<img valign="middle" align="right" src="../img/logo.lg.svg" width="164">](https://www.independencepetgroup.com/)
+# Contributing[](https://www.independencepetgroup.com/)
 
 <!-- TODO: align to our processes -->
 > **NOTE:** This is an working example `CONTRIBUTING.md` document and _**<u>NEEDS</u>**_ additional alignment with our processes.
@@ -29,16 +27,16 @@ The technology team owns the code and conducts reviews, approvals, and anything 
 
 Owners are subject to change, the most up-to-date owners list can be found in the [`/CODEOWNERS.md`](/CODEOWNERS.md) document.
 
-| Name          | Role                                         | Branch                                   | Email                   | Github         |
-| :------------ | :------------------------------------------- | :--------------------------------------- | :---------------------- | :------------- |
-| Chip Aubry    | <abbr title="Chief Technology Officer ">CTO  | <abbr title="Independence Pet Group">IPG | caubry@insurefigo.com   | @chipaubryfigo |
-| Tyler Joyner    | <abbr title="Chief Information Officer ">CIO | <abbr title="Pet Partners">PPI           | tjoyner@petpartners.com | @tjoyner2      |
-| Ming Tan      | Director, Engineering                        | <abbr title="Figo Pet Insurance">FPI     | mtan@insurefigo.com     | @mingster-t    |
-| Kirk Castro   | Director, Design                             | <abbr title="Figo Pet Insurance">FPI     | kcastro@insurefigo.com  | --             |
-| Manish Kapoor | Product Manager                              | <abbr title="Figo Pet Insurance">FPI     | mkapoor@insurefigo.com  | --             |
-| Matt Krebs    | Manager                                      | <abbr title="Figo Pet Insurance">FPI     | mkrebs@insurefigo.com   | @figokrebs     |
-| George Zhou   | Architect, Backend                           | <abbr title="Pet Partners">PPI           | gzhou@petpartners.com   | @ppi-gzhou     |
-| Dylan Archer  | Architect, Frontend                          | <abbr title="Figo Pet Insurance">FPI     | darcher@insurefigo.com  | @darcher-figo  |
+| Name          | Role            | Email                    | Github             |
+| :------------ | :-------------- | :----------------------- | :----------------- |
+| Chip Aubry    | CTO             | caubry@insurefigo.com    | @chipaubryfigo     |
+| Tyler Joyner  | CIO             | tjoyner@petpartners.com  | @tjoyner2          |
+| Ming Tan      | Director        | mtan@insurefigo.com      | @mingster-t        |
+| Manish Kapoor | Product Manager | mkapoor@insurefigo.com   | --                 |
+| Matt Krebs    | Manager         | mkrebs@insurefigo.com    | @figokrebs         |
+| Rob Thompson  | Lead            | rthompson@insurefigo.com | @rob-thompson-figo |
+| Dylan Archer  | Architect       | darcher@insurefigo.com   | @darcher-figo      |
+| George Zhou   | Architect       | gzhou@petpartners.com    | @ppi-gzhou         |
 
 ## Pull Request checklist
 
