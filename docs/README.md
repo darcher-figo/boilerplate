@@ -1,7 +1,7 @@
 <hr />
 
 <table align="center" valign="top"><tr><td><b><sub><sup>
-  <a href="./README.md">PROJECT GUIDELINES <code><mark><img src="../img/language.svg" width="10" valign="text-top"> <code>🇺🇸 🇮🇹</code></mark></code></a>
+  <a href="./README.md">PROJECT GUIDELINES</a> <code><img alt="Language(s)" src="../img/language.svg" width="10" valign="text-top"> <a href="./README.md" title="English">🇺🇸</a> <a href="./README-it.md" title="Italian">🇮🇹</a></code>
 </sup></sub></b></td><td><b><sub><sup>
   <a href="./CODEOWNER.md">CODE OWNERS</a>
 </sup></sub></b></td><td><b><sub><sup>
