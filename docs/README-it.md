@@ -93,7 +93,7 @@ Ecco un insieme di regole da tenere a mente:
 
   > Si sta per aggiungere il proprio codice a un *branch* stabile. Se i test nel proprio *branch* di funzionalità falliscono, ci sarà un alta probabilità che la compilazione nel *branch* di destinazione fallirà anch'essa. Inoltre, occorre applicare un controllo di stile di codice prima di eseguire una richiesta _pull_. Aggiunge leggibilità e riduce le possibilità che correzioni di formattazione vengano mescolate con le vere modifiche.
 
-- Usare [questo file `.gitignore`](./.gitignore).
+- Usare [questo file `.gitignore`](/.gitignore).
 
   _Perchè:_
 

@@ -91,7 +91,7 @@ Essas são algumas regras do Git para manter em mente:
 
   > Você está prestes a colocar seu código em uma branch estável. Se sua feature branch faz algum teste falhar, a chance é alta de que você vai quebrar o build na branch destino. Você também precisa conferir o code style antes de fazer um Pull Request. Isso contribui para legibilidade e reduz a chance de algum problema de formatação is para o code base com as outras alterações.
 
-- Faça uso desse [`.gitignore`](./.gitignore).
+- Faça uso desse [`.gitignore`](/.gitignore).
 
   _Por que:_
 
