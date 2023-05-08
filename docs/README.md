@@ -1,19 +1,18 @@
-<hr />
+<table><tr>
+  <th><sup><sub>LANGUAGE(S)</sub></sup></th>
+  <td>
+    <a href="/docs/README.md">🇺🇸</a>
+    <sup><sub><code> <a href="/docs/README-zh.md">🇨🇳</a> <a href="/docs/README-ru.md">🇷🇺</a> <a href="/docs/README-it.md">🇮🇹</a> <a href="/docs/README-ja.md">🇯🇵</a> <a href="/docs/README-pt-BR.md">🇵🇹</a> <a href="/docs/README-ko.md">🇰🇷</a> </code></sub></sup>
+  </td>
+</tr></table>
 
-<table align="center" valign="top"><tr><td valign="middle">
-  <sub><sup><b>GUIDELINES: <code><a href="./README.md" title="English">🇺🇸 EN</a></code> &middot; <a href="./README-it.md" title="Italian">🇮🇹 IT</a></sup></sub>
-</td><td><b><sub><sup>
-  <a href="./CODEOWNER.md">CODE OWNERS</a>
-</sup></sub></b></td><td><b><sub><sup>
-  <a href="./CONTRIBUTING.md">CONTRIBUTING</a>
-</sup></sub></b></td><td><b><sub><sup>
-  <a href="./CODE_OF_CONDUCT.md">CODE OF CONDUCT</a>
-</sup></sub></b></tr></td></table>
+[<img align="bottom" alt="company brand" height="164" src="../img/logo.svg" width="164">](https://www.independencepetgroup.com/)
 
+# Project Guidelines
 
-#  Guidelines 
+A collection of javascript project best practices collected from various trusted sources around the web.
 
-- [Guidelines](#guidelines)
+- [Project Guidelines](#project-guidelines)
   - [1. Git](#1-git)
     - [1.1 Some Git rules](#11-some-git-rules)
     - [1.2 Git workflow](#12-git-workflow)
@@ -207,7 +206,7 @@ Having a good guideline for creating commits and sticking to it makes working wi
 
 ![Documentation](/img/documentation.png)
 
-- Use this [template](./README.sample.md) for `README.md`, Feel free to add uncovered sections.
+- Use this [template](/docs/README.sample.md) for `README.md`, Feel free to add uncovered sections.
 - For projects with more than one repository, provide links to them in their respective `README.md` files.
 - Keep `README.md` updated as a project evolves.
 - Comment your code. Try to make it as clear as possible what you are intending with each major section.
@@ -355,7 +354,7 @@ Having a good guideline for creating commits and sticking to it makes working wi
 
   _Why:_
 
-  > Some test files don't particularly relate to any specific implementation file. You have to put it in a folder that is most likely to be found by other developers: `__test__` folder. This name: `__test__` is also standard now and gets picked up by most JavaScript testing frameworks.
+  > Some test files don't particularly relate to any specific implementation file. You have to put it in a folder that is most likely to be found by other developers: `__test__` folder. This name: `__test__` is also standard now and gets picked up by most javascript testing frameworks.
 
 - Write testable code, avoid side effects, extract side effects, write pure functions
 
@@ -408,11 +407,11 @@ Having a good guideline for creating commits and sticking to it makes working wi
   ```
   .
   ├── product
-  |   ├── main.js
+  |   ├── index.js
   |   ├── product.js
   |   └── product.test.js
   ├── user
-  |   ├── main.js
+  |   ├── index.js
   |   ├── user.js
   |   └── user.test.js
   ```
@@ -456,7 +455,7 @@ Having a good guideline for creating commits and sticking to it makes working wi
 
 ### 7.1 Some code style guidelines
 
-- Use stage-2 and higher JavaScript (modern) syntax for new projects. For old project stay consistent with existing syntax unless you intend to modernise the project.
+- Use stage-2 and higher javascript (modern) syntax for new projects. For old project stay consistent with existing syntax unless you intend to modernise the project.
 
   _Why:_
 
@@ -468,13 +467,13 @@ Having a good guideline for creating commits and sticking to it makes working wi
 
   > Breaking your build is one way of enforcing code style to your code. It prevents you from taking it less seriously. Do it for both client and server-side code. [read more...](https://www.robinwieruch.de/react-eslint-webpack-babel/)
 
-- Use [ESLint - Pluggable JavaScript linter](http://eslint.org/) to enforce code style.
+- Use [ESLint - Pluggable javascript linter](http://eslint.org/) to enforce code style.
 
   _Why:_
 
   > We simply prefer `eslint`, you don't have to. It has more rules supported, the ability to configure the rules, and ability to add custom rules.
 
-- We use [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) for JavaScript, [Read more](https://www.gitbook.com/book/duk/airbnb-javascript-guidelines/details). Use the javascript style guide required by the project or your team.
+- We use [Airbnb javascript Style Guide](https://github.com/airbnb/javascript) for javascript, [Read more](https://www.gitbook.com/book/duk/airbnb-javascript-guidelines/details). Use the javascript style guide required by the project or your team.
 
 - We use [Flow type style check rules for ESLint](https://github.com/gajus/eslint-plugin-flowtype) when using [FlowType](https://flow.org/).
 
@@ -647,7 +646,7 @@ _Why:_
 
   _Why:_
 
-  > This is a JavaScript project guideline, where the programming language for generating and parsing JSON is assumed to be JavaScript.
+  > This is a javascript project guideline, where the programming language for generating and parsing JSON is assumed to be javascript.
 
 - Even though a resource is a singular concept that is similar to an object instance or database record, you should not use your `table_name` for a resource name and `column_name` resource property.
 
@@ -808,7 +807,7 @@ These are some basic security best practices:
 
   _Why:_
 
-  > A key concern with JSON encoders is preventing arbitrary JavaScript remote code execution within the browser... or, if you're using node.js, on the server. It's vital that you use a proper JSON serializer to encode user-supplied data properly to prevent the execution of user-supplied input on the browser.
+  > A key concern with JSON encoders is preventing arbitrary javascript remote code execution within the browser... or, if you're using node.js, on the server. It's vital that you use a proper JSON serializer to encode user-supplied data properly to prevent the execution of user-supplied input on the browser.
 
 - Validate the content-type and mostly use `application/*json` (Content-Type header).
 
@@ -822,7 +821,7 @@ These are some basic security best practices:
 
 ### 9.3 API documentation
 
-- Fill the `API Reference` section in [README.md template](./README.sample.md) for API.
+- Fill the `API Reference` section in [README.md template](/docs/README.sample.md) for API.
 - Describe API authentication methods with a code sample.
 - Explaining The URL Structure (path only, no root URL) including The request type (Method).
 
@@ -870,7 +869,7 @@ _Why:_
 
 > Web content is [accessible by default](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML). We compromise this when we build complex features. It's much easier to reduce this impact by considering accessibility from the start rather than re-implement these features later.
 
-- Arrange to do regular audits using [lighthouse](https://developers.google.com/web/tools/lighthouse#devtools) [accessibility](https://web.dev/lighthouse-accessibility/) or the [axe DevTools extension](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US). Agree on a minimum score based on your projects requirements. The scoring in both tools is based on [axe user impact assessments](https://github.com/dequelabs/axe-core/blob/develop/docs/rule-descriptions.md#wcag-21-level-a--aa-rules).
+- Arrange to do regular audits using [lighthouse](https://developers.google.com/web/tools/lighthouse#devtools) [accessibility](https://web.dev/lighthouse-accessibility/) or the [axe DevTools extension](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US). Agree on a minimum score based on your projects requirements. The scoring in both tools is based on [axe user impact assessments](https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md#wcag-21-level-a--aa-rules).
 
   > **Note:** [some important checks](https://web.dev/lighthouse-accessibility/#additional-items-to-manually-check) must be done manually, e.g. logical tab order. The above tools list these as manual/guided tests alongside the automated results. With axe you have to save your automated results to view these.
 

@@ -10,7 +10,7 @@
 <td align="center" valign="center"><a href="./docs/CONTRIBUTING.md"><sup><sub><strong>Contributing</strong></sub></sup></a></td>
 </tr></table>
 
-<img src="./img/logo.sm.svg" alt="Logo of the project" width="128">
+<img src="./img/logo.svg" alt="Logo of the project" width="128">
 
 <p>&nbsp;</p>
 

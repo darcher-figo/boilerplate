@@ -1,20 +1,18 @@
-<hr />
+<table><tr>
+  <th><sup><sub>LANGUAGE(S)</sub></sup></th>
+  <td>
+    <a href="/docs/README-it.md">🇮🇹</a>
+    <sup><sub><code> <a href="/docs/README.md">🇺🇸</a> <a href="/docs/README-zh.md">🇨🇳</a> <a href="/docs/README-ja.md">🇯🇵</a> <a href="/docs/README-ko.md">🇰🇷</a> <a href="/docs/README-ru.md">🇷🇺</a> <a href="/docs/README-pt-BR.md">🇵🇹</a> </code></sub></sup>
+  </td>
+</tr></table>
 
-<table align="right">
-  <tr>
-    <td valign="middle">
-      <details align="center">
-        <summary> &nbsp;<sub><sup>VIEWING IN 
- <strong>🇮🇹</strong></sup></sub></summary>
-         <strong><sup><sub><a href="./README.md" title="Inglese">🇺🇸</a></sub></sup></strong>
-  </tr>
-</table>
+[<img align="bottom" alt="marchio aziendale" height="164" src="../img/logo.svg" width="164">](https://www.independencepetgroup.com/)
 
-[<img alt="IPG Logo" src="../img/logo.md.svg" width="64">](https://www.independencepetgroup.com/)
+# Linee guida di un progetto
 
-# Linee guida di un progetto [<img align="right" alt="IPG Logo" src="../img/logo.lg.svg" width="164">](https://www.independencepetgroup.com/)
+Una raccolta di best practice del progetto JavaScript raccolte da varie fonti attendibili sul Web.
 
-- [Linee guida di un progetto ](#linee-guida-di-un-progetto-)
+- [Linee guida di un progetto](#linee-guida-di-un-progetto)
   - [1. Git](#1-git)
     - [Alcune regole di Git](#alcune-regole-di-git)
     - [1.2 Flusso di lavoro di Git](#12-flusso-di-lavoro-di-git)
@@ -225,7 +223,7 @@ Avere buone linee guida per la creazione di _commit_ e osservarle rende molto pi
 
 ![Documentazione](/img/documentation.png)
 
-- Usare questo [modello](./README.sample.md) per `README.md`. Si è liberi di aggiungere sezioni non trattate.
+- Usare questo [modello](/docs/README.sample.md) per `README.md`. Si è liberi di aggiungere sezioni non trattate.
 - Per progetti con più di un *repository*, fornire collegamenti agli stessi nei rispettivi file `README.md`.
 - Mantenere aggiornato `README.md` mano a mano che il progetto evolve.
 - Commentare il proprio codice. Cercate di rendere il più chiaro possibile il proprio intendimento con ogni sezione principale.
@@ -428,11 +426,11 @@ Avere buone linee guida per la creazione di _commit_ e osservarle rende molto pi
   ```
   .****
   ├── product
-  |   ├── main.js
+  |   ├── index.js
   |   ├── product.js
   |   └── product.test.js
   ├── user
-  |   ├── main.js
+  |   ├── index.js
   |   ├── user.js
   |   └── user.test.js
   ```
@@ -849,7 +847,7 @@ Ci sono alcune migliori pratiche consigliate
 
 ### 9.3 Documentazione delle API
 
-- Riempire la sezione `API Reference` in [README.md template](./README.sample.md) per l'API.
+- Riempire la sezione `API Reference` in [README.md template](/docs/README.sample.md) per l'API.
 - Descrivere i metodi di autenticazione dell'API con un esempio di codice.
 - Spiegare la struttura dell'URL (solo il percorso, non la radice dell'URL) includendo il tipo di richiesta (metodo).
 
@@ -897,7 +895,7 @@ _Perchè:_
 
 > Il contenuto Web è [accessibile in modalità predefinita](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML).Questo concetto viene compromesso quando si costruiscono funzionalità complesse. E' molto più facile ridurre questo impatto tenendo in considerazione l'accessibilità dall'inizio invece che reimplementare queste funzionalità successivamente.
 
-- Disporsi per eseguire revisioni regolari usando [lighthouse](https://developers.google.com/web/tools/lighthouse#devtools) [accessibility](https://web.dev/lighthouse-accessibility/) o l'[estensione di DevTools axe](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US). Condividere un punteggio minimo in base alle proprie specifiche di progetto. Il punteggio per entrambi gli strumenti è basato su [usare l'impatto di valutazione utente di axe](https://github.com/dequelabs/axe-core/blob/develop/docs/rule-descriptions.md#wcag-21-level-a--aa-rules).
+- Disporsi per eseguire revisioni regolari usando [lighthouse](https://developers.google.com/web/tools/lighthouse#devtools) [accessibility](https://web.dev/lighthouse-accessibility/) o l'[estensione di DevTools axe](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US). Condividere un punteggio minimo in base alle proprie specifiche di progetto. Il punteggio per entrambi gli strumenti è basato su [usare l'impatto di valutazione utente di axe](https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md#wcag-21-level-a--aa-rules).
 
   > **Nota:** [alcune importanti verifiche](https://web.dev/lighthouse-accessibility/#additional-items-to-manually-check) devono essere fatte manualmente, es. ordine logico delle tabulazioni. Gli strumenti qui sopra elencano questi test manuali/guidati assieme ai risultati automatizzati. Con axe si devono salvare i propri risultati automatizzati per vedere questi.
 
