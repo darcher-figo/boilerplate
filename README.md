@@ -1,22 +1,18 @@
-<hr />
+<img align="right" src="./img/logo.lg.svg" alt="Logo of the project" width="225">
 
-<table align="right"><tr>
-    <td align="center" valign="middle"><img src="./img/logo.lg.svg" width="96" valign="text-top" />
-    <td align="center" valign="middle"><a href="/docs/README.md"><sub><sup><b>PROJECT GUIDELINES</a>
-    <td align="center" valign="middle"><a href="/docs/CODEOWNER.md"><sub><sup><b>REPOSITORY OWNERS</a>
-    <td align="center" valign="middle"><a href="/docs/CONTRIBUTING.md"><sub><sup><b>CONTRIBUTION RULES</a>
-    <td align="center" valign="middle"><a href="/docs/CODE_OF_CONDUCT.md"><sub><sup><b>CODE OF CONDUCT</a>
-</td></tr></table>
+# Vanilla Typescript | <sub><sup> KIT</sup></sub>
 
-<img src="./img/logo.svg" alt="Logo of the project" width="128">
-
-<p>&nbsp;</p>
-
-# <sup>Vanilla Typescript | <sub><sup> KIT</sup></sub></sup>
+This project is a Proof of Concept (POC) to showcase a stable vanilla typescript frontend implementation approach with [Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components). Our goals is the trial and thorough documentation of risk-reward benefit analysis over the course of this projects lifespan.
 
 > Vanilla isn't just for a flavor burst in your sugarlicious coffee addiction, it excels in simiplifying cross platform projects, too!
 
-This project is a Proof of Concept (POC) to showcase a stable vanilla typescript frontend implementation approach with [Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components). Our goals is the trial and thorough documentation of risk-reward benefit analysis over the course of this projects lifespan.
+<br /><table><tr align="center" valign="middle">
+<td><img src="./img/safety.svg" width="16" /> <a href="./CODEOWNERS.md"><sup><sub><b>CODE OWNERS
+<td><img src="./img/symbols.svg" width="16" /> <a href="./CODE_OF_CONDUCT.md"><sup><sub><b>CODE OF CONDUCT
+<td><img src="./img/branch.svg" width="16" /> <a href="./CONTRIBUTING.md"><sup><sub><b>CONTRIBUTION RULES
+<td><img src="./img/suitcase.svg" width="16" /> <a href="./README.md"><sup><sub><b>BEST PRACTICES
+<td><img src="./img/note.svg" width="16" /> <a href="../README.md"><sup><sub><b>DOCUMENTATION
+<tr><td colspan="6">
 
 ## Installing / Getting started
 
@@ -51,6 +47,8 @@ cd docs ls
 
 ```
 
+<br /><tr><td colspan="6">
+
 ### Commands
 
 #### run to bundle app source into the `/dist` folder
@@ -83,6 +81,8 @@ npm run dev
 ```
 
 Here you should say what actually happens when you execute the code above.
+
+<br /><tr><td colspan="6">
 
 ## Developing
 
@@ -131,6 +131,8 @@ packagemanager deploy your-project -s server.com -u username -p password
 
 And again you'd need to tell what the previous code actually does.
 
+<br /><tr><td colspan="6">
+
 ## Versioning
 
 Will likely implement something to automate this process away, added a few options below, but haven't settled on the approach yet.
@@ -140,6 +142,7 @@ Will likely implement something to automate this process away, added a few optio
 - [SemVer](http://semver.org/)
 - [link to tags on this repository](/tags).
 
+<br /><tr><td colspan="6">
 
 ## Configuration
 
@@ -175,6 +178,8 @@ module.exports = config;
 
 ```
 
+<br /><tr><td colspan="6">
+
 ## Tests
 
 Describe and show how to run the tests with code examples.
@@ -183,6 +188,8 @@ Explain what these tests test and why.
 ```shell
 Give an example
 ```
+
+<br /><tr><td colspan="6">
 
 ## Style guide
 
@@ -237,9 +244,13 @@ npm run logs
 
 ```
 
+<br /><tr><td colspan="6">
+
 ## Api Reference
 
 > Will update with details on where fixtures & mocked data resides in project when I get that work implemented.
+
+<br /><tr><td colspan="6">
 
 ## Database
 
@@ -247,8 +258,10 @@ Linking up to a DB for this effort is probably not necessary, I will be building
 
 Due to how small this project is, avoiding all the configurations and complexities that come along with integrating a full ecosystem.
 
+<br /><tr><td colspan="6">
+
 ## Licensing
 
 Licensing is likely unnecessary for this initiative but may get something included here.
 
-<hr />
+<br /><tr><table>

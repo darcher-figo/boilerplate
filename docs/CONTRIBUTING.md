@@ -9,7 +9,7 @@ When contributing to this repository, please first discuss the change you wish t
 <br /><table><tr align="center" valign="middle" style="color:slategray">
 <td><img src="../img/safety.svg" width="16" /> <a href="./CODEOWNERS.md"><sup><sub><b>CODE OWNERS
 <td><img src="../img/symbols.svg" width="16" /> <a href="./CODE_OF_CONDUCT.md"><sup><sub><b>CODE OF CONDUCT
-<td><img src="../img/branch.svg" width="16" /> <a href="./CONTRIBUTING.md"><sup><sub><b>CONTRIBUTION RULES
+<td><img src="../img/queue-list.svg" width="16" /> <a href="./CONTRIBUTING.md"><sup><sub><b>CONTRIBUTION RULES
 <td><img src="../img/suitcase.svg" width="16" /> <a href="./README.md"><sup><sub><b>BEST PRACTICES
 <td><img src="../img/note.svg" width="16" /> <a href="../README.md"><sup><sub><b>DOCUMENTATION
 <tr><td colspan="6">
