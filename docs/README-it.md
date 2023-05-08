@@ -1,20 +1,34 @@
 <hr />
 
-<table align="right">
+<table align="right"><tr>
+<td colspan="5" align="center" valign="bottom"><sub><img src="https://img.shields.io/travis/npm/npm/latest.svg?style=flat-square" /> &nbsp; &nbsp; <img src="https://img.shields.io/npm/v/npm.svg?style=flat-square" /> &nbsp; &nbsp; <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" /> &nbsp; &nbsp; <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" /></sub></td>
+</tr><tr>
+<th align="center" valign="center"><img alt="Links" valign="middle" src="../img/icon-link.svg" width="18" /></th>
+<td align="center" valign="center"><a href="./README.md"><sup><sub><strong>Project Guidelines</strong></sub></sup></a></td>
+<td align="center" valign="center"><a href="./CODEOWNER.md"><sup><sub><strong>Code Owners</strong></sub></sup></a></td>
+<td align="center" valign="center"><a href="./CODE_OF_CONDUCT.md"><sup><sub><strong>Code of Conduct</strong></sub></sup></a></td>
+<td align="center" valign="center"><a href="./CONTRIBUTING.md"><sup><sub><strong>Contributing</strong></sub></sup></a></td>
+</tr></table>
+
+<table>
   <tr>
-    <td valign="middle">
-      <details align="center">
-        <summary> &nbsp;<sub><sup>VIEWING IN 
- <strong>🇮🇹</strong></sup></sub></summary>
-         <strong><sup><sub><a href="./README.md" title="Inglese">🇺🇸</a></sub></sup></strong>
+    <th align="center" valign="middle" colspan="2"><sub><sup>LANGUAGE(S)</sup></sub></th>
+  </tr>
+  <tr>
+    <td bgColor="gold" align="center" valign="middle">
+      <a href="./README-it.md" title="Italiana"><sub><sup>🇮🇹 ITALIANA</sup></sub></a>
+    </td>
+    <td align="center" valign="middle">
+      <a href="./README.md" title="Inglese"><sub><sup>🇺🇸 INGLESE</sup></sub></a>
+    </td>
   </tr>
 </table>
 
-[<img alt="IPG Logo" src="../img/logo.md.svg" width="64">](https://www.independencepetgroup.com/)
+<br />
 
-# Linee guida di un progetto [<img align="right" alt="IPG Logo" src="../img/logo.lg.svg" width="164">](https://www.independencepetgroup.com/)
+# [<img align="left" alt="IPG Logo" src="../img/logo.sm.svg" width="52">](https://www.independencepetgroup.com/) Linee guida [<img align="right" alt="IPG Logo" src="../img/logo.lg.svg" width="164">](https://www.independencepetgroup.com/)
 
-- [Linee guida di un progetto ](#linee-guida-di-un-progetto-)
+- [ Linee guida ](#-linee-guida-)
   - [1. Git](#1-git)
     - [Alcune regole di Git](#alcune-regole-di-git)
     - [1.2 Flusso di lavoro di Git](#12-flusso-di-lavoro-di-git)

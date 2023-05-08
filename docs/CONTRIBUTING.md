@@ -1,3 +1,19 @@
+<hr />
+
+<table align="right"><tr>
+<td colspan="5" align="center" valign="bottom"><sub><img src="https://img.shields.io/travis/npm/npm/latest.svg?style=flat-square" /> &nbsp; &nbsp; <img src="https://img.shields.io/npm/v/npm.svg?style=flat-square" /> &nbsp; &nbsp; <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" /> &nbsp; &nbsp; <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" /></sub></td>
+</tr><tr>
+<th align="center" valign="center"><img alt="Links" valign="middle" src="../img/icon-link.svg" width="18" /></th>
+<td align="center" valign="center"><a href="./README.md"><sup><sub><strong>Project Guidelines</strong></sub></sup></a></td>
+<td align="center" valign="center"><a href="./CODEOWNER.md"><sup><sub><strong>Code Owners</strong></sub></sup></a></td>
+<td align="center" valign="center"><a href="./CODE_OF_CONDUCT.md"><sup><sub><strong>Code of Conduct</strong></sub></sup></a></td>
+<td align="center" valign="center"><a href="./CONTRIBUTING.md"><sup><sub><strong>Contributing</strong></sub></sup></a></td>
+</tr></table>
+
+<img src="../img/logo.sm.svg" alt="Logo of the project" width="128">
+
+<p>&nbsp;</p>
+
 # Contributing[<img valign="middle" align="right" src="../img/logo.lg.svg" width="164">](https://www.independencepetgroup.com/)
 
 <!-- TODO: align to our processes -->
