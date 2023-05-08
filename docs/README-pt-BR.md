@@ -1,8 +1,15 @@
-<table><tr>
-  <th><sup><sub>LANGUAGE(S)</sub></sup></th>
-  <td>
-    <a href="/docs/README-pt-BR.md">🇵🇹</a>
-    <sup><sub><code> <a href="/docs/README.md">🇺🇸</a> <a href="/docs/README-zh.md">🇨🇳</a> <a href="/docs/README-it.md">🇮🇹</a> <a href="/docs/README-ja.md">🇯🇵</a> <a href="/docs/README-ru.md">🇷🇺</a> <a href="/docs/README-ko.md">🇰🇷</a> </code></sub></sup>
+<table align="right"><tr>
+  <td align="center" valign="middle"><b>
+    <a href="/docs/README-pt-BR.md" title="pt-BR">🇵🇹</a>
+    <sup><sub><b><code>PORTUGUESE</code></b></sub></sup>
+  </b></td>
+  <td align="center" valign="middle">
+    <a href="/docs/README.md" title="en-US">🇺🇸</a>
+    <a href="/docs/README-it.md" title="IT">🇮🇹</a>
+    <a href="/docs/README-ja.md" title="JA">🇯🇵</a>
+    <a href="/docs/README-ko.md" title="KO">🇰🇷</a>
+    <a href="/docs/README-ru.md" title="RU">🇷🇺</a>
+    <a href="/docs/README-zh.md" title="ZH">🇨🇳</a>
   </td>
 </tr></table>
 
