@@ -6,7 +6,7 @@
       <details align="center">
         <summary> &nbsp;<sub><sup>VIEWING IN 
  <strong>🇺🇸</strong></sup></sub></summary>
-<sup><sub><strong><a href="./docs/README-it.md" title="Italian">🇮🇹</a></sub></sup></strong>
+<sup><sub><strong><a href="./README-it.md" title="Italian">🇮🇹</a></sub></sup></strong>
 
   </tr>
 </table>
