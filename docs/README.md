@@ -2,25 +2,21 @@
 <table align="right">
   <tr>
     <td valign="middle">
-      <details>
+      <details align="center">
         <summary> &nbsp;<sub><sup>VIEWING IN 
  <strong>ENGLISH</strong></sup></sub></summary>
-        <dl>
-          <dt><strong><sup><sub>CHANGE LANGUAGE TO</sub></sup></strong></dt>
-          <dd>&middot; <a href="./docs/README-it.md">Italiana</a></dd>
-        </dl>
-      </details>
-    </td>
+<sup><sub><strong><a href="./docs/README-it.md">ITALIANA</a></sub></sup></strong>
+
   </tr>
 </table>
 
-[<img src="../img/logo.lg.svg" width="799" height="173">](https://www.independencepetgroup.com/)
+[<img alt="IPG Logo" src="../img/logo.md.svg" width="128">](https://www.independencepetgroup.com/)
 
-# Project Structure Guidelines
+# Guidelines [<img align="right" src="../img/logo.lg.svg" width="164">](https://www.independencepetgroup.com/)
 
 <hr>
 
-- [Project Structure Guidelines](#project-structure-guidelines)
+- [Guidelines ](#guidelines-)
   - [1. Git](#1-git)
     - [1.1 Some Git rules](#11-some-git-rules)
     - [1.2 Git workflow](#12-git-workflow)

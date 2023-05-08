@@ -1,31 +1,21 @@
+
 <table align="right">
   <tr>
     <td valign="middle">
-      <details>
-        <summary> &nbsp;<sub><sup>VISUALIZZAZIONE IN 
- <strong>ITALIANA</strong></sup></sub></summary>
-        <dl>
-          <dt><strong><sup><sub>CHANGE LANGUAGE TO</sub></sup></strong></dt>
-          <dd>&middot; <a href="./README.md">English</a></dd>
-        </dl>
-      </details>
-    </td>
+      <details align="center">
+        <summary> &nbsp;<sub><sup>VIEWING IN 
+ <strong>ITALIAN</strong></sup></sub></summary>
+         <strong><sup><sub><a href="./README.md">English</a></sub></sup></strong>
   </tr>
 </table>
 
-[<img src="../img/logo.lg.svg" width="799" height="173">](https://www.independencepetgroup.com/)
+[<img alt="IPG Logo" src="../img/logo.md.svg" width="96">](https://www.independencepetgroup.com/)
 
-# Linee guida di un progetto &middot; [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-
-> Se sviluppare un nuovo progetto è per voi come rotolarsi in un campo erboso, il mantenimento
-> è un potenziale oscuro incubo per qualcun altro.
-> Ecco un elenco delle linee guida che abbiamo trovato, scritto e raccolto che (pensiamo), possano
-> realmente ben funzionare con la maggior parte dei progetti qui a [elsewhen](https://www.elsewhen.com).
-> Se volete condividere una pratica ottimale, o pensate che qualcuna di queste linee guida debba essere rimossa, [fatecelo sapere](http://makeapullrequest.com).
+# Linee guida di un progetto [<img align="right" alt="IPG Logo" src="../img/logo.lg.svg" width="164">](https://www.independencepetgroup.com/)
 
 <hr>
 
-- [Linee guida di un progetto · ](#linee-guida-di-un-progetto--)
+- [Linee guida di un progetto ](#linee-guida-di-un-progetto-)
   - [1. Git](#1-git)
     - [Alcune regole di Git](#alcune-regole-di-git)
     - [1.2 Flusso di lavoro di Git](#12-flusso-di-lavoro-di-git)
