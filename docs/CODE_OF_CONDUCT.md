@@ -1,3 +1,5 @@
+<hr />
+
 # <img valign="bottom" src="../img/logo.sm.svg" alt="Logo of the project" width="54">Contributor Covenant Code of Conduct
 
 ## Our Pledge

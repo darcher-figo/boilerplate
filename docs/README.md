@@ -1,20 +1,19 @@
+<hr />
 
 <table align="right">
   <tr>
     <td valign="middle">
       <details align="center">
         <summary> &nbsp;<sub><sup>VIEWING IN 
- <strong>ENGLISH</strong></sup></sub></summary>
-<sup><sub><strong><a href="./docs/README-it.md">ITALIANA</a></sub></sup></strong>
+ <strong>🇺🇸</strong></sup></sub></summary>
+<sup><sub><strong><a href="./docs/README-it.md" title="Italian">🇮🇹</a></sub></sup></strong>
 
   </tr>
 </table>
 
-[<img alt="IPG Logo" src="../img/logo.md.svg" width="128">](https://www.independencepetgroup.com/)
+[<img alt="IPG Logo" src="../img/logo.md.svg" width="64">](https://www.independencepetgroup.com/)
 
 # Guidelines [<img align="right" src="../img/logo.lg.svg" width="164">](https://www.independencepetgroup.com/)
-
-<hr>
 
 - [Guidelines ](#guidelines-)
   - [1. Git](#1-git)
