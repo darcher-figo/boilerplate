@@ -33,6 +33,7 @@ $RECYCLE.BIN/
 .vscode/*
 .yarn-integrity
 .configs/*
+.trunk/*
 
 /.idea
 /bower_components
