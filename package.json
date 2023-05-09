@@ -1,8 +1,4 @@
 {
-  "author": {
-    "email": "darcher@insurefigo.com",
-    "name": "Dylan Archer"
-  },
   "dependencies": {
     "@types/next": "^9.0.0",
     "dotenv": "^16.0.0",
@@ -24,7 +20,6 @@
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-tsdoc": "^0.2.14",
-    "husky": "^8.0.1",
     "jest": "^27.5.1",
     "nodemon": "^2.0.15",
     "prettier": "^2.6.1",
@@ -57,18 +52,23 @@
     "vanilla jsx/tsx",
     "web components"
   ],
-  "license": "UNLICENSED",
+  "license": "MIT",
   "main": "dist/src/main.js",
-  "name": "boilerplate-vts",
+  "name": "ipg-boilerplate",
   "release": {
     "branches": [
       "main"
     ]
   },
+	"homepage": "https://github.com/darcher-figo/boilerplate#readme",
   "repository": {
     "type": "git",
     "url": "git@github.com:darcher-figo/boilerplate.git"
   },
+  "author": "Dylan Archer <darcher@insurefigo.com> (https://github.com/darcher-figo)",
+	"bugs": {
+		"url": "https://github.com/darcher-figo/boilerplate/issues"
+	},
   "scripts": {
     "format": "node_modules/.bin/prettier --write --ignore-unknown .",
     "build": "node_modules/.bin/tsc --project tsconfig.build.json",
