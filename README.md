@@ -1,8 +1,4 @@
-<table align="right"><tr><td height="32" align="center" valign="middle">
-  <img src="./img/logo.svg" width="32" valign="middle" />
-</td><td align="center" valign="middle">
-  <span style="color:turquoise"><i><u>υι</u>∫</i></span><b><span style="color:gold">κɪτ&#851;</span></b>
-</td><td align="center" valign="middle"><span style="color:turquoise">ʷʬ<span style="opacity:0.666">⥂·</span></span><span style="color:gold">★</span><span style="color:turquoise"><span style="opacity:0.666">.⥄</span>τ&#866;s⨯</span><!--&#866;❨𝓋⨔𝔱𝓈⛡⛠⥄⥂⛡;⨯⌫--></td></tr></table>
+<table align="right"><tr><td height="32"><img src="./img/logo.svg" width="32" valign="middle" /></td><td><i><u>υι</u>∫</i><b>κɪτ</b></td><td><b>ʷʬ</b>⥂·★.⥄<b>τ&#866;s⨯</b></td></tr></table>
 
 [<img align="left" alt="company brand" src="./img/logo.lg.svg" width="256">](https://www.independencepetgroup.com/)
 
