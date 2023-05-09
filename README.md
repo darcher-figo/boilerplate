@@ -1,23 +1,22 @@
-<hr />
-<table valign="bottom" align="right"><tr>
-<td colspan="5" align="center" valign="bottom"><sub><img src="https://img.shields.io/travis/npm/npm/latest.svg?style=flat-square" /> &nbsp; &nbsp; <img src="https://img.shields.io/npm/v/npm.svg?style=flat-square" /> &nbsp; &nbsp; <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" /> &nbsp; &nbsp; <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" /></sub></td>
-</tr><tr>
-<th align="center" valign="center"><img alt="Links" valign="middle" src="./img/icon-link.svg" width="18" /></th>
-<td align="center" valign="center"><a href="./docs/README.md"><sup><sub><strong>Project Guidelines</strong></sub></sup></a></td>
-<td align="center" valign="center"><a href="./docs/CODEOWNER.md"><sup><sub><strong>Code Owners</strong></sub></sup></a></td>
-<td align="center" valign="center"><a href="./docs/CODE_OF_CONDUCT.md"><sup><sub><strong>Code of Conduct</strong></sub></sup></a></td>
-<td align="center" valign="center"><a href="./docs/CONTRIBUTING.md"><sup><sub><strong>Contributing</strong></sub></sup></a></td>
-</tr></table>
+<table align="right"><tr><td height="32"><img src="./img/logo.svg" width="32" valign="middle" /></td><td><i><u>υι</u>∫</i><b>κɪτ</b></td><td><b>ʷʬ</b>⥂·★.⥄<b>τ&#866;s⨯</b></td></tr></table>
 
-<img src="./img/logo.sm.svg" alt="Logo of the project" valign="middle" width="100">
+[<img align="left" alt="company brand" src="./img/logo.lg.svg" width="256">](https://www.independencepetgroup.com/)
 
-<hr />
+<br /><br /><br />
 
-# <sup>Vanilla Typescript | <sub><sup> KIT</sup></sub></sup> [<img align="right" src="./img/logo.lg.svg" width="164">](https://www.independencepetgroup.com/)
+# Vanilla Typescript Kit
+
+This project is a Proof of Concept (POC) to showcase a stable vanilla typescript frontend implementation approach with [Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components). Our goals is the trial and thorough documentation of risk-reward benefit analysis over the course of this projects lifespan.
 
 > Vanilla isn't just for a flavor burst in your sugarlicious coffee addiction, it excels in simiplifying cross platform projects, too!
 
-This project is a Proof of Concept (POC) to showcase a stable vanilla typescript frontend implementation approach with [Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components). Our goals is the trial and thorough documentation of risk-reward benefit analysis over the course of this projects lifespan.
+<br /><table><tr align="center" valign="middle" style="color:slategray">
+<td><img src="./img/safe.svg" width="16" /> <a href="./docs/CODEOWNER.md"><sup><sub><b>CODE OWNERS
+<td><img src="./img/sign.svg" width="16" /> <a href="./docs/CODE_OF_CONDUCT.md"><sup><sub><b>CODE OF CONDUCT
+<td><img src="./img/gift.svg" width="16" /> <a href="./docs/CONTRIBUTING.md"><sup><sub><b>CONTRIBUTION RULES
+<td><img src="./img/star.svg" width="16" /> <a href="./docs/README.md"><sup><sub><b>BEST PRACTICES
+<td><img src="./img/note.svg" width="16" /> <a href="./README.md"><sup><sub><b>DOCUMENTATION
+<tr><td colspan="6">
 
 ## Installing / Getting started
 
@@ -52,6 +51,8 @@ cd docs ls
 
 ```
 
+<br /><tr><td colspan="6">
+
 ### Commands
 
 #### run to bundle app source into the `/dist` folder
@@ -84,6 +85,8 @@ npm run dev
 ```
 
 Here you should say what actually happens when you execute the code above.
+
+<br /><tr><td colspan="6">
 
 ## Developing
 
@@ -132,6 +135,8 @@ packagemanager deploy your-project -s server.com -u username -p password
 
 And again you'd need to tell what the previous code actually does.
 
+<br /><tr><td colspan="6">
+
 ## Versioning
 
 Will likely implement something to automate this process away, added a few options below, but haven't settled on the approach yet.
@@ -141,6 +146,7 @@ Will likely implement something to automate this process away, added a few optio
 - [SemVer](http://semver.org/)
 - [link to tags on this repository](/tags).
 
+<br /><tr><td colspan="6">
 
 ## Configuration
 
@@ -176,6 +182,8 @@ module.exports = config;
 
 ```
 
+<br /><tr><td colspan="6">
+
 ## Tests
 
 Describe and show how to run the tests with code examples.
@@ -184,6 +192,8 @@ Explain what these tests test and why.
 ```shell
 Give an example
 ```
+
+<br /><tr><td colspan="6">
 
 ## Style guide
 
@@ -238,9 +248,13 @@ npm run logs
 
 ```
 
+<br /><tr><td colspan="6">
+
 ## Api Reference
 
 > Will update with details on where fixtures & mocked data resides in project when I get that work implemented.
+
+<br /><tr><td colspan="6">
 
 ## Database
 
@@ -248,6 +262,10 @@ Linking up to a DB for this effort is probably not necessary, I will be building
 
 Due to how small this project is, avoiding all the configurations and complexities that come along with integrating a full ecosystem.
 
+<br /><tr><td colspan="6">
+
 ## Licensing
 
 Licensing is likely unnecessary for this initiative but may get something included here.
+
+<br /><tr><table>
