@@ -14,6 +14,7 @@ $RECYCLE.BIN/
 *.tmPreferences.cache
 *.tmlanguage.cache
 
+.trunk
 .DocumentRevisions-V100
 .Spotlight-V100
 .TemporaryItems
