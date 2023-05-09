@@ -101,6 +101,8 @@ cd docs ls
 
 ```
 
+<br />
+
 ### Commands
 
 #### run to bundle app source into the `/dist` folder
@@ -134,15 +136,23 @@ npm run dev
 
 Here you should say what actually happens when you execute the code above.
 
-<br /><table align="center">
-  <tr>
-    <td colspan="2" align="center">
-      <a title="return to top" href="#vanilla-typescript-">Return to Top</a>
-    </td>
-  </tr>
-</table><br />
-
-
+  <hr />
+    <p>
+      <table align="right">
+        <tr>
+          <th colspan="2">
+            <a title="return to top" href="#vanilla-typescript-">
+              <sup>
+                <sub>
+                  TABLE OF CONTENTS
+                </sub>
+              </sup>
+              &nbsp; <img alt="arrow up" src="./img/arrow.svg" width="9.5" valign="baseline" />
+            </a>
+          </th>
+        </tr>
+      </table>
+    </p>
   </td>
 </tr>
 <tr>
@@ -154,9 +164,13 @@ Here you should say what actually happens when you execute the code above.
 
 List main libraries, frameworks used including versions (React, Angular etc...)
 
+<br />
+
 ### Prerequisites
 
 What is needed to set up the dev environment. For instance, global dependencies or any other tools. include download links.
+
+<br />
 
 ### Setting up Dev
 
@@ -170,6 +184,8 @@ packagemanager install
 
 And state what happens step-by-step. If there is any virtual environment, local server or database feeder needed, explain here.
 
+<br />
+
 ### Building
 
 If your project needs some additional steps for the developer to build the project after some code changes, state them here. for example:
@@ -182,6 +198,8 @@ make install
 
 Here again you should state what actually happens when the code above gets executed.
 
+<br />
+
 ### Deploying / Publishing
 
 give instructions on how to build and release a new version In case there's some step you have to take that publishes this project to a server, this is the right time to state it.
@@ -192,15 +210,23 @@ packagemanager deploy your-project -s server.com -u username -p password
 
 And again you'd need to tell what the previous code actually does.
 
-<br /><table align="center">
-  <tr>
-    <td colspan="2" align="center">
-      <a title="return to top" href="#vanilla-typescript-">Return to Top</a>
-    </td>
-  </tr>
-</table><br />
-
-
+  <hr />
+    <p>
+      <table align="right">
+        <tr>
+          <th colspan="2">
+            <a title="return to top" href="#vanilla-typescript-">
+              <sup>
+                <sub>
+                  TABLE OF CONTENTS
+                </sub>
+              </sup>
+              &nbsp; <img alt="arrow up" src="./img/arrow.svg" width="9.5" valign="baseline" />
+            </a>
+          </th>
+        </tr>
+      </table>
+    </p>
   </td>
 </tr>
 <tr>
@@ -212,15 +238,23 @@ Will likely implement something to automate this process away, added a few optio
 
 - [SemVer](http://semver.org/)
 
-<br /><table align="center">
-  <tr>
-    <td colspan="2" align="center">
-      <a title="return to top" href="#vanilla-typescript-">Return to Top</a>
-    </td>
-  </tr>
-</table><br />
-
-
+  <hr />
+    <p>
+      <table align="right">
+        <tr>
+          <th colspan="2">
+            <a title="return to top" href="#vanilla-typescript-">
+              <sup>
+                <sub>
+                  TABLE OF CONTENTS
+                </sub>
+              </sup>
+              &nbsp; <img alt="arrow up" src="./img/arrow.svg" width="9.5" valign="baseline" />
+            </a>
+          </th>
+        </tr>
+      </table>
+    </p>
   </td>
 </tr>
 <tr>
@@ -257,15 +291,23 @@ const config = {
 module.exports = config;
 ```
 
-<br /><table align="center">
-  <tr>
-    <td colspan="2" align="center">
-      <a title="return to top" href="#vanilla-typescript-">Return to Top</a>
-    </td>
-  </tr>
-</table><br />
-
-
+  <hr />
+    <p>
+      <table align="right">
+        <tr>
+          <th colspan="2">
+            <a title="return to top" href="#vanilla-typescript-">
+              <sup>
+                <sub>
+                  TABLE OF CONTENTS
+                </sub>
+              </sup>
+              &nbsp; <img alt="arrow up" src="./img/arrow.svg" width="9.5" valign="baseline" />
+            </a>
+          </th>
+        </tr>
+      </table>
+    </p>
   </td>
 </tr>
 <tr>
@@ -279,15 +321,23 @@ Describe and show how to run the tests with code examples. Explain what these te
 Give an example
 ```
 
-<br /><table align="center">
-  <tr>
-    <td colspan="2" align="center">
-      <a title="return to top" href="#vanilla-typescript-">Return to Top</a>
-    </td>
-  </tr>
-</table><br />
-
-
+  <hr />
+    <p>
+      <table align="right">
+        <tr>
+          <th colspan="2">
+            <a title="return to top" href="#vanilla-typescript-">
+              <sup>
+                <sub>
+                  TABLE OF CONTENTS
+                </sub>
+              </sup>
+              &nbsp; <img alt="arrow up" src="./img/arrow.svg" width="9.5" valign="baseline" />
+            </a>
+          </th>
+        </tr>
+      </table>
+    </p>
   </td>
 </tr>
 <tr>
@@ -304,6 +354,8 @@ npm run format
 #   prettier --write --ignore-unknown
 ```
 
+<br />
+
 ### runs a linter over entire codebase (code changes may occur)
 
 ```shell
@@ -312,6 +364,8 @@ npm run lint
 # RUNS
 #   eslint **/*.{ts,tsx} --fix
 ```
+
+<br />
 
 #### when problems arise in the package dependencies removing the following and doing a clean install # will resolve a plethora of time consuming tasks
 
@@ -325,6 +379,8 @@ npm run clean
 #   rm -rf package-lock.json
 ```
 
+<br />
+
 #### executes the entire playwright E2E and Jest Unit Testing suite these tasks generate a wealth of information # stored in the `/coverage` directory
 
 ```shell
@@ -333,6 +389,8 @@ npm run test
 # RUNS
 #   jest **/*.{ts,tsx} --colors --coverage
 ```
+
+<br />
 
 #### this isn't technically logs; however, it is a safe-guard to ensure git commit messages adhere to high-quality standards (subject to change, does make assumptions)
 
@@ -347,14 +405,23 @@ npm run logs
 
 ```
 
-<br /><table align="center">
-  <tr>
-    <td colspan="2" align="center">
-      <a title="return to top" href="#vanilla-typescript-">Return to Top</a>
-    </td>
-  </tr>
-</table><br />
-
+  <hr />
+    <p>
+      <table align="right">
+        <tr>
+          <th colspan="2">
+            <a title="return to top" href="#vanilla-typescript-">
+              <sup>
+                <sub>
+                  TABLE OF CONTENTS
+                </sub>
+              </sup>
+              &nbsp; <img alt="arrow up" src="./img/arrow.svg" width="9.5" valign="baseline" />
+            </a>
+          </th>
+        </tr>
+      </table>
+    </p>
   </td>
 </tr>
 <tr>
@@ -364,14 +431,23 @@ npm run logs
 
 > Will update with details on where fixtures & mocked data resides in project when I get that work implemented.
 
-<br /><table align="center">
-  <tr>
-    <td colspan="2" align="center">
-      <a title="return to top" href="#vanilla-typescript-">Return to Top</a>
-    </td>
-  </tr>
-</table><br />
-
+  <hr />
+    <p>
+      <table align="right">
+        <tr>
+          <th colspan="2">
+            <a title="return to top" href="#vanilla-typescript-">
+              <sup>
+                <sub>
+                  TABLE OF CONTENTS
+                </sub>
+              </sup>
+              &nbsp; <img alt="arrow up" src="./img/arrow.svg" width="9.5" valign="baseline" />
+            </a>
+          </th>
+        </tr>
+      </table>
+    </p>
   </td>
 </tr>
 <tr>
@@ -383,14 +459,23 @@ Linking up to a DB for this effort is probably not necessary, I will be building
 
 Due to how small this project is, avoiding all the configurations and complexities that come along with integrating a full ecosystem.
 
-<br /><table align="center">
-  <tr>
-    <td colspan="2" align="center">
-      <a title="return to top" href="#vanilla-typescript-">Return to Top</a>
-    </td>
-  </tr>
-</table><br />
-
+  <hr />
+    <p>
+      <table align="right">
+        <tr>
+          <th colspan="2">
+            <a title="return to top" href="#vanilla-typescript-">
+              <sup>
+                <sub>
+                  TABLE OF CONTENTS
+                </sub>
+              </sup>
+              &nbsp; <img alt="arrow up" src="./img/arrow.svg" width="9.5" valign="baseline" />
+            </a>
+          </th>
+        </tr>
+      </table>
+    </p>
   </td>
 </tr>
 <tr>
@@ -400,41 +485,49 @@ Due to how small this project is, avoiding all the configurations and complexiti
 
 Licensing is likely unnecessary for this initiative but may get something included here.
 
-<br /><table align="center">
-  <tr>
-    <td colspan="2" align="center">
-      <a title="return to top" href="#vanilla-typescript-">Return to Top</a>
-    </td>
-  </tr>
-</table><br />
-
+  <hr />
+    <p>
+      <table align="right">
+        <tr>
+          <th colspan="2">
+            <a title="return to top" href="#vanilla-typescript-">
+              <sup>
+                <sub>
+                  TABLE OF CONTENTS
+                </sub>
+              </sup>
+              &nbsp; <img alt="arrow up" src="./img/arrow.svg" width="9.5" valign="baseline" />
+            </a>
+          </th>
+        </tr>
+      </table>
+    </p>
   </td>
-  </tr>
-  <tr>
-    <td align="center" valign="middle">
-      <img src="./img/safe.svg" width="16"  valign="text-top"> <a href=
-      "./docs/CODEOWNER.md"><sup><sub><b>CODE OWNERS</b></sub></sup></a>
-    </td>
-    <td align="center" valign="middle">
-      <img src="./img/sign.svg" width="16"  valign="text-top"> <a href=
-      "./docs/CODE_OF_CONDUCT.md"><sup><sub><b>CODE OF
-      CONDUCT</b></sub></sup></a>
-    </td>
-    <td align="center" valign="middle">
-      <img src="./img/gift.svg" width="16"  valign="text-top"> <a href=
-      "./docs/CONTRIBUTING.md"><sup><sub><b>CONTRIBUTION
-      RULES</b></sub></sup></a>
-    </td>
-    <td align="center" valign="middle">
-      <img src="./img/star.svg" width="16"  valign="text-top"> <a href=
-      "./docs/README.md"><sup><sub><b>BEST PRACTICES</b></sub></sup></a>
-    </td>
-    <td align="center" valign="middle">
-      <img src="./img/note.svg" width="16"  valign="text-top"> <a href=
-      "./README.md"><sup><sub><b>DOCUMENTATION</b></sub></sup></a>
-    </td>
-  </tr>
-</table>
+</tr>
+<tr>
+  <td align="center" valign="middle">
+    <img src="./img/safe.svg" width="16"  valign="text-top"> <a href=
+    "./docs/CODEOWNER.md"><sup><sub><b>CODE OWNERS</b></sub></sup></a>
+  </td>
+  <td align="center" valign="middle">
+    <img src="./img/sign.svg" width="16"  valign="text-top"> <a href=
+    "./docs/CODE_OF_CONDUCT.md"><sup><sub><b>CODE OF
+    CONDUCT</b></sub></sup></a>
+  </td>
+  <td align="center" valign="middle">
+    <img src="./img/gift.svg" width="16"  valign="text-top"> <a href=
+    "./docs/CONTRIBUTING.md"><sup><sub><b>CONTRIBUTION
+    RULES</b></sub></sup></a>
+  </td>
+  <td align="center" valign="middle">
+    <img src="./img/star.svg" width="16"  valign="text-top"> <a href=
+    "./docs/README.md"><sup><sub><b>BEST PRACTICES</b></sub></sup></a>
+  </td>
+  <td align="center" valign="middle">
+    <img src="./img/note.svg" width="16"  valign="text-top"> <a href=
+    "./README.md"><sup><sub><b>DOCUMENTATION</b></sub></sup></a>
+  </td>
+</tr></table>
 
 <table align="center"><tr>
   <td><i><u>υι</u>∫</i><b>κɪτ</b></td><td><b>ʷʬ</b>⥂·★.⥄<b>τ&#866;s⨯</b></td>
