@@ -1,16 +1,24 @@
-<img align="right" src="./img/logo.lg.svg" alt="Logo of the project" width="225">
+<table align="right"><tr><td height="32" align="center" valign="middle">
+  <img src="./img/logo.svg" width="32" valign="middle" />
+</td><td align="center" valign="middle">
+  <span style="color:turquoise"><i><u>υι</u>∫</i></span><b><span style="color:gold">κɪτ&#851;</span></b>
+</td><td align="center" valign="middle"><span style="color:turquoise">ʷʬ<span style="opacity:0.666">⥂·</span></span><span style="color:gold">★</span><span style="color:turquoise"><span style="opacity:0.666">.⥄</span>τ&#866;s⨯</span><!--&#866;❨𝓋⨔𝔱𝓈⛡⛠⥄⥂⛡;⨯⌫--></td></tr></table>
 
-# Vanilla Typescript | <sub><sup> KIT</sup></sub>
+[<img align="left" alt="company brand" src="./img/logo.lg.svg" width="256">](https://www.independencepetgroup.com/)
+
+<br /><br /><br />
+
+# Vanilla Typescript Kit
 
 This project is a Proof of Concept (POC) to showcase a stable vanilla typescript frontend implementation approach with [Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components). Our goals is the trial and thorough documentation of risk-reward benefit analysis over the course of this projects lifespan.
 
 > Vanilla isn't just for a flavor burst in your sugarlicious coffee addiction, it excels in simiplifying cross platform projects, too!
 
 <br /><table><tr align="center" valign="middle" style="color:slategray">
-<td><img src="./img/safety.svg" width="16" /> <a href="./docs/CODEOWNERS.md"><sup><sub><b>CODE OWNERS
-<td><img src="./img/symbols.svg" width="16" /> <a href="./docs/CODE_OF_CONDUCT.md"><sup><sub><b>CODE OF CONDUCT
-<td><img src="./img/queue-list.svg" width="16" /> <a href="./docs/CONTRIBUTING.md"><sup><sub><b>CONTRIBUTION RULES
-<td><img src="./img/suitcase.svg" width="16" /> <a href="./docs/README.md"><sup><sub><b>BEST PRACTICES
+<td><img src="./img/safe.svg" width="16" /> <a href="./docs/CODEOWNERS.md"><sup><sub><b>CODE OWNERS
+<td><img src="./img/sign.svg" width="16" /> <a href="./docs/CODE_OF_CONDUCT.md"><sup><sub><b>CODE OF CONDUCT
+<td><img src="./img/gift.svg" width="16" /> <a href="./docs/CONTRIBUTING.md"><sup><sub><b>CONTRIBUTION RULES
+<td><img src="./img/star.svg" width="16" /> <a href="./docs/README.md"><sup><sub><b>BEST PRACTICES
 <td><img src="./img/note.svg" width="16" /> <a href="./README.md"><sup><sub><b>DOCUMENTATION
 <tr><td colspan="6">
 
