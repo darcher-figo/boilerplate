@@ -1,26 +1,25 @@
-<table align="right"><tr><td height="32"><img src="./img/logo.svg" width="32" valign="middle" /></td><td><i><u>υι</u>∫</i><b>κɪτ</b></td><td><b>ʷʬ</b>⥂·★.⥄<b>τ&#866;s⨯</b></td></tr></table>
+# Vanilla Typescript [<img align="right" alt="company brand" src="./img/logo.lg.svg" width="164">](https://www.independencepetgroup.com/)
 
-[<img align="left" alt="company brand" src="./img/logo.lg.svg" width="256">](https://www.independencepetgroup.com/)
+This <abbr title="Vanilla TS - Project Starter Kit">VT|PSK</abbr> is a Proof of Concept (POC) to showcase a stable vanilla typescript frontend implementation approach with [Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components). Our goals is the trial and thorough documentation of risk-reward benefit analysis over the course of this projects lifespan.
 
-<br /><br /><br />
-
-# Vanilla Typescript Kit
-
-This project is a Proof of Concept (POC) to showcase a stable vanilla typescript frontend implementation approach with [Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components). Our goals is the trial and thorough documentation of risk-reward benefit analysis over the course of this projects lifespan.
+<br />
 
 > Vanilla isn't just for a flavor burst in your sugarlicious coffee addiction, it excels in simiplifying cross platform projects, too!
 
-<br /><table><tr align="center" valign="middle" style="color:slategray">
+<br />
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0 auto"><tr align="center" valign="top" style="color:slategray">
 <td><img src="./img/safe.svg" width="16" /> <a href="./docs/CODEOWNER.md"><sup><sub><b>CODE OWNERS
 <td><img src="./img/sign.svg" width="16" /> <a href="./docs/CODE_OF_CONDUCT.md"><sup><sub><b>CODE OF CONDUCT
 <td><img src="./img/gift.svg" width="16" /> <a href="./docs/CONTRIBUTING.md"><sup><sub><b>CONTRIBUTION RULES
 <td><img src="./img/star.svg" width="16" /> <a href="./docs/README.md"><sup><sub><b>BEST PRACTICES
 <td><img src="./img/note.svg" width="16" /> <a href="./README.md"><sup><sub><b>DOCUMENTATION
-<tr><td colspan="6">
+<br /><tr><table>
+
 
 ## Installing / Getting started
 
-Here is a quick introduction of the *minimal* setup you need to get a `hello world` up & running locally.
+Here is a quick introduction of the _minimal_ setup you need to get a `hello world` up & running locally.
 
 ```shell
 
@@ -50,8 +49,6 @@ cd docs ls
 # reach out to @darcher-figo if questions arise
 
 ```
-
-<br /><tr><td colspan="6">
 
 ### Commands
 
@@ -86,21 +83,19 @@ npm run dev
 
 Here you should say what actually happens when you execute the code above.
 
-<br /><tr><td colspan="6">
-
 ## Developing
 
 ### Built With
+
 List main libraries, frameworks used including versions (React, Angular etc...)
 
 ### Prerequisites
-What is needed to set up the dev environment. For instance, global dependencies or any other tools. include download links.
 
+What is needed to set up the dev environment. For instance, global dependencies or any other tools. include download links.
 
 ### Setting up Dev
 
-Here's a brief intro about what a developer must do in order to start developing
-the project further:
+Here's a brief intro about what a developer must do in order to start developing the project further:
 
 ```shell
 git clone https://github.com/your/your-project.git
@@ -112,8 +107,7 @@ And state what happens step-by-step. If there is any virtual environment, local 
 
 ### Building
 
-If your project needs some additional steps for the developer to build the
-project after some code changes, state them here. for example:
+If your project needs some additional steps for the developer to build the project after some code changes, state them here. for example:
 
 ```shell
 ./configure
@@ -121,13 +115,11 @@ make
 make install
 ```
 
-Here again you should state what actually happens when the code above gets
-executed.
+Here again you should state what actually happens when the code above gets executed.
 
 ### Deploying / Publishing
-give instructions on how to build and release a new version
-In case there's some step you have to take that publishes this project to a
-server, this is the right time to state it.
+
+give instructions on how to build and release a new version In case there's some step you have to take that publishes this project to a server, this is the right time to state it.
 
 ```shell
 packagemanager deploy your-project -s server.com -u username -p password
@@ -135,18 +127,11 @@ packagemanager deploy your-project -s server.com -u username -p password
 
 And again you'd need to tell what the previous code actually does.
 
-<br /><tr><td colspan="6">
-
 ## Versioning
 
 Will likely implement something to automate this process away, added a few options below, but haven't settled on the approach yet.
 
-**Resources**
-
 - [SemVer](http://semver.org/)
-- [link to tags on this repository](/tags).
-
-<br /><tr><td colspan="6">
 
 ## Configuration
 
@@ -155,7 +140,6 @@ Will likely implement something to automate this process away, added a few optio
 More to come for this area, I intend to incorperate the `dotenv` library to aid in easy dynamic globally accessible data points.
 
 ```javascript
-
 const _env = process.env;
 
 ["HOST", "NODE_ENV", "PORT", "PROTOCOL", "PUBLIC_URL", "HREF"].forEach(
@@ -178,22 +162,15 @@ const config = {
 };
 
 module.exports = config;
-
-
 ```
-
-<br /><tr><td colspan="6">
 
 ## Tests
 
-Describe and show how to run the tests with code examples.
-Explain what these tests test and why.
+Describe and show how to run the tests with code examples. Explain what these tests test and why.
 
 ```shell
 Give an example
 ```
-
-<br /><tr><td colspan="6">
 
 ## Style guide
 
@@ -235,6 +212,7 @@ npm run test
 # RUNS
 #   jest **/*.{ts,tsx} --colors --coverage
 ```
+
 #### this isn't technically logs; however, it is a safe-guard to ensure git commit messages adhere to high-quality standards (subject to change, does make assumptions)
 
 ```shell
@@ -248,13 +226,9 @@ npm run logs
 
 ```
 
-<br /><tr><td colspan="6">
-
 ## Api Reference
 
 > Will update with details on where fixtures & mocked data resides in project when I get that work implemented.
-
-<br /><tr><td colspan="6">
 
 ## Database
 
@@ -262,10 +236,11 @@ Linking up to a DB for this effort is probably not necessary, I will be building
 
 Due to how small this project is, avoiding all the configurations and complexities that come along with integrating a full ecosystem.
 
-<br /><tr><td colspan="6">
-
 ## Licensing
 
 Licensing is likely unnecessary for this initiative but may get something included here.
 
-<br /><tr><table>
+<table align="center"><tr>
+  <td height="32"><img src="./img/logo.svg" width="32" valign="middle" /></td>
+  <td><i><u>υι</u>∫</i><b>κɪτ</b></td><td><b>ʷʬ</b>⥂·★.⥄<b>τ&#866;s⨯</b></td>
+</tr></table>
