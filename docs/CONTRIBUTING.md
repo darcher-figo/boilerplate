@@ -7,7 +7,7 @@ When contributing to this repository, please first discuss the change you wish t
 > Please note we have a [code of conduct](/docs/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
 
 <br /><table><tr align="center" valign="middle" style="color:slategray">
-<td><img src="../img/safe.svg" width="16" /> <a href="./CODEOWNERS.md"><sup><sub><b>CODE OWNERS
+<td><img src="../img/safe.svg" width="16" /> <a href="./CODEOWNER.md"><sup><sub><b>CODE OWNERS
 <td><img src="../img/sign.svg" width="16" /> <a href="./CODE_OF_CONDUCT.md"><sup><sub><b>CODE OF CONDUCT
 <td><img src="../img/gift.svg" width="16" /> <a href="./CONTRIBUTING.md"><sup><sub><b>CONTRIBUTION RULES
 <td><img src="../img/star.svg" width="16" /> <a href="./README.md"><sup><sub><b>BEST PRACTICES
@@ -31,7 +31,7 @@ The *project owners* are the guardians of process &amp; practice.
 
 The technology team owns the code and conducts reviews, approvals, and anything pertaining to this repository.
 
-> Owners are subject to change, the most up-to-date owners list can be found in the [`/CODEOWNERS.md`](/CODEOWNERS.md) document.
+> Owners are subject to change, the most up-to-date owners list can be found in the [`/CODEOWNER.md`](/CODEOWNER.md) document.
 
 | Name          | Role            | Email                    | Github             |
 | :------------ | :-------------- | :----------------------- | :----------------- |

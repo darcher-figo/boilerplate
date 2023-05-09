@@ -11,7 +11,7 @@ This project is a Proof of Concept (POC) to showcase a stable vanilla typescript
 > Vanilla isn't just for a flavor burst in your sugarlicious coffee addiction, it excels in simiplifying cross platform projects, too!
 
 <br /><table><tr align="center" valign="middle" style="color:slategray">
-<td><img src="./img/safe.svg" width="16" /> <a href="./docs/CODEOWNERS.md"><sup><sub><b>CODE OWNERS
+<td><img src="./img/safe.svg" width="16" /> <a href="./docs/CODEOWNER.md"><sup><sub><b>CODE OWNERS
 <td><img src="./img/sign.svg" width="16" /> <a href="./docs/CODE_OF_CONDUCT.md"><sup><sub><b>CODE OF CONDUCT
 <td><img src="./img/gift.svg" width="16" /> <a href="./docs/CONTRIBUTING.md"><sup><sub><b>CONTRIBUTION RULES
 <td><img src="./img/star.svg" width="16" /> <a href="./docs/README.md"><sup><sub><b>BEST PRACTICES
