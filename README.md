@@ -6,11 +6,42 @@ This <abbr title="Vanilla TS - Project Starter Kit">VT|PSK</abbr> is a Proof of 
 
 > Vanilla isn't just for a flavor burst in your sugarlicious coffee addiction, it excels in simiplifying cross platform projects, too!
 
-<br />
+<hr />
 
+## Table of contents
+
+- [Vanilla Typescript ](#vanilla-typescript-)
+  - [Table of contents](#table-of-contents)
+  - [Installing / Getting started](#installing--getting-started)
+    - [Commands](#commands)
+      - [run to bundle app source into the `/dist` folder](#run-to-bundle-app-source-into-the-dist-folder)
+      - [use to execute codebase in higher environments over pipeline](#use-to-execute-codebase-in-higher-environments-over-pipeline)
+      - [run to spin up a localize instance of the app at `localhost:8080`](#run-to-spin-up-a-localize-instance-of-the-app-at-localhost8080)
+  - [Developing](#developing)
+    - [Built With](#built-with)
+    - [Prerequisites](#prerequisites)
+    - [Setting up Dev](#setting-up-dev)
+    - [Building](#building)
+    - [Deploying / Publishing](#deploying--publishing)
+  - [Versioning](#versioning)
+  - [Configuration](#configuration)
+    - [Environment Variables](#environment-variables)
+  - [Tests](#tests)
+  - [Style guide](#style-guide)
+    - [trigger this command to align the codebase format to our standardizations (code changes may occur)](#trigger-this-command-to-align-the-codebase-format-to-our-standardizations-code-changes-may-occur)
+    - [runs a linter over entire codebase (code changes may occur)](#runs-a-linter-over-entire-codebase-code-changes-may-occur)
+      - [when problems arise in the package dependencies removing the following and doing a clean install # will resolve a plethora of time consuming tasks](#when-problems-arise-in-the-package-dependencies-removing-the-following-and-doing-a-clean-install--will-resolve-a-plethora-of-time-consuming-tasks)
+      - [executes the entire playwright E2E and Jest Unit Testing suite these tasks generate a wealth of information # stored in the `/coverage` directory](#executes-the-entire-playwright-e2e-and-jest-unit-testing-suite-these-tasks-generate-a-wealth-of-information--stored-in-the-coverage-directory)
+      - [this isn't technically logs; however, it is a safe-guard to ensure git commit messages adhere to high-quality standards (subject to change, does make assumptions)](#this-isnt-technically-logs-however-it-is-a-safe-guard-to-ensure-git-commit-messages-adhere-to-high-quality-standards-subject-to-change-does-make-assumptions)
+  - [Api Reference](#api-reference)
+  - [Database](#database)
+  - [Licensing](#licensing)
+
+<hr />
+
+<br />
 <table>
   <tr>
-    <th align="center" valign="middle"><sup><sub><b>DOCUMENTATION MENU</b></sub></sup></th>
     <td align="center" valign="middle">
       <img src="./img/safe.svg" width="16"  valign="text-top"> <a href=
       "./docs/CODEOWNER.md"><sup><sub><b>CODE OWNERS</b></sub></sup></a>
@@ -20,8 +51,6 @@ This <abbr title="Vanilla TS - Project Starter Kit">VT|PSK</abbr> is a Proof of 
       "./docs/CODE_OF_CONDUCT.md"><sup><sub><b>CODE OF
       CONDUCT</b></sub></sup></a>
     </td>
-  </tr>
-  <tr>
     <td align="center" valign="middle">
       <img src="./img/gift.svg" width="16"  valign="text-top"> <a href=
       "./docs/CONTRIBUTING.md"><sup><sub><b>CONTRIBUTION
@@ -36,8 +65,8 @@ This <abbr title="Vanilla TS - Project Starter Kit">VT|PSK</abbr> is a Proof of 
       "./README.md"><sup><sub><b>DOCUMENTATION</b></sub></sup></a>
     </td>
   </tr>
-</table>
-
+  <tr>
+    <td colspan="5" align="left" valign="top">
 
 ## Installing / Getting started
 
@@ -104,6 +133,20 @@ npm run dev
 ```
 
 Here you should say what actually happens when you execute the code above.
+<br />
+
+<table align="center">
+  <tr>
+    <td colspan="2" align="center">
+      <a title="return to top" href="#vanilla-typescript-">Return to Top</a>
+    </td>
+  </tr>
+</table>
+
+  </td>
+</tr>
+<tr>
+  <td colspan="5" align="left" valign="top">
 
 ## Developing
 
@@ -148,12 +191,40 @@ packagemanager deploy your-project -s server.com -u username -p password
 ```
 
 And again you'd need to tell what the previous code actually does.
+<br />
+
+<table align="center">
+  <tr>
+    <td colspan="2" align="center">
+      <a title="return to top" href="#vanilla-typescript-">Return to Top</a>
+    </td>
+  </tr>
+</table>
+
+  </td>
+</tr>
+<tr>
+  <td colspan="5" align="left" valign="top">
 
 ## Versioning
 
 Will likely implement something to automate this process away, added a few options below, but haven't settled on the approach yet.
 
 - [SemVer](http://semver.org/)
+<br />
+
+<table align="center">
+  <tr>
+    <td colspan="2" align="center">
+      <a title="return to top" href="#vanilla-typescript-">Return to Top</a>
+    </td>
+  </tr>
+</table>
+
+  </td>
+</tr>
+<tr>
+  <td colspan="5" align="left" valign="top">
 
 ## Configuration
 
@@ -185,6 +256,20 @@ const config = {
 
 module.exports = config;
 ```
+<br />
+
+<table align="center">
+  <tr>
+    <td colspan="2" align="center">
+      <a title="return to top" href="#vanilla-typescript-">Return to Top</a>
+    </td>
+  </tr>
+</table>
+
+  </td>
+</tr>
+<tr>
+  <td colspan="5" align="left" valign="top">
 
 ## Tests
 
@@ -193,6 +278,20 @@ Describe and show how to run the tests with code examples. Explain what these te
 ```shell
 Give an example
 ```
+<br />
+
+<table align="center">
+  <tr>
+    <td colspan="2" align="center">
+      <a title="return to top" href="#vanilla-typescript-">Return to Top</a>
+    </td>
+  </tr>
+</table>
+
+  </td>
+</tr>
+<tr>
+  <td colspan="5" align="left" valign="top">
 
 ## Style guide
 
@@ -247,21 +346,105 @@ npm run logs
 #     --edit
 
 ```
+<br />
+
+<table align="center">
+  <tr>
+    <td colspan="2" align="center">
+      <a title="return to top" href="#vanilla-typescript-">Return to Top</a>
+    </td>
+  </tr>
+</table>
+
+  </td>
+</tr>
+<tr>
+  <td colspan="5" align="left" valign="top">
 
 ## Api Reference
 
 > Will update with details on where fixtures & mocked data resides in project when I get that work implemented.
+<br />
+
+
+<table align="center">
+  <tr>
+    <td colspan="2" align="center">
+      <a title="return to top" href="#vanilla-typescript-">Return to Top</a>
+    </td>
+  </tr>
+</table>
+
+  </td>
+</tr>
+<tr>
+  <td colspan="5" align="left" valign="top">
 
 ## Database
 
 Linking up to a DB for this effort is probably not necessary, I will be building out fixtures/mocks to display real data...
 
 Due to how small this project is, avoiding all the configurations and complexities that come along with integrating a full ecosystem.
+<br />
+
+<table align="center">
+  <tr>
+    <td colspan="2" align="center">
+      <a title="return to top" href="#vanilla-typescript-">Return to Top</a>
+    </td>
+  </tr>
+</table>
+
+  </td>
+</tr>
+<tr>
+  <td colspan="5" align="left" valign="top">
 
 ## Licensing
 
 Licensing is likely unnecessary for this initiative but may get something included here.
+<br />
+
+<table align="center">
+  <tr>
+    <td colspan="2" align="center">
+      <a title="return to top" href="#vanilla-typescript-">Return to Top</a>
+    </td>
+  </tr>
+</table>
+
+  </td>
+  </tr>
+  <tr>
+    <td align="center" valign="middle">
+      <img src="./img/safe.svg" width="16"  valign="text-top"> <a href=
+      "./docs/CODEOWNER.md"><sup><sub><b>CODE OWNERS</b></sub></sup></a>
+    </td>
+    <td align="center" valign="middle">
+      <img src="./img/sign.svg" width="16"  valign="text-top"> <a href=
+      "./docs/CODE_OF_CONDUCT.md"><sup><sub><b>CODE OF
+      CONDUCT</b></sub></sup></a>
+    </td>
+    <td align="center" valign="middle">
+      <img src="./img/gift.svg" width="16"  valign="text-top"> <a href=
+      "./docs/CONTRIBUTING.md"><sup><sub><b>CONTRIBUTION
+      RULES</b></sub></sup></a>
+    </td>
+    <td align="center" valign="middle">
+      <img src="./img/star.svg" width="16"  valign="text-top"> <a href=
+      "./docs/README.md"><sup><sub><b>BEST PRACTICES</b></sub></sup></a>
+    </td>
+    <td align="center" valign="middle">
+      <img src="./img/note.svg" width="16"  valign="text-top"> <a href=
+      "./README.md"><sup><sub><b>DOCUMENTATION</b></sub></sup></a>
+    </td>
+  </tr>
+</table>
 
 <table align="center"><tr>
   <td><i><u>υι</u>∫</i><b>κɪτ</b></td><td><b>ʷʬ</b>⥂·★.⥄<b>τ&#866;s⨯</b></td>
-</tr></table>
+    <td align="center">
+      <a title="return to top" href="#vanilla-typescript-">Return to Top</a>
+    </td>
+  </tr>
+</table>
