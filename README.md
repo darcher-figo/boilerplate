@@ -133,15 +133,15 @@ npm run dev
 ```
 
 Here you should say what actually happens when you execute the code above.
-<br />
 
-<table align="center">
+<br /><table align="center">
   <tr>
     <td colspan="2" align="center">
       <a title="return to top" href="#vanilla-typescript-">Return to Top</a>
     </td>
   </tr>
-</table>
+</table><br />
+
 
   </td>
 </tr>
@@ -191,15 +191,15 @@ packagemanager deploy your-project -s server.com -u username -p password
 ```
 
 And again you'd need to tell what the previous code actually does.
-<br />
 
-<table align="center">
+<br /><table align="center">
   <tr>
     <td colspan="2" align="center">
       <a title="return to top" href="#vanilla-typescript-">Return to Top</a>
     </td>
   </tr>
-</table>
+</table><br />
+
 
   </td>
 </tr>
@@ -211,15 +211,15 @@ And again you'd need to tell what the previous code actually does.
 Will likely implement something to automate this process away, added a few options below, but haven't settled on the approach yet.
 
 - [SemVer](http://semver.org/)
-<br />
 
-<table align="center">
+<br /><table align="center">
   <tr>
     <td colspan="2" align="center">
       <a title="return to top" href="#vanilla-typescript-">Return to Top</a>
     </td>
   </tr>
-</table>
+</table><br />
+
 
   </td>
 </tr>
@@ -256,15 +256,15 @@ const config = {
 
 module.exports = config;
 ```
-<br />
 
-<table align="center">
+<br /><table align="center">
   <tr>
     <td colspan="2" align="center">
       <a title="return to top" href="#vanilla-typescript-">Return to Top</a>
     </td>
   </tr>
-</table>
+</table><br />
+
 
   </td>
 </tr>
@@ -278,15 +278,15 @@ Describe and show how to run the tests with code examples. Explain what these te
 ```shell
 Give an example
 ```
-<br />
 
-<table align="center">
+<br /><table align="center">
   <tr>
     <td colspan="2" align="center">
       <a title="return to top" href="#vanilla-typescript-">Return to Top</a>
     </td>
   </tr>
-</table>
+</table><br />
+
 
   </td>
 </tr>
@@ -346,15 +346,14 @@ npm run logs
 #     --edit
 
 ```
-<br />
 
-<table align="center">
+<br /><table align="center">
   <tr>
     <td colspan="2" align="center">
       <a title="return to top" href="#vanilla-typescript-">Return to Top</a>
     </td>
   </tr>
-</table>
+</table><br />
 
   </td>
 </tr>
@@ -364,16 +363,14 @@ npm run logs
 ## Api Reference
 
 > Will update with details on where fixtures & mocked data resides in project when I get that work implemented.
-<br />
 
-
-<table align="center">
+<br /><table align="center">
   <tr>
     <td colspan="2" align="center">
       <a title="return to top" href="#vanilla-typescript-">Return to Top</a>
     </td>
   </tr>
-</table>
+</table><br />
 
   </td>
 </tr>
@@ -385,15 +382,14 @@ npm run logs
 Linking up to a DB for this effort is probably not necessary, I will be building out fixtures/mocks to display real data...
 
 Due to how small this project is, avoiding all the configurations and complexities that come along with integrating a full ecosystem.
-<br />
 
-<table align="center">
+<br /><table align="center">
   <tr>
     <td colspan="2" align="center">
       <a title="return to top" href="#vanilla-typescript-">Return to Top</a>
     </td>
   </tr>
-</table>
+</table><br />
 
   </td>
 </tr>
@@ -403,15 +399,14 @@ Due to how small this project is, avoiding all the configurations and complexiti
 ## Licensing
 
 Licensing is likely unnecessary for this initiative but may get something included here.
-<br />
 
-<table align="center">
+<br /><table align="center">
   <tr>
     <td colspan="2" align="center">
       <a title="return to top" href="#vanilla-typescript-">Return to Top</a>
     </td>
   </tr>
-</table>
+</table><br />
 
   </td>
   </tr>
