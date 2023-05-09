@@ -8,13 +8,35 @@ This <abbr title="Vanilla TS - Project Starter Kit">VT|PSK</abbr> is a Proof of 
 
 <br />
 
-<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0 auto"><tr align="center" valign="top" style="color:slategray">
-<td><img src="./img/safe.svg" width="16" /> <a href="./docs/CODEOWNER.md"><sup><sub><b>CODE OWNERS
-<td><img src="./img/sign.svg" width="16" /> <a href="./docs/CODE_OF_CONDUCT.md"><sup><sub><b>CODE OF CONDUCT
-<td><img src="./img/gift.svg" width="16" /> <a href="./docs/CONTRIBUTING.md"><sup><sub><b>CONTRIBUTION RULES
-<td><img src="./img/star.svg" width="16" /> <a href="./docs/README.md"><sup><sub><b>BEST PRACTICES
-<td><img src="./img/note.svg" width="16" /> <a href="./README.md"><sup><sub><b>DOCUMENTATION
-<br /><tr><table>
+<table>
+  <tr>
+    <th align="center" valign="middle"><sup><sub><b>DOCUMENTATION MENU</b></sub></sup></th>
+    <td align="center" valign="middle">
+      <img src="./img/safe.svg" width="16"  valign="text-top"> <a href=
+      "./docs/CODEOWNER.md"><sup><sub><b>CODE OWNERS</b></sub></sup></a>
+    </td>
+    <td align="center" valign="middle">
+      <img src="./img/sign.svg" width="16"  valign="text-top"> <a href=
+      "./docs/CODE_OF_CONDUCT.md"><sup><sub><b>CODE OF
+      CONDUCT</b></sub></sup></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="middle">
+      <img src="./img/gift.svg" width="16"  valign="text-top"> <a href=
+      "./docs/CONTRIBUTING.md"><sup><sub><b>CONTRIBUTION
+      RULES</b></sub></sup></a>
+    </td>
+    <td align="center" valign="middle">
+      <img src="./img/star.svg" width="16"  valign="text-top"> <a href=
+      "./docs/README.md"><sup><sub><b>BEST PRACTICES</b></sub></sup></a>
+    </td>
+    <td align="center" valign="middle">
+      <img src="./img/note.svg" width="16"  valign="text-top"> <a href=
+      "./README.md"><sup><sub><b>DOCUMENTATION</b></sub></sup></a>
+    </td>
+  </tr>
+</table>
 
 
 ## Installing / Getting started
@@ -241,6 +263,5 @@ Due to how small this project is, avoiding all the configurations and complexiti
 Licensing is likely unnecessary for this initiative but may get something included here.
 
 <table align="center"><tr>
-  <td height="32"><img src="./img/logo.svg" width="32" valign="middle" /></td>
   <td><i><u>υι</u>∫</i><b>κɪτ</b></td><td><b>ʷʬ</b>⥂·★.⥄<b>τ&#866;s⨯</b></td>
 </tr></table>
