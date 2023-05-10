@@ -4,6 +4,8 @@
 
 This vanilla boilerplate is a <i>Proof of Concept</i> to showcase a stable, simplistic, adaptable implementation of [Web Components][web-components-url], natively avaliable in the [JavaScript API][js-api-url].
 
+<sup>:information_source: &nbsp; **Like this `README` layout**? The template is located [here][readme-sample-url].</sup>
+
 ## <sup>Table of Contents</sup>
 
 <table align="right">
@@ -138,7 +140,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 > };
 > ```
 
-:information_source: &nbsp; Will eventually incorperate the `dotenv` library for dynamic, globally accessible data points.
+<sup>:information_source: &nbsp; Will eventually incorperate the `dotenv` library for dynamic, globally accessible data points.</sup>
 
 <br />
 
@@ -234,7 +236,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ### <sub>5.1 Versioning</sub>
 
-:information_source: &nbsp;  Will implement [SemVer][sem-ver-url] to *semi-*automate the versioning process.
+<sup>:information_source: &nbsp;  Will implement [SemVer][sem-ver-url] to *semi-*automate the versioning process.</sup>
 
 <a title="Go to top of page" href="#vanilla-typescript-">
   <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
@@ -268,6 +270,7 @@ This project is free to use, additional Licensing information is located in the 
 <!--td><b>ʷʬ</b>⥂·★.⥄<b>τ&#866;s⨯</b></td-->
 </tr></table>
 
+[readme-sample-url]: ./docs/README.sample.md
 [js-api-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
 [web-components-url]: https://developer.mozilla.org/en-US/docs/Web/API/Web_components
 [ipg-url]: https://www.independencepetgroup.com/
