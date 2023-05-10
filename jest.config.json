@@ -12,7 +12,7 @@
   ],
   "coveragePathIgnorePatterns": [
     "dist",
-    ".*",
+    ".*/*",
     "*.cjs",
     "*.json",
     "**/*.css",
