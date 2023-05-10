@@ -1,22 +1,32 @@
-const _env = process.env;
+const msg = [];
+const env = process.env;
+for (const key of [
+  "HOST",
+  "HTTP",
+  "LOGS_ON",
+  "LOG_LVL",
+  "NODE_ENV",
+  "PORT",
+  "PUBLIC_URL",
+]) {
+  env[key] && msg.push(key + " missing");
+}
 
-["HOST", "NODE_ENV", "PORT", "PROTOCOL", "PUBLIC_URL", "HREF"].forEach(
-  (name) => {
-    if (_env[name]) {
-      throw new Error(`EnvVar ${name} is missing`);
-    }
-  },
-);
+const err = Boolean(msg.length);
+if (err.length) {
+  const log = err.join(" & ");
+  throw new Error(log);
+}
 
-const config = {
-  env: _env.NODE_ENV,
+const enableLogs = env.LOGS_ON?.toLowerCase();
+const logEnabled = enableLogs?.localeCompare("true");
+module.exports = {
+  env: env.NODE_ENV || "production",
   logger: {
-    level: _env.LOG_LEVEL || "info",
-    enabled: Boolean(_env.BOOLEAN?.toLowerCase().localeCompare("true")),
+    enabled: Boolean(logEnabled),
+    level: env.LOG_LVL || "info",
   },
   server: {
-    port: Number(_env.PORT),
+    port: Number(env.PORT) || 3000,
   },
 };
-
-module.exports = config;
