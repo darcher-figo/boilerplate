@@ -2,21 +2,22 @@
   "collectCoverage": true,
   "collectCoverageFrom": [
     "pages/*.ts",
-    "src/*.ts",
-    "res/*.ts",
-    "util/*.ts",
     "pages/*.tsx",
-    "src/*.tsx",
+    "res/*.ts",
     "res/*.tsx",
+    "src/*.ts",
+    "src/*.tsx",
+    "util/*.ts",
     "util/*.tsx"
   ],
   "coveragePathIgnorePatterns": [
-    "dist",
-    ".*/*",
-    "*.cjs",
-    "*.json",
     "**/*.css",
     "**/*.scss",
+    "*.cjs",
+    "*.json",
+    ".*",
+    ".*/*",
+    "dist",
     "node_modules"
   ],
   "coverageProvider": "V8",
@@ -38,10 +39,10 @@
     "^(\\.{1,2}/.*)\\.tsx?$": "$1"
   },
   "modulePaths": [
-    "src/*",
-    "util/*",
+    "mocks/*",
     "res/*",
-    "mocks/*"
+    "src/*",
+    "util/*"
   ],
   "preset": "ts-jest/presets/default-esm",
   "roots": [

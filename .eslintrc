@@ -12,13 +12,14 @@
     }
   },
   "ignorePatterns": [
-    ".*/*",
-    "*.md",
-    "docs/*.md",
     "**/*.css",
+    "**/*.html",
     "**/*.scss",
     "**/*.svg",
-    "**/*.html"
+    "*.md",
+    ".*",
+    ".*/*",
+    "docs/*.md"
   ],
   "plugins": [
     "@typescript-eslint/eslint-plugin",
