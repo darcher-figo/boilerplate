@@ -32,9 +32,9 @@ This vanilla boilerplate is a <i>Proof of Concept</i> to showcase a stable, simp
   - [3. Testing](#3-testing)
   - [4. Building](#4-building)
   - [5. Releasing](#5-releasing)
-    - [6. Versioning](#6-versioning)
-  - [7. API Reference](#7-api-reference)
-  - [8. Licensing](#8-licensing)
+    - [5.1 Versioning](#51-versioning)
+  - [6. API Reference](#6-api-reference)
+  - [7. Licensing](#7-licensing)
 
 ---
 
@@ -177,7 +177,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ---
 
-## 3. Testing
+## <sup>3. Testing</sup>
 
 :one: &nbsp; **Tests** with [Jest](https://jestjs.io/) unit testing library and [Playwright](https://playwright.dev/) e2e framework to ensure quality.
 
@@ -204,7 +204,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ---
 
-## 4. Building
+## <sup>4. Building</sup>
 
 :one: &nbsp; **Bundle** to `dist` folder.
 
@@ -228,17 +228,11 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ---
 
-## 5. Releasing
+## <sup>5. Releasing</sup>
 
 > 🔜  This project will not follow a release strategy as it is or will become a repository template; it is or will be accessible from an Artifactory.
 
-<a title="Go to top of page" href="#vanilla-typescript-">
-  <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
-</a><br />
-
----
-
-### 6. Versioning
+### <sub>5.1 Versioning</sub>
 
 > 🔜  I intend to implement [SemVer](http://semver.org/) and semi-automate the versioning process.
 
@@ -248,7 +242,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ---
 
-## 7. API Reference
+## <sup>6. API Reference</sup>
 
 > 🔜 This project will likely only utilize mocks or fixtures to visualize content.
 
@@ -258,7 +252,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ---
 
-## 8. Licensing
+## <sup>7. Licensing</sup>
 
 This project is free to use, additional Licensing information is located in the [LICENSE.md](./LICENSE.md) file.
 
