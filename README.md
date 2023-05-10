@@ -101,10 +101,15 @@ A step-by-step walk through to get an up-to-date local instance installed.
 
 ## Developing
 
-<table align="right"><tr><td width="96">
-
-![HTML & CSS][fe-logo]
-![TypeScript][ts-logo]</td></tr></table>
+<table align="right"><tr><td align="center" valign="bottom">
+<img alt="HTML5" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/640px-HTML5_Badge.svg.png" width="40" />
+<img alt="Github" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/640px-Git_icon.svg.png" width="42" />
+<img alt="Typescript" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/640px-Typescript_logo_2020.svg.png" width="42" />
+<img alt="Jest" src="https://cdn.auth0.com/blog/testing-react-with-jest/logo.png" width="40" /><br />
+<img alt="ESLint" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/ESLint_logo.svg/640px-ESLint_logo.svg.png" width="50" />
+<img alt="NodeJS" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/640px-Node.js_logo.svg.png" width="74" >
+<img alt="SASS" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/640px-Sass_Logo_Color.svg.png" width="58" />
+</td></tr></table>
 
 ### Configuration
 
@@ -324,8 +329,6 @@ Licensing is likely unnecessary for this initiative but may get something includ
 <!--td><b>ʷʬ</b>⥂·★.⥄<b>τ&#866;s⨯</b></td-->
 </tr></table>
 
-[fe-logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/240px-CSS3_and_HTML5_logos_and_wordmarks.svg.png
-[ts-logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/640px-Typescript_logo_2020.svg.png
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
