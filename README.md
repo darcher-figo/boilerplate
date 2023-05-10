@@ -12,11 +12,11 @@ This vanilla boilerplate is a <i>Proof of Concept</i> to showcase a stable, simp
 <tr><th align="left" valign="bottom">
   <sup><sub>INFO</sub></sup>
 
-[![Contributors][contributors-shield]][contributors-url]<br>
 [![Forks][forks-shield]][forks-url]<br>
-[![Issues][issues-shield]][issues-url]<br>
 [![Stargazers][stars-shield]][stars-url]<br>
-[![MIT License][license-shield]][license-url]</th></tr>
+[![Issues][issues-shield]][issues-url]<br>
+[![MIT License][license-shield]][license-url]<br>
+[![Contributors][contributors-shield]][contributors-url]</th></tr>
 <tr><td><a href="./docs/CODEOWNER.md"><img src="./img/safe.svg" width="16" valign="text-top"> <sup><sub><b>OWNERS</b></sub></sup></a></td></tr>
 <tr><td><a href="./README.md"><img src="./img/note.svg" width="16" valign="text-top"> <sup><sub><b>README</b></sub></sup></a></td></tr>
 <tr><td><a href="./docs/README.md"><img src="./img/star.svg" width="16" valign="text-top"> <sup><sub><b>GUIDES</b></sub></sup></a></td></tr>
