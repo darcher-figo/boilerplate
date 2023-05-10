@@ -101,18 +101,19 @@ A step-by-step walk through to get an up-to-date local instance installed.
 
 ## Developing
 
-<table align="right"><tr><td width="48">
+<table align="right"><tr><td width="96">
 
 ![HTML & CSS][fe-logo]
 ![TypeScript][ts-logo]</td></tr></table>
 
 ### Configuration
 
+> *More to come for this area*, I intend to incorperate the `dotenv` library for dynamic, globally accessible data points.
+
 #### Environment Variables
 
-*More to come for this area*, I intend to incorperate the `dotenv` library for dynamic, globally accessible data points.
-
 Below is a configuration check to ensure each expected variable is defined and passed as a configuration export.
+
 ```javascript
 const _env = process.env;
 
