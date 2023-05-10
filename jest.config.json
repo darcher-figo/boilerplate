@@ -13,10 +13,14 @@
   "coveragePathIgnorePatterns": [
     "dist",
 <<<<<<< HEAD
+<<<<<<< HEAD
     ".*/*",
 =======
     ".*",
 >>>>>>> 0a6494c (includes all files/folders with "." to test ignore)
+=======
+    ".*/*",
+>>>>>>> f3e1753 (updates regex to ignore dot notation directories and files)
     "*.cjs",
     "*.json",
     "**/*.css",

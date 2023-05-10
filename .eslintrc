@@ -13,10 +13,14 @@
   },
   "ignorePatterns": [
 <<<<<<< HEAD
+<<<<<<< HEAD
     ".*/*",
 =======
     ".*",
 >>>>>>> 1e4792c (includes all files/folders with "." to lint ignore)
+=======
+    ".*/*",
+>>>>>>> f3e1753 (updates regex to ignore dot notation directories and files)
     "*.md",
     "docs/*.md",
     "**/*.css",
