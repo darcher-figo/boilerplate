@@ -209,7 +209,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ### <sub>5.1 Versioning</sub>
 
-<sup>:information_source: &nbsp;  Will implement [SemVer][sem-ver-url] to *semi-*automate the versioning process.</sup>
+<sup>:information_source: &nbsp;  Will implement [SemVer][sem-ver-url] to <b>semi-</b>automate the versioning process.</sup>
 
 <a title="Go to top of page" href="#vanilla-typescript-">
   <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
