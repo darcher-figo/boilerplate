@@ -12,7 +12,11 @@
   ],
   "coveragePathIgnorePatterns": [
     "dist",
+<<<<<<< HEAD
     ".*/*",
+=======
+    ".*",
+>>>>>>> 0a6494c (includes all files/folders with "." to test ignore)
     "*.cjs",
     "*.json",
     "**/*.css",
