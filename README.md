@@ -1,8 +1,8 @@
-# <hr /> <sup>vIPG Boilerplate</sup> [<img align="right" alt="company brand" src="./img/logo.lg.svg" width="128">](https://www.independencepetgroup.com/)
+# <hr /> <sup>vIPG Boilerplate</sup> [<img align="right" alt="company brand" src="./img/logo.lg.svg" width="128">][ipg-url]
 
 > :heavy_exclamation_mark: **Vanilla** is not solely used to *flavor* baked goods or *mask* the bitterness of your coffee, it *excels* in flexible cross-framework frontend projects, also!
 
-This vanilla boilerplate is a <i>Proof of Concept</i> to showcase a stable, simplistic, adaptable implementation of [Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components), natively avaliable in the [JavaScript API](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
+This vanilla boilerplate is a <i>Proof of Concept</i> to showcase a stable, simplistic, adaptable implementation of [Web Components][web-components-url], natively avaliable in the [JavaScript API][js-api-url].
 
 ## <sup>Table of Contents</sup>
 
@@ -179,7 +179,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ## <sup>3. Testing</sup>
 
-:one: &nbsp; **Tests** with [Jest](https://jestjs.io/) unit testing library and [Playwright](https://playwright.dev/) e2e framework to ensure quality.
+:one: &nbsp; **Tests** with [Jest][jest-unit-test-url] unit testing library and [Playwright][playwright-e2e-url] e2e framework to ensure quality.
 
 > ```sh
 > npm run test
@@ -234,7 +234,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ### <sub>5.1 Versioning</sub>
 
-:information_source: &nbsp;  Will implement [SemVer](http://semver.org/) and semi-automate the versioning process.
+:information_source: &nbsp;  Will implement [SemVer][sem-ver-url] to *semi-*automate the versioning process.
 
 <a title="Go to top of page" href="#vanilla-typescript-">
   <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
@@ -254,7 +254,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ## <sup>7. Licensing</sup>
 
-This project is free to use, additional Licensing information is located in the [LICENSE.md](./LICENSE.md) file.
+This project is free to use, additional Licensing information is located in the [LICENSE.md][license-mit-url] file.
 
 
 <a title="Go to top of page" href="#vanilla-typescript-">
@@ -268,6 +268,13 @@ This project is free to use, additional Licensing information is located in the 
 <!--td><b>ʷʬ</b>⥂·★.⥄<b>τ&#866;s⨯</b></td-->
 </tr></table>
 
+[js-api-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+[web-components-url]: https://developer.mozilla.org/en-US/docs/Web/API/Web_components
+[ipg-url]: https://www.independencepetgroup.com/
+[playwright-e2e-url]: https://playwright.dev/
+[jest-unit-test-url]: https://jestjs.io/
+[license-mit-url]: ./LICENSE.md
+[sem-ver-url]: http://semver.org/
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg
