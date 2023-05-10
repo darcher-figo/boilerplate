@@ -2,14 +2,14 @@
 
 > **Vanilla** is not solely used to *flavor* baked goods or *mask* the bitterness of your coffee, it *excels* in flexible cross-framework frontend projects, also!
 
-<br />
+
 
 This vanilla boilerplate is a <u>Proof of Concept</u> to showcase a stable, simplistic, adaptable implementation of [Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components), natively avaliable in the javascript API.
 
-<br />
 
 
-## Outline
+
+## <sup>Outline</sup>
 
 <table align="right">
 <tr><th>
@@ -34,6 +34,7 @@ This vanilla boilerplate is a <u>Proof of Concept</u> to showcase a stable, simp
   - [Get Started](#get-started)
     - [Installation](#installation)
   - [Developing](#developing)
+    - [Technology](#technology)
     - [Configuration](#configuration)
       - [Environment Variables](#environment-variables)
     - [Formatting and Linting](#formatting-and-linting)
@@ -45,15 +46,13 @@ This vanilla boilerplate is a <u>Proof of Concept</u> to showcase a stable, simp
   - [Database](#database)
   - [Licensing](#licensing)
 
-<br /><br />
+---
 
-## Get Started
+## <sup>Get Started</sup>
 
 A step-by-step walk through to get an up-to-date local instance installed.
 
-<br />
-
-### Installation
+### <sub>Installation</sub>
 
 1️⃣ &nbsp; **Clone project** and go to directory.
 
@@ -91,31 +90,29 @@ A step-by-step walk through to get an up-to-date local instance installed.
 > npm run dev
 > ```
 
-<br />
-
 <a title="Go to top of page" href="#vanilla-typescript-">
   <img align="right" src="./img/to-top.svg" width="96" />
 </a>
 
-<br />
+---
 
-## Developing
+## <sup>Developing</sup>
 
-<table align="right"><tr><td align="center" valign="bottom">
-<img alt="HTML5" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/640px-HTML5_Badge.svg.png" width="40" />
-<img alt="Github" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/640px-Git_icon.svg.png" width="42" />
-<img alt="Typescript" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/640px-Typescript_logo_2020.svg.png" width="42" />
-<img alt="Jest" src="https://cdn.auth0.com/blog/testing-react-with-jest/logo.png" width="40" /><br />
-<img alt="ESLint" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/ESLint_logo.svg/640px-ESLint_logo.svg.png" width="50" />
-<img alt="NodeJS" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/640px-Node.js_logo.svg.png" width="74" >
-<img alt="SASS" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/640px-Sass_Logo_Color.svg.png" width="58" />
-</td></tr></table>
+### <sub>Technology</sub>
 
-### Configuration
+<img alt="HTML5" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/640px-HTML5_Badge.svg.png" width="23" />
+<img alt="Jest" src="https://cdn.auth0.com/blog/testing-react-with-jest/logo.png" width="21.5" />
+<img alt="Github" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/640px-Git_icon.svg.png" width="22" />
+<img alt="SASS" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/640px-Sass_Logo_Color.svg.png" width="29" />
+<img alt="ESLint" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/ESLint_logo.svg/640px-ESLint_logo.svg.png" width="27" />
+<img alt="Typescript" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/640px-Typescript_logo_2020.svg.png" width="23" />
+<img alt="NodeJS" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/640px-Node.js_logo.svg.png" width="40" >
+
+### <sub>Configuration</sub>
 
 > *More to come for this area*, I intend to incorperate the `dotenv` library for dynamic, globally accessible data points.
 
-#### Environment Variables
+#### <sub>Environment Variables</sub>
 
 Below is a configuration check to ensure each expected variable is defined and passed as a configuration export.
 
@@ -152,53 +149,43 @@ module.exports = {
 };
 ```
 
-<br />
+### <sub>Formatting and Linting</sub>
+
+1️⃣ &nbsp; **Formats** project code for readability and familiarity.
+
+> ```shell
+> npm run format
+>
+> # RUNS
+> #   prettier --write --ignore-unknown
+> ```
+
+1️⃣ &nbsp; **Lints** project code to reduce syntax errors.
+
+> ```shell
+> npm run lint
+>
+> # RUNS
+> #   eslint **/*.{ts,tsx} --fix
+> ```
+
+1️⃣ &nbsp; **Removes** dynamicly generated directories (_for a clean install_).
+
+> ```shell
+> npm run clean
+>
+> # RUNS
+> #   rm -rf node_modules &&
+> #   rm -rf dist &&
+> #   rm -rf coverage &&
+> #   rm -rf package-lock.json
+> ```
 
 <a title="Go to top of page" href="#vanilla-typescript-">
   <img align="right" src="./img/to-top.svg" width="96" />
 </a>
 
-<br />
-
-### Formatting and Linting
-
-**trigger this command to align the codebase format to our standardizations (code changes may occur)**
-
-```shell
-npm run format
-
-# RUNS
-#   prettier --write --ignore-unknown
-```
-
-**runs a linter over entire codebase (code changes may occur)**
-
-```shell
-npm run lint
-
-# RUNS
-#   eslint **/*.{ts,tsx} --fix
-```
-
-**when problems arise in the package dependencies removing the following and doing a clean install # will resolve a plethora of time consuming tasks**
-
-```shell
-npm run clean
-
-# RUNS
-#   rm -rf node_modules &&
-#   rm -rf dist &&
-#   rm -rf coverage &&
-#   rm -rf package-lock.json
-```
-
-<br />
-
-<a title="Go to top of page" href="#vanilla-typescript-">
-  <img align="right" src="./img/to-top.svg" width="96" />
-</a>
-
-<br />
+---
 
 ## Testing
 
@@ -211,7 +198,7 @@ npm run test
 #   jest **/*.{ts,tsx} --colors --coverage
 ```
 
-<br />
+
 
 **this isn't technically logs; however, it is a safe-guard to ensure git commit messages adhere to high-quality standards (subject to change, does make assumptions)**
 
@@ -226,13 +213,13 @@ npm run logs
 
 ```
 
-<br />
+
 
 <a title="Go to top of page" href="#vanilla-typescript-">
   <img align="right" src="./img/to-top.svg" width="96" />
 </a>
 
-<br />
+---
 
 ## Building
 
@@ -254,13 +241,13 @@ npm run logs
 > #     node dist/src/main.js
 > ```
 
-<br />
+
 
 <a title="Go to top of page" href="#vanilla-typescript-">
   <img align="right" src="./img/to-top.svg" width="96" />
 </a>
 
-<br />
+---
 
 ## Releasing
 
@@ -272,13 +259,13 @@ packagemanager deploy your-project -s server.com -u username -p password
 
 And again you'd need to tell what the previous code actually does.
 
-<br />
+
 
 <a title="Go to top of page" href="#vanilla-typescript-">
   <img align="right" src="./img/to-top.svg" width="96" />
 </a>
 
-<br />
+---
 
 ### Versioning
 
@@ -286,25 +273,25 @@ Will likely implement something to automate this process away, added a few optio
 
 - [SemVer](http://semver.org/)
 
-<br />
+
 
 <a title="Go to top of page" href="#vanilla-typescript-">
   <img align="right" src="./img/to-top.svg" width="96" />
 </a>
 
-<br />
+---
 
 ## API Reference
 
 > Will update with details on where fixtures & mocked data resides in project when I get that work implemented.
 
-<br />
+
 
 <a title="Go to top of page" href="#vanilla-typescript-">
   <img align="right" src="./img/to-top.svg" width="96" />
 </a>
 
-<br />
+---
 
 ## Database
 
@@ -312,17 +299,24 @@ Linking up to a DB for this effort is probably not necessary, I will be building
 
 Due to how small this project is, avoiding all the configurations and complexities that come along with integrating a full ecosystem.
 
-<br />
+
 
 <a title="Go to top of page" href="#vanilla-typescript-">
   <img align="right" src="./img/to-top.svg" width="96" />
 </a>
 
-<br />
+---
 
 ## Licensing
 
 Licensing is likely unnecessary for this initiative but may get something included here.
+
+
+<a title="Go to top of page" href="#vanilla-typescript-">
+  <img align="right" src="./img/to-top.svg" width="96" />
+</a>
+
+---
 
 <table align="center"><tr>
 <td><i><u>υι</u>∫</i><b>κɪτ</b></td>
@@ -339,22 +333,3 @@ Licensing is likely unnecessary for this initiative but may get something includ
 [issues-url]: https://github.com/othneildrew/Best-README-Template/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com
