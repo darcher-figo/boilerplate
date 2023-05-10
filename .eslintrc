@@ -12,7 +12,11 @@
     }
   },
   "ignorePatterns": [
+<<<<<<< HEAD
     ".*/*",
+=======
+    ".*",
+>>>>>>> 1e4792c (includes all files/folders with "." to lint ignore)
     "*.md",
     "docs/*.md",
     "**/*.css",
