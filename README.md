@@ -99,50 +99,25 @@ A step-by-step walk through to get an up-to-date local instance installed.
 --> <img alt="ESLint" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/ESLint_logo.svg/640px-ESLint_logo.svg.png" width="27" /><!--
 --> <img alt="Typescript" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/640px-Typescript_logo_2020.svg.png" width="23" /><!--
 --> <img alt="NodeJS" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/640px-Node.js_logo.svg.png" width="40" >
+
 <br />
 
 ### <sub>2.2 Configuration</sub>
 
 Below is a configuration check to ensure each expected variable is defined and passed as a configuration export.
 
-:one: &nbsp; **Environment Variables**
+:one: &nbsp; **Environment Variables** `.env`
 
-> ```javascript
-> const _env = process.env;
+> ```txt
+> PORT=3000
+> HTTP=http
+> HOST=localhost
 >
-> const _vars = [
->   "HOST",
->   "HREF",
->   "LOGS_ON",
->   "LOG_LVL",
->   "NODE_ENV",
->   "PORT",
->   "PROTOCOL",
->   "PUBLIC_URL"
-> ];
-> for (const name of _vars) {
->   if (Boolean(_env[name])) {
->     throw new Error(name + ' missing');
->   }
-> };
->
-> const _enableLogs = _env.LOGS_ON?.toLowerCase();
-> const _isLogging = _enableLogs?.localeCompare("true");
-> module.exports = {
->   env: _env.NODE_ENV,
->   logger: {
->     enabled: Boolean(_isLogging),
->     level: _env.LOG_LVL || "verbose"
->   },
->   server: {
->     port: Number(_env.PORT)
->   },
-> };
+> LOG_LVL=verbose
+> ENABLE_LOGS=true
+> NODE_ENV=development
+> PUBLIC_URL=$HTTP://$HOST:$PORT
 > ```
-
-<sup>:information_source: &nbsp; Will eventually incorperate the `dotenv` library for dynamic, globally accessible data points.</sup>
-
-<br />
 
 ### <sub>2.3 Formatting and Linting</sub>
 
