@@ -1,4 +1,4 @@
-# <sup>vIPG Boilerplate</sup> [<img align="right" alt="company brand" src="./img/logo.lg.svg" width="128">](https://www.independencepetgroup.com/)
+# <hr /> <sup>vIPG Boilerplate</sup> [<img align="right" alt="company brand" src="./img/logo.lg.svg" width="128">](https://www.independencepetgroup.com/)
 
 > **Vanilla** is not solely used to *flavor* baked goods or *mask* the bitterness of your coffee, it *excels* in flexible cross-framework frontend projects, also!
 
@@ -21,7 +21,7 @@ This vanilla boilerplate is a <i>Proof of Concept</i> to showcase a stable, simp
 <tr><td><a href="./docs/CODE_OF_CONDUCT.md"><img src="./img/sign.svg" width="16" valign="text-top"> <sup><sub><b>ETHOS</b></sub></sup></a></td></tr>
 <tr><td><a href="./docs/CONTRIBUTING.md"><img src="./img/gift.svg" width="16" valign="text-top"> <sup><sub><b>RULES</b></sub></sup></a></td></tr></td></tr></table>
 
-- [vIPG Boilerplate ](#vipg-boilerplate-)
+- [ vIPG Boilerplate ](#-vipg-boilerplate-)
   - [Table of Contents](#table-of-contents)
   - [1. Get Started](#1-get-started)
     - [1.1 Installation](#11-installation)
