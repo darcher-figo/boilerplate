@@ -256,7 +256,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ## <sup>7. Licensing</sup>
 
-This project is free to use, additional Licensing information is located in the [LICENSE.md][license-mit-url] file.
+This project is free to use, additional Licensing information is located in the [LICENSE.md][unlicense-url] file.
 
 
 <a title="Go to top of page" href="#vanilla-typescript-">
@@ -276,15 +276,15 @@ This project is free to use, additional Licensing information is located in the 
 [ipg-url]: https://www.independencepetgroup.com/
 [playwright-e2e-url]: https://playwright.dev/
 [jest-unit-test-url]: https://jestjs.io/
-[license-mit-url]: ./LICENSE.md
+[unlicense-url]: ./LICENSE.md
 [sem-ver-url]: http://semver.org/
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/darcher-figo/boilerplate.svg
+[contributors-url]: https://github.com/darcher-figo/boilerplate/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/darcher-figo/boilerplate.svg
+[forks-url]: https://github.com/darcher-figo/boilerplate/network/members
+[stars-shield]: https://img.shields.io/github/stars/darcher-figo/boilerplate.svg
+[stars-url]: https://github.com/darcher-figo/boilerplate/stargazers
+[issues-shield]: https://img.shields.io/github/issues/darcher-figo/boilerplate.svg
+[issues-url]: https://github.com/darcher-figo/boilerplate/issues
+[license-shield]: https://img.shields.io/github/license/darcher-figo/boilerplate.svg
+[license-url]: https://github.com/darcher-figo/boilerplate/blob/master/LICENSE.txt
