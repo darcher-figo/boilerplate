@@ -99,7 +99,6 @@ A step-by-step walk through to get an up-to-date local instance installed.
 --> <img alt="ESLint" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/ESLint_logo.svg/640px-ESLint_logo.svg.png" width="27" /><!--
 --> <img alt="Typescript" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/640px-Typescript_logo_2020.svg.png" width="23" /><!--
 --> <img alt="NodeJS" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/640px-Node.js_logo.svg.png" width="40" >
-<br />
 
 ### <sub>2.2 Configuration</sub>
 
@@ -115,7 +114,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 > LOG_LVL=verbose
 > ENABLE_LOGS=true
 > NODE_ENV=development
-> PUBLIC_URL=$HTTP://$HOST:$PORT
+> PUBLIC_URL=localhost:3000
 > ```
 
 ### <sub>2.3 Formatting and Linting</sub>
