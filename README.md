@@ -1,6 +1,6 @@
 # <hr /> <sup>vIPG Boilerplate</sup> [<img align="right" alt="company brand" src="./img/logo.lg.svg" width="128">](https://www.independencepetgroup.com/)
 
-> **Vanilla** is not solely used to *flavor* baked goods or *mask* the bitterness of your coffee, it *excels* in flexible cross-framework frontend projects, also!
+> :heavy_exclamation_mark: **Vanilla** is not solely used to *flavor* baked goods or *mask* the bitterness of your coffee, it *excels* in flexible cross-framework frontend projects, also!
 
 This vanilla boilerplate is a <i>Proof of Concept</i> to showcase a stable, simplistic, adaptable implementation of [Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components), natively avaliable in the [JavaScript API](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
 
@@ -101,8 +101,6 @@ A step-by-step walk through to get an up-to-date local instance installed.
 
 ### <sub>2.2 Configuration</sub>
 
-> *More to come for this area*, I intend to incorperate the `dotenv` library for dynamic, globally accessible data points.
-
 Below is a configuration check to ensure each expected variable is defined and passed as a configuration export.
 
 :one: &nbsp; **Environment Variables**
@@ -139,6 +137,8 @@ Below is a configuration check to ensure each expected variable is defined and p
 >   },
 > };
 > ```
+
+:information_source: &nbsp; Will eventually incorperate the `dotenv` library for dynamic, globally accessible data points.
 
 <br />
 
@@ -230,11 +230,11 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ## <sup>5. Releasing</sup>
 
-> 🔜  This project will not follow a release strategy as it is or will become a repository template; it is or will be accessible from an Artifactory.
+> :question: &nbsp; This project does not need a release strategy, it is a template.
 
 ### <sub>5.1 Versioning</sub>
 
-> 🔜  I intend to implement [SemVer](http://semver.org/) and semi-automate the versioning process.
+:information_source: &nbsp;  Will implement [SemVer](http://semver.org/) and semi-automate the versioning process.
 
 <a title="Go to top of page" href="#vanilla-typescript-">
   <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
@@ -244,7 +244,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ## <sup>6. API Reference</sup>
 
-> 🔜 This project will likely only utilize mocks or fixtures to visualize content.
+> :question: This project will likely only utilize mocks or fixtures to visualize content.
 
 <a title="Go to top of page" href="#vanilla-typescript-">
   <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
