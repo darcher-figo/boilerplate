@@ -28,7 +28,6 @@ This vanilla boilerplate is a <i>Proof of Concept</i> to showcase a stable, simp
   - [2. Developing](#2-developing)
     - [2.1 Technology](#21-technology)
     - [2.2 Configuration](#22-configuration)
-      - [2.2.1 Environment Variables](#221-environment-variables)
     - [2.3 Formatting and Linting](#23-formatting-and-linting)
   - [3. Testing](#3-testing)
   - [4. Building](#4-building)
@@ -104,42 +103,43 @@ A step-by-step walk through to get an up-to-date local instance installed.
 
 > *More to come for this area*, I intend to incorperate the `dotenv` library for dynamic, globally accessible data points.
 
-#### <sub>2.2.1 Environment Variables</sub>
-
 Below is a configuration check to ensure each expected variable is defined and passed as a configuration export.
 
-```javascript
-const _env = process.env;
+:one: &nbsp; **Environment Variables**
 
-const _vars = [
-  "HOST",
-  "HREF",
-  "LOGS_ON",
-  "LOG_LVL",
-  "NODE_ENV",
-  "PORT",
-  "PROTOCOL",
-  "PUBLIC_URL"
-];
-for (const name of _vars) {
-  if (Boolean(_env[name])) {
-    throw new Error(name + ' missing');
-  }
-};
+> ```javascript
+> const _env = process.env;
+>
+> const _vars = [
+>   "HOST",
+>   "HREF",
+>   "LOGS_ON",
+>   "LOG_LVL",
+>   "NODE_ENV",
+>   "PORT",
+>   "PROTOCOL",
+>   "PUBLIC_URL"
+> ];
+> for (const name of _vars) {
+>   if (Boolean(_env[name])) {
+>     throw new Error(name + ' missing');
+>   }
+> };
+>
+> const _enableLogs = _env.LOGS_ON?.toLowerCase();
+> const _isLogging = _enableLogs?.localeCompare("true");
+> module.exports = {
+>   env: _env.NODE_ENV,
+>   logger: {
+>     enabled: Boolean(_isLogging),
+>     level: _env.LOG_LVL || "verbose"
+>   },
+>   server: {
+>     port: Number(_env.PORT)
+>   },
+> };
+> ```
 
-const _enableLogs = _env.LOGS_ON?.toLowerCase();
-const _isLogging = _enableLogs?.localeCompare("true");
-module.exports = {
-  env: _env.NODE_ENV,
-  logger: {
-    enabled: Boolean(_isLogging),
-    level: _env.LOG_LVL || "verbose"
-  },
-  server: {
-    port: Number(_env.PORT)
-  },
-};
-```
 <br />
 
 ### <sub>2.3 Formatting and Linting</sub>
