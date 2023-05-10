@@ -2,7 +2,7 @@
 
 > :heavy_exclamation_mark: **Vanilla** is not solely used to *flavor* baked goods or *mask* the bitterness of your coffee, it *excels* in flexible cross-framework frontend projects, also!
 
-This vanilla boilerplate is a <i>Proof of Concept</i> to showcase a stable, simplistic, adaptable implementation of [Web Components][web-components-url], natively avaliable in the [JavaScript API][js-api-url].
+This vanilla boilerplate is a <i>Proof of Concept</i> to showcase an implementation of [Web Components][web-components-url]&mdash;natively avaliable in the [JavaScript API][js-api-url].
 
 <sup>:information_source: &nbsp; **Like this `README` layout**? The template is located [here][readme-sample-url].</sup>
 
@@ -209,7 +209,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ### <sub>5.1 Versioning</sub>
 
-<sup>:information_source: &nbsp;  Will implement [SemVer][sem-ver-url] to *semi-*automate the versioning process.</sup>
+<sup>:information_source: &nbsp;  Will implement [SemVer][sem-ver-url] to <b>semi-</b>automate the versioning process.</sup>
 
 <a title="Go to top of page" href="#vanilla-typescript-">
   <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
