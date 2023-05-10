@@ -2,66 +2,57 @@
 
 > **Vanilla** is not solely used to *flavor* baked goods or *mask* the bitterness of your coffee, it *excels* in flexible cross-framework frontend projects, also!
 
+This vanilla boilerplate is a <i>Proof of Concept</i> to showcase a stable, simplistic, adaptable implementation of [Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components), natively avaliable in the [JavaScript API](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
 
-
-This vanilla boilerplate is a <u>Proof of Concept</u> to showcase a stable, simplistic, adaptable implementation of [Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components), natively avaliable in the javascript API.
-
-
-
-
-## <sup>Outline</sup>
+## <sup>Table of Contents</sup>
 
 <table align="right">
-<tr><th>
+<tr><th align="left" valign="bottom">
   <sup><sub>INFO</sub></sup>
 
 [![Contributors][contributors-shield]][contributors-url]<br>
 [![Forks][forks-shield]][forks-url]<br>
 [![Issues][issues-shield]][issues-url]<br>
 [![Stargazers][stars-shield]][stars-url]<br>
-[![MIT License][license-shield]][license-url]<br>
-
-</th></tr>
+[![MIT License][license-shield]][license-url]</th></tr>
 <tr><td><a href="./docs/CODEOWNER.md"><img src="./img/safe.svg" width="16" valign="text-top"> <sup><sub><b>OWNERS</b></sub></sup></a></td></tr>
 <tr><td><a href="./README.md"><img src="./img/note.svg" width="16" valign="text-top"> <sup><sub><b>README</b></sub></sup></a></td></tr>
 <tr><td><a href="./docs/README.md"><img src="./img/star.svg" width="16" valign="text-top"> <sup><sub><b>GUIDES</b></sub></sup></a></td></tr>
 <tr><td><a href="./docs/CODE_OF_CONDUCT.md"><img src="./img/sign.svg" width="16" valign="text-top"> <sup><sub><b>ETHOS</b></sub></sup></a></td></tr>
-<tr><td><a href="./docs/CONTRIBUTING.md"><img src="./img/gift.svg" width="16" valign="text-top"> <sup><sub><b>RULES</b></sub></sup></a></td></tr>
-</td></tr></table>
+<tr><td><a href="./docs/CONTRIBUTING.md"><img src="./img/gift.svg" width="16" valign="text-top"> <sup><sub><b>RULES</b></sub></sup></a></td></tr></td></tr></table>
 
 - [vIPG Boilerplate ](#vipg-boilerplate-)
-  - [Outline](#outline)
-  - [Get Started](#get-started)
-    - [Installation](#installation)
-  - [Developing](#developing)
-    - [Technology](#technology)
-    - [Configuration](#configuration)
-      - [Environment Variables](#environment-variables)
-    - [Formatting and Linting](#formatting-and-linting)
-  - [Testing](#testing)
-  - [Building](#building)
-  - [Releasing](#releasing)
-    - [Versioning](#versioning)
-  - [API Reference](#api-reference)
-  - [Database](#database)
-  - [Licensing](#licensing)
+  - [Table of Contents](#table-of-contents)
+  - [1. Get Started](#1-get-started)
+    - [1.1 Installation](#11-installation)
+  - [2. Developing](#2-developing)
+    - [2.1 Technology](#21-technology)
+    - [2.2 Configuration](#22-configuration)
+      - [2.2.1 Environment Variables](#221-environment-variables)
+    - [2.3 Formatting and Linting](#23-formatting-and-linting)
+  - [3. Testing](#3-testing)
+  - [4. Building](#4-building)
+  - [5. Releasing](#5-releasing)
+    - [6. Versioning](#6-versioning)
+  - [7. API Reference](#7-api-reference)
+  - [8. Licensing](#8-licensing)
 
 ---
 
-## <sup>Get Started</sup>
+## <sup>1. Get Started</sup>
 
 A step-by-step walk through to get an up-to-date local instance installed.
 
-### <sub>Installation</sub>
+### <sub>1.1 Installation</sub>
 
-1️⃣ &nbsp; **Clone project** and go to directory.
+:one: &nbsp; **Clone project** and go to directory.
 
 > ```sh
 > gh repo clone darcher-figo/boilerplate
 > cd boilerplate
 > ```
 
-2️⃣ &nbsp; ***Alignment*** to specified `node` version.
+:two: &nbsp; ***Alignment*** to specified `node` version.
 
 > ```sh
 > # using nvm
@@ -73,7 +64,7 @@ A step-by-step walk through to get an up-to-date local instance installed.
 > sudo n stable # or 18.15.0
 > ```
 
-3️⃣ &nbsp; ***Install*** package dependencies.
+:three: &nbsp; ***Install*** package dependencies.
 
 > ```sh
 > # install deps
@@ -83,7 +74,7 @@ A step-by-step walk through to get an up-to-date local instance installed.
 > npm update --latest
 > ```
 
-4️⃣ &nbsp; Launch ***Dev*** instance to browser.
+:four: &nbsp; Launch ***Dev*** instance to browser.
 
 > ```sh
 > # run dev on localhost:3000
@@ -92,13 +83,13 @@ A step-by-step walk through to get an up-to-date local instance installed.
 
 <a title="Go to top of page" href="#vanilla-typescript-">
   <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
-</a>
+</a><br />
 
 ---
 
-## <sup>Developing</sup>
+## <sup>2. Developing</sup>
 
-### <sub>Technology</sub>
+### <sub>2.1 Technology</sub>
 
 <img alt="HTML5" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/640px-HTML5_Badge.svg.png" width="23"/><!--
 --> <img alt="Jest" src="https://cdn.auth0.com/blog/testing-react-with-jest/logo.png" width="21.5" /><!--
@@ -107,12 +98,13 @@ A step-by-step walk through to get an up-to-date local instance installed.
 --> <img alt="ESLint" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/ESLint_logo.svg/640px-ESLint_logo.svg.png" width="27" /><!--
 --> <img alt="Typescript" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/640px-Typescript_logo_2020.svg.png" width="23" /><!--
 --> <img alt="NodeJS" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/640px-Node.js_logo.svg.png" width="40" >
+<br />
 
-### <sub>Configuration</sub>
+### <sub>2.2 Configuration</sub>
 
 > *More to come for this area*, I intend to incorperate the `dotenv` library for dynamic, globally accessible data points.
 
-#### <sub>Environment Variables</sub>
+#### <sub>2.2.1 Environment Variables</sub>
 
 Below is a configuration check to ensure each expected variable is defined and passed as a configuration export.
 
@@ -148,173 +140,132 @@ module.exports = {
   },
 };
 ```
+<br />
 
-### <sub>Formatting and Linting</sub>
+### <sub>2.3 Formatting and Linting</sub>
 
-1️⃣ &nbsp; **Formats** project code for readability and familiarity.
+:one: &nbsp; **Formats** project code for readability and familiarity.
 
-> ```shell
+> ```sh
 > npm run format
 >
-> # RUNS
-> #   prettier --write --ignore-unknown
+> # prettier --write --ignore-unknown
 > ```
 
-1️⃣ &nbsp; **Lints** project code to reduce syntax errors.
+:two: &nbsp; **Lints** project code to reduce syntax errors.
 
-> ```shell
+> ```sh
 > npm run lint
 >
-> # RUNS
-> #   eslint **/*.{ts,tsx} --fix
+> # eslint **/*.{ts,tsx} --fix
 > ```
 
-1️⃣ &nbsp; **Removes** dynamicly generated directories.
+:three: &nbsp; **Removes** dynamicly generated directories.
 
-> ```shell
+> ```sh
 > npm run clean
 >
-> # RUNS
-> #   rm -rf node_modules &&
-> #   rm -rf dist &&
-> #   rm -rf coverage &&
-> #   rm -rf package-lock.json
+> # rm -rf node_modules &&
+> # rm -rf dist &&
+> # rm -rf coverage &&
+> # rm -rf package-lock.json
 > ```
 
 <a title="Go to top of page" href="#vanilla-typescript-">
   <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
-</a>
+</a><br />
 
 ---
 
-## Testing
+## 3. Testing
 
-**executes the entire playwright E2E and Jest Unit Testing suite these tasks generate a wealth of information # stored in the `/coverage` directory**
+:one: &nbsp; **Tests** with [Jest](https://jestjs.io/) unit testing library and [Playwright](https://playwright.dev/) e2e framework to ensure quality.
 
-```shell
-npm run test
+> ```sh
+> npm run test
+>
+> # jest **/*.{ts,tsx} --colors --coverage
+> ```
 
-# RUNS
-#   jest **/*.{ts,tsx} --colors --coverage
-```
+:two: &nbsp; **Lints** commit messages to promote a readable `git` history.
 
-
-
-**this isn't technically logs; however, it is a safe-guard to ensure git commit messages adhere to high-quality standards (subject to change, does make assumptions)**
-
-```shell
-npm run logs
-
-# RUNS
-#   npx
-#     --no-install commitlint
-#     --config commitlint.config.cjs
-#     --edit
-
-```
-
-
+> ```sh
+> npm run clint
+>
+> # npx
+> #   --no-install commitlint
+> #   --config commitlint.config.cjs
+> #   --edit
+> ```
 
 <a title="Go to top of page" href="#vanilla-typescript-">
   <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
-</a>
+</a><br />
 
 ---
 
-## Building
+## 4. Building
 
-4️⃣ &nbsp; **Bundle** to `dist` folder.
+:one: &nbsp; **Bundle** to `dist` folder.
 
 > ```sh
 > npm build
 >
-> # RUNS
-> #     tsc --project tsconfig.build.json
+> # tsc --project tsconfig.build.json
 > ```
 
-5️⃣ &nbsp; ***Start*** production instance.
+:two: &nbsp; ***Start*** production instance.
 
 > ```sh
 > npm start
 >
-> # RUNS
-> #     node dist/src/main.js
+> # node dist/src/main.js
 > ```
 
-
-
 <a title="Go to top of page" href="#vanilla-typescript-">
   <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
-</a>
+</a><br />
 
 ---
 
-## Releasing
+## 5. Releasing
 
-give instructions on how to build and release a new version In case there's some step you have to take that publishes this project to a server, this is the right time to state it.
-
-```shell
-packagemanager deploy your-project -s server.com -u username -p password
-```
-
-And again you'd need to tell what the previous code actually does.
-
-
+> 🔜  This project will not follow a release strategy as it is or will become a repository template; it is or will be accessible from an Artifactory.
 
 <a title="Go to top of page" href="#vanilla-typescript-">
   <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
-</a>
+</a><br />
 
 ---
 
-### Versioning
+### 6. Versioning
 
-Will likely implement something to automate this process away, added a few options below, but haven't settled on the approach yet.
-
-- [SemVer](http://semver.org/)
-
-
+> 🔜  I intend to implement [SemVer](http://semver.org/) and semi-automate the versioning process.
 
 <a title="Go to top of page" href="#vanilla-typescript-">
   <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
-</a>
+</a><br />
 
 ---
 
-## API Reference
+## 7. API Reference
 
-> Will update with details on where fixtures & mocked data resides in project when I get that work implemented.
-
-
+> 🔜 This project will likely only utilize mocks or fixtures to visualize content.
 
 <a title="Go to top of page" href="#vanilla-typescript-">
   <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
-</a>
+</a><br />
 
 ---
 
-## Database
+## 8. Licensing
 
-Linking up to a DB for this effort is probably not necessary, I will be building out fixtures/mocks to display real data...
-
-Due to how small this project is, avoiding all the configurations and complexities that come along with integrating a full ecosystem.
-
+This project is free to use, additional Licensing information is located in the [LICENSE.md](./LICENSE.md) file.
 
 
 <a title="Go to top of page" href="#vanilla-typescript-">
   <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
-</a>
-
----
-
-## Licensing
-
-Licensing is likely unnecessary for this initiative but may get something included here.
-
-
-<a title="Go to top of page" href="#vanilla-typescript-">
-  <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
-</a>
+</a><br />
 
 ---
 
@@ -323,13 +274,13 @@ Licensing is likely unnecessary for this initiative but may get something includ
 <!--td><b>ʷʬ</b>⥂·★.⥄<b>τ&#866;s⨯</b></td-->
 </tr></table>
 
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg
 [forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg
 [stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg
 [issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
