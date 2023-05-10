@@ -91,7 +91,7 @@ A step-by-step walk through to get an up-to-date local instance installed.
 > ```
 
 <a title="Go to top of page" href="#vanilla-typescript-">
-  <img align="right" src="./img/to-top.svg" width="96" />
+  <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
 </a>
 
 ---
@@ -169,7 +169,7 @@ module.exports = {
 > #   eslint **/*.{ts,tsx} --fix
 > ```
 
-1️⃣ &nbsp; **Removes** dynamicly generated directories (_for a clean install_).
+1️⃣ &nbsp; **Removes** dynamicly generated directories.
 
 > ```shell
 > npm run clean
@@ -182,7 +182,7 @@ module.exports = {
 > ```
 
 <a title="Go to top of page" href="#vanilla-typescript-">
-  <img align="right" src="./img/to-top.svg" width="96" />
+  <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
 </a>
 
 ---
@@ -216,7 +216,7 @@ npm run logs
 
 
 <a title="Go to top of page" href="#vanilla-typescript-">
-  <img align="right" src="./img/to-top.svg" width="96" />
+  <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
 </a>
 
 ---
@@ -244,7 +244,7 @@ npm run logs
 
 
 <a title="Go to top of page" href="#vanilla-typescript-">
-  <img align="right" src="./img/to-top.svg" width="96" />
+  <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
 </a>
 
 ---
@@ -262,7 +262,7 @@ And again you'd need to tell what the previous code actually does.
 
 
 <a title="Go to top of page" href="#vanilla-typescript-">
-  <img align="right" src="./img/to-top.svg" width="96" />
+  <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
 </a>
 
 ---
@@ -276,7 +276,7 @@ Will likely implement something to automate this process away, added a few optio
 
 
 <a title="Go to top of page" href="#vanilla-typescript-">
-  <img align="right" src="./img/to-top.svg" width="96" />
+  <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
 </a>
 
 ---
@@ -288,7 +288,7 @@ Will likely implement something to automate this process away, added a few optio
 
 
 <a title="Go to top of page" href="#vanilla-typescript-">
-  <img align="right" src="./img/to-top.svg" width="96" />
+  <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
 </a>
 
 ---
@@ -302,7 +302,7 @@ Due to how small this project is, avoiding all the configurations and complexiti
 
 
 <a title="Go to top of page" href="#vanilla-typescript-">
-  <img align="right" src="./img/to-top.svg" width="96" />
+  <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
 </a>
 
 ---
@@ -313,7 +313,7 @@ Licensing is likely unnecessary for this initiative but may get something includ
 
 
 <a title="Go to top of page" href="#vanilla-typescript-">
-  <img align="right" src="./img/to-top.svg" width="96" />
+  <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
 </a>
 
 ---
