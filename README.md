@@ -1,281 +1,160 @@
-# <sup><abbr title="Vanilla Typescript">VTS</abbr> Starter Kit</sup> [<img align="right" alt="company brand" src="./img/logo.lg.svg" width="128">](https://www.independencepetgroup.com/)
+# <sup>vIPG Boilerplate</sup> [<img align="right" alt="company brand" src="./img/logo.lg.svg" width="128">](https://www.independencepetgroup.com/)
 
-> <sup><sub>**Vanilla** is not solely used to *flavor* baked goods or *mask* the bitterness of your coffee, it *excels* in flexible cross-framework frontend projects, also!</sub></sup>
+> **Vanilla** is not solely used to *flavor* baked goods or *mask* the bitterness of your coffee, it *excels* in flexible cross-framework frontend projects, also!
+
+<br />
 
 This vanilla boilerplate is a <u>Proof of Concept</u> to showcase a stable, simplistic, adaptable implementation of [Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components), natively avaliable in the javascript API.
 
-**OBJECTIVE**<br />
-*Conduct* a <u>risk</u> vs. <u>reward</u> analysis and *document* the processes.
+<br />
 
----
 
-## Table of contents
+## Outline
 
 <table align="right">
-<tr><th><sup><sub>DOCUMENTS</sub></sup></th></tr>
-<tr><td><a href="./docs/CODE_OF_CONDUCT.md"><img src="./img/sign.svg" width="16" valign="text-top"> <sup><sub><b>ETHICS & ETHOS</b></sub></sup></a></td></tr>
-<tr><td><a href="./docs/CONTRIBUTING.md"><img src="./img/gift.svg" width="16" valign="text-top"> <sup><sub><b>CONTRIBUTORS</b></sub></sup></a></td></tr>
-<tr><td><a href="./docs/CODEOWNER.md"><img src="./img/safe.svg" width="16" valign="text-top"> <sup><sub><b>CODE OWNERS</b></sub></sup></a></td></tr>
-<tr><td><a href="./README.md"><img src="./img/note.svg" width="16" valign="text-top"> <sup><sub><b>MAIN README</b></sub></sup></a></td></tr>
-<tr><td><a href="./docs/README.md"><img src="./img/star.svg" width="16" valign="text-top"> <sup><sub><b>GUIDELINES</b></sub></sup></a></td></tr>
+<tr><th>
+  <sup><sub>INFO</sub></sup>
+
+[![Contributors][contributors-shield]][contributors-url]<br>
+[![Forks][forks-shield]][forks-url]<br>
+[![Issues][issues-shield]][issues-url]<br>
+[![Stargazers][stars-shield]][stars-url]<br>
+[![MIT License][license-shield]][license-url]<br>
+
+</th></tr>
+<tr><td><a href="./docs/CODEOWNER.md"><img src="./img/safe.svg" width="16" valign="text-top"> <sup><sub><b>OWNERS</b></sub></sup></a></td></tr>
+<tr><td><a href="./README.md"><img src="./img/note.svg" width="16" valign="text-top"> <sup><sub><b>README</b></sub></sup></a></td></tr>
+<tr><td><a href="./docs/README.md"><img src="./img/star.svg" width="16" valign="text-top"> <sup><sub><b>GUIDES</b></sub></sup></a></td></tr>
+<tr><td><a href="./docs/CODE_OF_CONDUCT.md"><img src="./img/sign.svg" width="16" valign="text-top"> <sup><sub><b>ETHOS</b></sub></sup></a></td></tr>
+<tr><td><a href="./docs/CONTRIBUTING.md"><img src="./img/gift.svg" width="16" valign="text-top"> <sup><sub><b>RULES</b></sub></sup></a></td></tr>
 </td></tr></table>
 
-- [VTS Starter Kit ](#vts-starter-kit-)
-  - [Table of contents](#table-of-contents)
-  - [Initial Setup](#initial-setup)
-    - [Commands](#commands)
+- [vIPG Boilerplate ](#vipg-boilerplate-)
+  - [Outline](#outline)
+  - [Get Started](#get-started)
+    - [Installation](#installation)
   - [Developing](#developing)
-    - [Built With](#built-with)
-    - [Prerequisites](#prerequisites)
-    - [Setting up Dev](#setting-up-dev)
-    - [Building](#building)
-    - [Deploying / Publishing](#deploying--publishing)
-  - [Versioning](#versioning)
-  - [Configuration](#configuration)
-    - [Environment Variables](#environment-variables)
-  - [Tests](#tests)
-  - [Style guide](#style-guide)
+    - [Configuration](#configuration)
+      - [Environment Variables](#environment-variables)
+    - [Formatting and Linting](#formatting-and-linting)
+  - [Testing](#testing)
+  - [Building](#building)
+  - [Releasing](#releasing)
+    - [Versioning](#versioning)
   - [API Reference](#api-reference)
   - [Database](#database)
   - [Licensing](#licensing)
 
+<br /><br />
 
-## Initial Setup
+## Get Started
 
-A quick introduction and step-by-step walk through; everything you need to get an up-to-date local instance installed.
+A step-by-step walk through to get an up-to-date local instance installed.
 
-<table><tr align="left">
-  <th scope="col">1️⃣ &nbsp; Clone project</th>
-  <th scope="col">2️⃣ &nbsp; Version alignment</th>
-  <th scope="col">3️⃣ &nbsp; Install packages</th>
-  </tr><tr><td valign="top">
+<br />
 
-  > *Clone* and traverse to project directory.
+### Installation
 
-  ```sh
-  gh repo clone darcher-figo/boilerplate
-  cd boilerplate
-  ```
-  </td><td valign="top">
+1️⃣ &nbsp; **Clone project** and go to directory.
 
-  > *Align* to specified `node` version.
+> ```sh
+> gh repo clone darcher-figo/boilerplate
+> cd boilerplate
+> ```
 
-  ```sh
-  # using nvm
-  nvm install v18.15.0
-  nvm use
+2️⃣ &nbsp; ***Alignment*** to specified `node` version.
 
-  # using npm
-  npm install -g n
-  sudo n stable # or 18.15.0
-  ```
-  </td><td valign="top">
+> ```sh
+> # using nvm
+> nvm install v18.15.0
+> nvm use
+>
+> # using npm
+> npm install -g n
+> sudo n stable # or 18.15.0
+> ```
 
-  > *Install* package dependencies.
+3️⃣ &nbsp; ***Install*** package dependencies.
 
-  ```sh
-  # install deps
-  npm i
+> ```sh
+> # install deps
+> npm i
+>
+> # update deps
+> npm update --latest
+> ```
 
-  # update deps
-  npm update --latest
-  ```
-  </td></tr>
-</table>
+4️⃣ &nbsp; Launch ***Dev*** instance to browser.
 
----
+> ```sh
+> # run dev on localhost:3000
+> npm run dev
+> ```
 
-### Commands
+<br />
 
-**run to bundle app source into the `/dist` folder**
+<a title="Go to top of page" href="#vanilla-typescript-">
+  <img align="right" src="./img/to-top.svg" width="96" />
+</a>
 
-```
-npm build
-
-# RUNS
-#   tsc --project tsconfig.build.json
-```
-
-**use to execute codebase in higher environments over pipeline**
-
-```
-npm start
-
-# RUNS
-#   node dist/src/main.js
-```
-
-**run to spin up a localize instance of the app at `localhost:8080`**
-
-```
-npm run dev
-
-# RUNS
-#   nodemon --ext '*' --exec
-#   node --experimental-specifier-resolution=node --loader ts-node/esm
-#   src/main.ts
-```
-
-Here you should say what actually happens when you execute the code above.
-
-  </td>
-</tr>
-<tr>
-  <td colspan="5" align="right" valign="top"><br />
-    <a align="right" title="Go to top of page" href="#vanilla-typescript-">
-      <img alt="return to page top" src="./img/to-top.svg" width="92.5" valign="bottom" />
-    </a> &nbsp; &nbsp;
-  <br /><br /></td>
-</tr>
-<tr>
-  <td colspan="5" align="left" valign="top">
+<br />
 
 ## Developing
 
-### Built With
+<table align="right"><tr><td width="48">
 
-List main libraries, frameworks used including versions (React, Angular etc...)
+![HTML & CSS][fe-logo]
+![TypeScript][ts-logo]</td></tr></table>
 
----
+### Configuration
 
-### Prerequisites
+#### Environment Variables
 
-What is needed to set up the dev environment. For instance, global dependencies or any other tools. include download links.
+*More to come for this area*, I intend to incorperate the `dotenv` library for dynamic, globally accessible data points.
 
----
-
-### Setting up Dev
-
-Here's a brief intro about what a developer must do in order to start developing the project further:
-
-```shell
-git clone https://github.com/your/your-project.git
-cd your-project/
-packagemanager install
-```
-
-And state what happens step-by-step. If there is any virtual environment, local server or database feeder needed, explain here.
-
----
-
-### Building
-
-If your project needs some additional steps for the developer to build the project after some code changes, state them here. for example:
-
-```shell
-./configure
-make
-make install
-```
-
-Here again you should state what actually happens when the code above gets executed.
-
----
-
-### Deploying / Publishing
-
-give instructions on how to build and release a new version In case there's some step you have to take that publishes this project to a server, this is the right time to state it.
-
-```shell
-packagemanager deploy your-project -s server.com -u username -p password
-```
-
-And again you'd need to tell what the previous code actually does.
-
-  </td>
-</tr>
-<tr>
-  <td colspan="5" align="right" valign="top"><br />
-    <a align="right" title="Go to top of page" href="#vanilla-typescript-">
-      <img alt="return to page top" src="./img/to-top.svg" width="92.5" valign="bottom" />
-    </a> &nbsp; &nbsp;
-  <br /><br /></td>
-</tr>
-<tr>
-  <td colspan="5" align="left" valign="top">
-
-## Versioning
-
-Will likely implement something to automate this process away, added a few options below, but haven't settled on the approach yet.
-
-- [SemVer](http://semver.org/)
-
-  </td>
-</tr>
-<tr>
-  <td colspan="5" align="right" valign="top"><br />
-    <a align="right" title="Go to top of page" href="#vanilla-typescript-">
-      <img alt="return to page top" src="./img/to-top.svg" width="92.5" valign="bottom" />
-    </a> &nbsp; &nbsp;
-  <br /><br /></td>
-</tr>
-<tr>
-  <td colspan="5" align="left" valign="top">
-
-## Configuration
-
-### Environment Variables
-
-More to come for this area, I intend to incorperate the `dotenv` library to aid in easy dynamic globally accessible data points.
-
+Below is a configuration check to ensure each expected variable is defined and passed as a configuration export.
 ```javascript
 const _env = process.env;
 
-["HOST", "NODE_ENV", "PORT", "PROTOCOL", "PUBLIC_URL", "HREF"].forEach(
-  (name) => {
-    if (_env[name]) {
-      throw new Error(`EnvVar ${name} is missing`);
-    }
-  },
-);
-
-const config = {
-  env: _env.NODE_ENV,
-  logger: {
-    level: _env.LOG_LEVEL || "info",
-    enabled: Boolean(_env.BOOLEAN?.toLowerCase().localeCompare("true")),
-  },
-  server: {
-    port: Number(_env.PORT),
-  },
+const _vars = [
+  "HOST",
+  "HREF",
+  "LOGS_ON",
+  "LOG_LVL",
+  "NODE_ENV",
+  "PORT",
+  "PROTOCOL",
+  "PUBLIC_URL"
+];
+for (const name of _vars) {
+  if (Boolean(_env[name])) {
+    throw new Error(name + ' missing');
+  }
 };
 
-module.exports = config;
+const _enableLogs = _env.LOGS_ON?.toLowerCase();
+const _isLogging = _enableLogs?.localeCompare("true");
+module.exports = {
+  env: _env.NODE_ENV,
+  logger: {
+    enabled: Boolean(_isLogging),
+    level: _env.LOG_LVL || "verbose"
+  },
+  server: {
+    port: Number(_env.PORT)
+  },
+};
 ```
 
-  </td>
-</tr>
-<tr>
-  <td colspan="5" align="right" valign="top"><br />
-    <a align="right" title="Go to top of page" href="#vanilla-typescript-">
-      <img alt="return to page top" src="./img/to-top.svg" width="92.5" valign="bottom" />
-    </a> &nbsp; &nbsp;
-  <br /><br /></td>
-</tr>
-<tr>
-  <td colspan="5" align="left" valign="top">
+<br />
 
-## Tests
+<a title="Go to top of page" href="#vanilla-typescript-">
+  <img align="right" src="./img/to-top.svg" width="96" />
+</a>
 
-Describe and show how to run the tests with code examples. Explain what these tests test and why.
+<br />
 
-```shell
-Give an example
-```
-
-  </td>
-</tr>
-<tr>
-  <td colspan="5" align="right" valign="top"><br />
-    <a align="right" title="Go to top of page" href="#vanilla-typescript-">
-      <img alt="return to page top" src="./img/to-top.svg" width="92.5" valign="bottom" />
-    </a> &nbsp; &nbsp;
-  <br /><br /></td>
-</tr>
-<tr>
-  <td colspan="5" align="left" valign="top">
-
-## Style guide
+### Formatting and Linting
 
 **trigger this command to align the codebase format to our standardizations (code changes may occur)**
 
@@ -285,8 +164,6 @@ npm run format
 # RUNS
 #   prettier --write --ignore-unknown
 ```
-
----
 
 **runs a linter over entire codebase (code changes may occur)**
 
@@ -310,6 +187,14 @@ npm run clean
 ```
 
 <br />
+
+<a title="Go to top of page" href="#vanilla-typescript-">
+  <img align="right" src="./img/to-top.svg" width="96" />
+</a>
+
+<br />
+
+## Testing
 
 **executes the entire playwright E2E and Jest Unit Testing suite these tasks generate a wealth of information # stored in the `/coverage` directory**
 
@@ -335,33 +220,85 @@ npm run logs
 
 ```
 
-  </td>
-</tr>
-<tr>
-  <td colspan="5" align="right" valign="top"><br />
-    <a align="right" title="Go to top of page" href="#vanilla-typescript-">
-      <img alt="return to page top" src="./img/to-top.svg" width="92.5" valign="bottom" />
-    </a> &nbsp; &nbsp;
-  <br /><br /></td>
-</tr>
-<tr>
-  <td colspan="5" align="left" valign="top">
+<br />
+
+<a title="Go to top of page" href="#vanilla-typescript-">
+  <img align="right" src="./img/to-top.svg" width="96" />
+</a>
+
+<br />
+
+## Building
+
+4️⃣ &nbsp; **Bundle** to `dist` folder.
+
+> ```sh
+> npm build
+>
+> # RUNS
+> #     tsc --project tsconfig.build.json
+> ```
+
+5️⃣ &nbsp; ***Start*** production instance.
+
+> ```sh
+> npm start
+>
+> # RUNS
+> #     node dist/src/main.js
+> ```
+
+<br />
+
+<a title="Go to top of page" href="#vanilla-typescript-">
+  <img align="right" src="./img/to-top.svg" width="96" />
+</a>
+
+<br />
+
+## Releasing
+
+give instructions on how to build and release a new version In case there's some step you have to take that publishes this project to a server, this is the right time to state it.
+
+```shell
+packagemanager deploy your-project -s server.com -u username -p password
+```
+
+And again you'd need to tell what the previous code actually does.
+
+<br />
+
+<a title="Go to top of page" href="#vanilla-typescript-">
+  <img align="right" src="./img/to-top.svg" width="96" />
+</a>
+
+<br />
+
+### Versioning
+
+Will likely implement something to automate this process away, added a few options below, but haven't settled on the approach yet.
+
+- [SemVer](http://semver.org/)
+
+<br />
+
+<a title="Go to top of page" href="#vanilla-typescript-">
+  <img align="right" src="./img/to-top.svg" width="96" />
+</a>
+
+<br />
 
 ## API Reference
 
 > Will update with details on where fixtures & mocked data resides in project when I get that work implemented.
 
-  </td>
-</tr>
-<tr>
-  <td colspan="5" align="right" valign="top"><br />
-    <a align="right" title="Go to top of page" href="#vanilla-typescript-">
-      <img alt="return to page top" src="./img/to-top.svg" width="92.5" valign="bottom" />
-    </a> &nbsp; &nbsp;
-  <br /><br /></td>
-</tr>
-<tr>
-  <td colspan="5" align="left" valign="top">
+<br />
+
+<a title="Go to top of page" href="#vanilla-typescript-">
+  <img align="right" src="./img/to-top.svg" width="96" />
+</a>
+
+<br />
 
 ## Database
 
@@ -369,57 +306,51 @@ Linking up to a DB for this effort is probably not necessary, I will be building
 
 Due to how small this project is, avoiding all the configurations and complexities that come along with integrating a full ecosystem.
 
-  </td>
-</tr>
-<tr>
-  <td colspan="5" align="right" valign="top"><br />
-    <a align="right" title="Go to top of page" href="#vanilla-typescript-">
-      <img alt="return to page top" src="./img/to-top.svg" width="92.5" valign="bottom" />
-    </a> &nbsp; &nbsp;
-  <br /><br /></td>
-</tr>
-<tr>
-  <td colspan="5" align="left" valign="top">
+<br />
+
+<a title="Go to top of page" href="#vanilla-typescript-">
+  <img align="right" src="./img/to-top.svg" width="96" />
+</a>
+
+<br />
 
 ## Licensing
 
 Licensing is likely unnecessary for this initiative but may get something included here.
 
-  </td>
-</tr>
-<tr>
-  <td colspan="5" align="right" valign="top"><br />
-    <a align="right" title="Go to top of page" href="#vanilla-typescript-">
-      <img alt="return to page top" src="./img/to-top.svg" width="92.5" valign="bottom" />
-    </a> &nbsp; &nbsp;
-  <br /><br /></td>
-</tr>
-<tr>
-  <td align="center" valign="middle">
-    <img src="./img/safe.svg" width="16"  valign="text-top"> <a href=
-    "./docs/CODEOWNER.md"><sup><sub><b>CODE OWNERS</b></sub></sup></a>
-  </td>
-  <td align="center" valign="middle">
-    <img src="./img/sign.svg" width="16"  valign="text-top"> <a href=
-    "./docs/CODE_OF_CONDUCT.md"><sup><sub><b>CODE OF
-    CONDUCT</b></sub></sup></a>
-  </td>
-  <td align="center" valign="middle">
-    <img src="./img/gift.svg" width="16"  valign="text-top"> <a href=
-    "./docs/CONTRIBUTING.md"><sup><sub><b>CONTRIBUTION
-    RULES</b></sub></sup></a>
-  </td>
-  <td align="center" valign="middle">
-    <img src="./img/star.svg" width="16"  valign="text-top"> <a href=
-    "./docs/README.md"><sup><sub><b>BEST PRACTICES</b></sub></sup></a>
-  </td>
-  <td align="center" valign="middle">
-    <img src="./img/note.svg" width="16"  valign="text-top"> <a href=
-    "./README.md"><sup><sub><b>DOCUMENTATION</b></sub></sup></a>
-  </td>
+<table align="center"><tr>
+<td><i><u>υι</u>∫</i><b>κɪτ</b></td>
+<!--td><b>ʷʬ</b>⥂·★.⥄<b>τ&#866;s⨯</b></td-->
 </tr></table>
 
-<table align="center"><tr>
-  <td><i><u>υι</u>∫</i><b>κɪτ</b></td><td><b>ʷʬ</b>⥂·★.⥄<b>τ&#866;s⨯</b></td>
-  </tr>
-</table>
+[fe-logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/240px-CSS3_and_HTML5_logos_and_wordmarks.svg.png
+[ts-logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/640px-Typescript_logo_2020.svg.png
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/othneildrew
+[product-screenshot]: images/screenshot.png
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[Vue-url]: https://vuejs.org/
+[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[Angular-url]: https://angular.io/
+[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
+[Svelte-url]: https://svelte.dev/
+[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[Laravel-url]: https://laravel.com
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
+[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[JQuery-url]: https://jquery.com
