@@ -67,14 +67,14 @@ This vanilla boilerplate is a <u>Proof of Concept</u> to showcase an implementat
 
 ## <sub>Installation</sub>
 
-### Clone project and go to directory
+### <sup>Clone project and go to directory</sup>
 
 > ```sh
 > gh repo clone darcher-figo/boilerplate
 > cd boilerplate
 > ```
 
-### Alignment to specified `node` version
+### <sup>Alignment to specified `node` version</sup>
 
 > ```sh
 > # using nvm
@@ -86,7 +86,7 @@ This vanilla boilerplate is a <u>Proof of Concept</u> to showcase an implementat
 > sudo n stable # or 18.15.0
 > ```
 
-### Removes dynamicly generated directories
+### <sup>Removes dynamicly generated directories</sup>
 
 > ```sh
 > npm run clean
@@ -97,7 +97,7 @@ This vanilla boilerplate is a <u>Proof of Concept</u> to showcase an implementat
 > # rm -rf package-lock.json
 > ```
 
-### Install package dependencies
+### <sup>Install package dependencies</sup>
 
 > ```sh
 > # install deps
@@ -107,7 +107,7 @@ This vanilla boilerplate is a <u>Proof of Concept</u> to showcase an implementat
 > npm update --latest
 > ```
 
-### Launch `dev` instance to browser
+### <sup>Launch `dev` instance to browser</sup>
 
 > ```sh
 > # run dev on localhost:3000
@@ -122,11 +122,11 @@ This vanilla boilerplate is a <u>Proof of Concept</u> to showcase an implementat
 
 Below is a configuration check to ensure each expected variable is defined and passed as a configuration export.
 
-### Artifactory
+### <sup>Artifactory
 
 > :soon: &nbsp; Include configurations to pull from *Artifactory*
 
-### Environment variables `.env`
+### <sup>Environment variables `.env`</sup>
 
 > ```txt
 > PORT=3000
@@ -141,7 +141,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ## <sub>Formatting</sub>
 
-### Formats project code for readability and familiarity
+### <sup>Formats project code for readability and familiarity</sup>
 
 > ```sh
 > npm run format
@@ -155,7 +155,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ## <sub>Linting</sub>
 
-### Lints project code to reduce syntax errors
+### <sup>Lints project code to reduce syntax errors</sup>
 
 > ```sh
 > npm run lint
@@ -165,7 +165,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ## <sup>Testing</sup>
 
-### Executes unit and e2e test suites to ensure quality
+### <sup>Executes unit and e2e test suites to ensure quality</sup>
 
 > ```sh
 > # executes Jest & Playwright
@@ -174,7 +174,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 > # jest **/*.{ts,tsx} --colors --coverage
 > ```
 
-### Lints commit messages for a readable `git` history
+### <sup>Lints commit messages for a readable `git` history</sup>
 
 > ```sh
 > npm run clint
@@ -191,7 +191,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ## <sup>Building</sup>
 
-### Bundle to `dist` folder
+### <sup>Bundle to `dist` folder</sup>
 
 > ```sh
 > npm build
@@ -199,7 +199,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 > # tsc --project tsconfig.build.json
 > ```
 
-### Start production instance
+### <sup>Start production instance</sup>
 
 > ```sh
 > npm start
