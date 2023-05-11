@@ -22,7 +22,7 @@ This vanilla boilerplate is a <i>Proof of Concept</i> to showcase an implementat
 <sup>:triangular_flag_on_post: &nbsp; [<b>Code Owners</b>](./docs/CODEOWNER.md)</sup><br />
 <sup>:beginner: &nbsp; [<b>Contributing</b>](./docs/CONTRIBUTING.md)</sup><br />
 <sup>:books: &nbsp; [<b>Guidelines</b>](./docs/README.md)</sup><br />
-<sup>:inbox_tray: &nbsp; [<b>README</b> `TEMPLATE`](./docs/README.sample.md)</sup></td></tr>
+<sup>:inbox_tray: &nbsp; [<b>README</b>](./docs/README.sample.md) <sup><b>`TEMPLATE`</b></sup></sup></td></tr>
 </table>
 
 - [ vIPG Boilerplate ](#-vipg-boilerplate-)
