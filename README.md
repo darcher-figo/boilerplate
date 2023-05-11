@@ -2,7 +2,7 @@
 
 <a name="top"></a>
 
-> :label: &nbsp; Vanilla Typescript starter kit as a github template
+> :label: Vanilla Typescript starter kit as a github template
 
 This vanilla boilerplate is a <u>Proof of Concept</u> to showcase an implementation of [Web Components][web-components-url]&mdash;*natively* avaliable in the [JavaScript API][js-api-url].
 
@@ -11,12 +11,12 @@ This vanilla boilerplate is a <u>Proof of Concept</u> to showcase an implementat
 <table align="right">
 <tr><th scope="col"><sub><sup>DOCUMENTATION</sup></sub></td></tr><tr><td><br />
 
-<sup>:scroll: &nbsp; [<b>Code of Conduct</b>](./docs/CODE_OF_CONDUCT.md) &nbsp; &nbsp;</sup><br />
-<sup>:closed_lock_with_key: &nbsp; [<b>Code Owners</b>](./docs/CODEOWNER.md)</sup><br />
-<sup>:pencil2: &nbsp; [<b>Contributing</b>](./docs/CONTRIBUTING.md)</sup><br />
-<sup>:children_crossing: &nbsp; [<b>Guidelines</b>](./docs/README.md)</sup><br />
-<sup>:ticket: &nbsp; [<b>Licensing</b>](./LICENSE.md)</sup><br />
-<sup>:triangular_ruler: &nbsp; [<b>README</b>](./docs/README.sample.md) <sup><b>`TEMPLATE`</b></sup></sup>
+<sup>:scroll: [<b>Code of Conduct</b>](./docs/CODE_OF_CONDUCT.md) &nbsp; &nbsp;</sup><br />
+<sup>:closed_lock_with_key: [<b>Code Owners</b>](./docs/CODEOWNER.md)</sup><br />
+<sup>:pencil2: [<b>Contributing</b>](./docs/CONTRIBUTING.md)</sup><br />
+<sup>:children_crossing: [<b>Guidelines</b>](./docs/README.md)</sup><br />
+<sup>:ticket: [<b>Licensing</b>](./LICENSE.md)</sup><br />
+<sup>:triangular_ruler: [<b>README</b>](./docs/README.sample.md) <sup><b>`TEMPLATE`</b></sup></sup>
 <br /><br /></td></tr>
 <tr><th scope="col"><sup><sub>TECHNOLOGY</sub></sup></th></tr><tr><td align="center"><br />
 
@@ -42,24 +42,24 @@ This vanilla boilerplate is a <u>Proof of Concept</u> to showcase an implementat
 - [ vIPG Boilerplate ](#-vipg-boilerplate-)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
-    - [ :scissors:   Clone project and go to directory](#-scissors--clone-project-and-go-to-directory)
-    - [ :pushpin:   Alignment to specified `node` version](#-pushpin--alignment-to-specified-node-version)
-    - [ :recycle:   Removes dynamicly generated directories](#-recycle--removes-dynamicly-generated-directories)
-    - [ :package:   Install package dependencies](#-package--install-package-dependencies)
-    - [ :bell:   Launch `dev` instance to browser](#-bell--launch-dev-instance-to-browser)
+    - [ Clone project and go to directory](#-clone-project-and-go-to-directory)
+    - [ Alignment to specified `node` version](#-alignment-to-specified-node-version)
+    - [ Removes dynamicly generated directories](#-removes-dynamicly-generated-directories)
+    - [ Install package dependencies](#-install-package-dependencies)
+    - [ Launch `dev` instance to browser](#-launch-dev-instance-to-browser)
   - [Configuration](#configuration)
-    - [ :flashlight:   Artifactory](#-flashlight--artifactory)
-    - [ :nut\_and\_bolt:   Environment variables `.env`](#-nut_and_bolt--environment-variables-env)
+    - [ Artifactory](#-artifactory)
+    - [ Environment variables `.env`](#-environment-variables-env)
   - [Formatting](#formatting)
-    - [ :black\_nib:   Formats project code for readability and familiarity](#-black_nib--formats-project-code-for-readability-and-familiarity)
+    - [ Formats project code for readability and familiarity](#-formats-project-code-for-readability-and-familiarity)
   - [Linting](#linting)
-    - [ :barber:   Lints project code to reduce syntax errors](#-barber--lints-project-code-to-reduce-syntax-errors)
+    - [ Lints project code to reduce syntax errors](#-lints-project-code-to-reduce-syntax-errors)
   - [Testing](#testing)
-    - [ :construction:   Executes unit and e2e test suites to ensure quality](#-construction--executes-unit-and-e2e-test-suites-to-ensure-quality)
-    - [ :vertical\_traffic\_light:   Lints commit messages for a readable `git` history](#-vertical_traffic_light--lints-commit-messages-for-a-readable-git-history)
+    - [ Executes unit and e2e test suites to ensure quality](#-executes-unit-and-e2e-test-suites-to-ensure-quality)
+    - [ Lints commit messages for a readable `git` history](#-lints-commit-messages-for-a-readable-git-history)
   - [Building](#building)
-    - [ :rocket:   Bundle to `dist` folder](#-rocket--bundle-to-dist-folder)
-    - [ :checkered\_flag:   Start production instance](#-checkered_flag--start-production-instance)
+    - [ Bundle to `dist` folder](#-bundle-to-dist-folder)
+    - [ Start production instance](#-start-production-instance)
   - [Versioning](#versioning)
   - [Considerations](#considerations)
 
@@ -67,14 +67,14 @@ This vanilla boilerplate is a <u>Proof of Concept</u> to showcase an implementat
 
 ## <sub>Installation</sub>
 
-### <sup> :scissors: &nbsp; Clone project and go to directory</sup>
+### <sup> Clone project and go to directory</sup>
 
 > ```sh
 > gh repo clone darcher-figo/boilerplate
 > cd boilerplate
 > ```
 
-### <sup> :pushpin: &nbsp; Alignment to specified `node` version</sup>
+### <sup> Alignment to specified `node` version</sup>
 
 > ```sh
 > # using nvm
@@ -86,7 +86,7 @@ This vanilla boilerplate is a <u>Proof of Concept</u> to showcase an implementat
 > sudo n stable # or 18.15.0
 > ```
 
-### <sup> :recycle: &nbsp; Removes dynamicly generated directories</sup>
+### <sup> Removes dynamicly generated directories</sup>
 
 > ```sh
 > npm run clean
@@ -97,7 +97,7 @@ This vanilla boilerplate is a <u>Proof of Concept</u> to showcase an implementat
 > # rm -rf package-lock.json
 > ```
 
-### <sup> :package: &nbsp; Install package dependencies</sup>
+### <sup> Install package dependencies</sup>
 
 > ```sh
 > # install deps
@@ -107,7 +107,7 @@ This vanilla boilerplate is a <u>Proof of Concept</u> to showcase an implementat
 > npm update --latest
 > ```
 
-### <sup> :bell: &nbsp; Launch `dev` instance to browser</sup>
+### <sup> Launch `dev` instance to browser</sup>
 
 > ```sh
 > # run dev on localhost:3000
@@ -122,11 +122,11 @@ This vanilla boilerplate is a <u>Proof of Concept</u> to showcase an implementat
 
 Below is a configuration check to ensure each expected variable is defined and passed as a configuration export.
 
-### <sup> :flashlight: &nbsp; Artifactory
+### <sup> Artifactory
 
-> :soon: &nbsp; Include configurations to pull from *Artifactory*
+> :soon: Include configurations to pull from *Artifactory*
 
-### <sup> :nut_and_bolt: &nbsp; Environment variables `.env`</sup>
+### <sup> Environment variables `.env`</sup>
 
 > ```txt
 > PORT=3000
@@ -141,7 +141,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ## <sub>Formatting</sub>
 
-### <sup> :black_nib: &nbsp; Formats project code for readability and familiarity</sup>
+### <sup> Formats project code for readability and familiarity</sup>
 
 > ```sh
 > npm run format
@@ -155,7 +155,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ## <sub>Linting</sub>
 
-### <sup> :barber: &nbsp; Lints project code to reduce syntax errors</sup>
+### <sup> Lints project code to reduce syntax errors</sup>
 
 > ```sh
 > npm run lint
@@ -165,7 +165,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ## <sub>Testing</sub>
 
-### <sup> :construction: &nbsp; Executes unit and e2e test suites to ensure quality</sup>
+### <sup> Executes unit and e2e test suites to ensure quality</sup>
 
 > ```sh
 > # executes Jest & Playwright
@@ -174,7 +174,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 > # jest **/*.{ts,tsx} --colors --coverage
 > ```
 
-### <sup> :vertical_traffic_light: &nbsp; Lints commit messages for a readable `git` history</sup>
+### <sup> Lints commit messages for a readable `git` history</sup>
 
 > ```sh
 > npm run clint
@@ -191,7 +191,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ## <sub>Building</sub>
 
-### <sup> :rocket: &nbsp; Bundle to `dist` folder</sup>
+### <sup> Bundle to `dist` folder</sup>
 
 > ```sh
 > npm build
@@ -199,7 +199,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 > # tsc --project tsconfig.build.json
 > ```
 
-### <sup> :checkered_flag: &nbsp; Start production instance</sup>
+### <sup> Start production instance</sup>
 
 > ```sh
 > npm start
@@ -209,14 +209,16 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ## <sub>Versioning</sub>
 
-> :soon: &nbsp; Implement [SemVer][sem-ver-url] for version automation.
+> :soon: Implement [SemVer][sem-ver-url] for version automation.
 
 <table align="right"><tr><td>
 
 <a href="#top" title="Return to top">:top:</a></td></tr></table>
 
 ## <sub>Considerations</sub>
-:pushpin: &nbsp; Future prospects and implementation ideas.
+
+Future prospects and implementation ideas.
+
 - [ ] Outline versioning approach
 - [ ] Setup Artifactory
 - [ ] Artifactory configurations
