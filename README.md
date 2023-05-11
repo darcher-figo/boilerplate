@@ -35,7 +35,6 @@ This vanilla boilerplate is a <i>Proof of Concept</i> to showcase an implementat
   - [5. Library](#5-library)
     - [5.1 Versioning](#51-versioning)
   - [6. API Reference](#6-api-reference)
-  - [7. Licensing](#7-licensing)
 
 ---
 
@@ -212,11 +211,11 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ## <sup>5. Library</sup>
 
-> :question: &nbsp; This project **requires** versioned updates to Artifactory; *list details when available*
+> :pushpin: &nbsp; This project **requires** versioned updates to Artifactory; *list details when available*
 
 ### <sub>5.1 Versioning</sub>
 
-<sup>:pushpin: &nbsp;  :soon: Implement [SemVer][sem-ver-url] for version automation.</sup>
+<sup>:soon: &nbsp; Implement [SemVer][sem-ver-url] for version automation.</sup>
 
 <br />
 <table align="right"><tr><td>
@@ -228,19 +227,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ## <sup>6. API Reference</sup>
 
-> :question: This project **requires** mocks and/or fixtures for sample content; *list details when avaliable*
-
-<br />
-<table align="right"><tr><td>
-<a href="#vipg-boilerplate" title="Return to top">
-
-:top:</a></td></tr></table>
-
----
-
-## <sup>7. Licensing</sup>
-
- Licensing information is located in the  file.
+> :pushpin: &nbsp; This project **requires** mocks and/or fixtures for sample content; *list details when avaliable*
 
 <br />
 <table align="right"><tr><td>
