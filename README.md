@@ -17,7 +17,7 @@ This vanilla boilerplate is a <u>Proof of Concept</u> to showcase an implementat
 <sup>:children_crossing: &nbsp; [<b>Guidelines</b>](./docs/README.md)</sup><br />
 <sup>:ticket: &nbsp; [<b>Licensing</b>](./LICENSE.md)</sup><br />
 <sup>:triangular_ruler: &nbsp; [<b>README</b>](./docs/README.sample.md) <sup><b>`TEMPLATE`</b></sup></sup>
-<br /></td></tr>
+<br /><br /></td></tr>
 <tr><th align="left" scope="col"><sup><sub>TECHNOLOGY</sub></sup></th></tr><tr><td align="center"><br />
 
 <img alt="HTML5" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/640px-HTML5_Badge.svg.png" width="23"/><!--
@@ -48,6 +48,7 @@ This vanilla boilerplate is a <u>Proof of Concept</u> to showcase an implementat
     - [Install package dependencies](#install-package-dependencies)
     - [Launch `dev` instance to browser](#launch-dev-instance-to-browser)
   - [Configuration](#configuration)
+    - [Artifactory](#artifactory)
     - [Environment variables `.env`](#environment-variables-env)
   - [Formatting](#formatting)
     - [Formats project code for readability and familiarity](#formats-project-code-for-readability-and-familiarity)
@@ -120,6 +121,10 @@ This vanilla boilerplate is a <u>Proof of Concept</u> to showcase an implementat
 ## <sub>Configuration</sub>
 
 Below is a configuration check to ensure each expected variable is defined and passed as a configuration export.
+
+### Artifactory
+
+> :soon: &nbsp; Include configurations to pull from *Artifactory*
 
 ### Environment variables `.env`
 
@@ -204,7 +209,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ## <sup>Versioning</sup>
 
-:soon: &nbsp; Implement [SemVer][sem-ver-url] for version automation.
+> :soon: &nbsp; Implement [SemVer][sem-ver-url] for version automation.
 
 <table align="right"><tr><td>
 
