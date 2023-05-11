@@ -9,7 +9,7 @@ This vanilla boilerplate is a <u>Proof of Concept</u> to showcase an implementat
 ## <sup>Table of Contents</sup>
 
 <table align="right">
-<tr><th align="right" scope="col"><sub><sup>DOCUMENTATION</sup></sub></td></tr><tr><td><br />
+<tr><th scope="col"><sub><sup>DOCUMENTATION</sup></sub></td></tr><tr><td><br />
 
 <sup>:scroll: &nbsp; [<b>Code of Conduct</b>](./docs/CODE_OF_CONDUCT.md) &nbsp; &nbsp;</sup><br />
 <sup>:closed_lock_with_key: &nbsp; [<b>Code Owners</b>](./docs/CODEOWNER.md)</sup><br />
@@ -18,7 +18,7 @@ This vanilla boilerplate is a <u>Proof of Concept</u> to showcase an implementat
 <sup>:ticket: &nbsp; [<b>Licensing</b>](./LICENSE.md)</sup><br />
 <sup>:triangular_ruler: &nbsp; [<b>README</b>](./docs/README.sample.md) <sup><b>`TEMPLATE`</b></sup></sup>
 <br /><br /></td></tr>
-<tr><th align="left" scope="col"><sup><sub>TECHNOLOGY</sub></sup></th></tr><tr><td align="center"><br />
+<tr><th scope="col"><sup><sub>TECHNOLOGY</sub></sup></th></tr><tr><td align="center"><br />
 
 <img alt="HTML5" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/640px-HTML5_Badge.svg.png" width="23"/><!--
 --> <img alt="Jest" src="https://cdn.auth0.com/blog/testing-react-with-jest/logo.png" width="21.5" /><!--
@@ -28,7 +28,7 @@ This vanilla boilerplate is a <u>Proof of Concept</u> to showcase an implementat
 --> <img alt="SASS" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/640px-Sass_Logo_Color.svg.png" width="29" /><!--
 --> <img alt="NodeJS" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/640px-Node.js_logo.svg.png" width="40" >
 <br /><br /></td></tr>
-<tr><th align="left" scope="col"><sup><sub>BADGES</sub></sup></td></tr>
+<tr><th scope="col"><sup><sub>BADGES</sub></sup></td></tr>
 
 <tr><td align="center"><br />
 
