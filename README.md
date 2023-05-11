@@ -2,8 +2,6 @@
 
 <a name="top"></a>
 
-> :label: Vanilla Typescript starter kit as a github template
-
 This vanilla boilerplate is a <u>Proof of Concept</u> to showcase an implementation of [Web Components][web-components-url]&mdash;*natively* avaliable in the [JavaScript API][js-api-url].
 
 ## <sup>Table of Contents</sup>
@@ -11,12 +9,12 @@ This vanilla boilerplate is a <u>Proof of Concept</u> to showcase an implementat
 <table align="right">
 <tr><th scope="col"><sub><sup>DOCUMENTATION</sup></sub></td></tr><tr><td><br />
 
-<sup>:scroll: [<b>Code of Conduct</b>](./docs/CODE_OF_CONDUCT.md) &nbsp; &nbsp;</sup><br />
-<sup>:closed_lock_with_key: [<b>Code Owners</b>](./docs/CODEOWNER.md)</sup><br />
-<sup>:pencil2: [<b>Contributing</b>](./docs/CONTRIBUTING.md)</sup><br />
-<sup>:children_crossing: [<b>Guidelines</b>](./docs/README.md)</sup><br />
-<sup>:ticket: [<b>Licensing</b>](./LICENSE.md)</sup><br />
-<sup>:triangular_ruler: [<b>README</b>](./docs/README.sample.md) <sup><b>`TEMPLATE`</b></sup></sup>
+<sup> &rsaquo; [<b>Code of Conduct</b>](./docs/CODE_OF_CONDUCT.md)<br />
+&rsaquo; [<b>Code Owners</b>](./docs/CODEOWNER.md)<br />
+&rsaquo; [<b>Contributing</b>](./docs/CONTRIBUTING.md)<br />
+&rsaquo; [<b>Guidelines</b>](./docs/README.md)<br />
+&rsaquo; [<b>Licensing</b>](./LICENSE.md)<br />
+&rsaquo; [<b>README</b>](./docs/README.sample.md) <sup>`TEMPLATE`</sup></sup>
 <br /><br /></td></tr>
 <tr><th scope="col"><sup><sub>TECHNOLOGY</sub></sup></th></tr><tr><td align="center"><br />
 
@@ -50,7 +48,7 @@ This vanilla boilerplate is a <u>Proof of Concept</u> to showcase an implementat
   - [Configuration](#configuration)
     - [ Artifactory](#-artifactory)
     - [ Environment variables `.env`](#-environment-variables-env)
-  - [Formatting](#formatting)
+  - [Maintinence](#maintinence)
     - [ Formats project code for readability and familiarity](#-formats-project-code-for-readability-and-familiarity)
   - [Linting](#linting)
     - [ Lints project code to reduce syntax errors](#-lints-project-code-to-reduce-syntax-errors)
@@ -139,7 +137,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 > PUBLIC_URL=localhost:3000
 > ```
 
-## <sub>Formatting</sub>
+## <sub>Maintinence</sub>
 
 ### <sup> Formats project code for readability and familiarity</sup>
 
