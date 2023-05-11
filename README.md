@@ -219,7 +219,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 <br />
 <table align="center"><tr><td valign="middle">
 
-<b>&copy; <sup><sub>MMXXIII</ore></sub></sup></b> <img alt="IPG" src="./img/logo.svg" width="22" valign="text-top" /></td><td>
+ммххɪɪɪ &copy; <img alt="IPG" src="./img/logo.svg" width="22" valign="text-bottom" /></td><td>
 <a href="#top" title="Return to top">:top:</a></td></tr></table>
 
 [js-api-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
