@@ -1,5 +1,7 @@
 # <hr /> <sup>vIPG Boilerplate</sup> [<img align="right" alt="company brand" src="./img/logo.lg.svg" width="128">][ipg-url]
 
+<a name="top"></a>
+
 > :label: &nbsp; Vanilla Typescript starter kit as a github template
 
 This vanilla boilerplate is a <i>Proof of Concept</i> to showcase an implementation of [Web Components][web-components-url]&mdash;natively avaliable in the [JavaScript API][js-api-url].
@@ -19,39 +21,60 @@ This vanilla boilerplate is a <i>Proof of Concept</i> to showcase an implementat
 <sup>:closed_lock_with_key: &nbsp; [<b>Code Owners</b>](./docs/CODEOWNER.md)</sup><br />
 <sup>:pencil2: &nbsp; [<b>Contributing</b>](./docs/CONTRIBUTING.md)</sup><br />
 <sup>:children_crossing: &nbsp; [<b>Guidelines</b>](./docs/README.md)</sup><br />
+<sup>:ticket: &nbsp; [<b>Licensing</b>](./LICENSE.md)</sup><br />
 <sup>:triangular_ruler: &nbsp; [<b>README</b>](./docs/README.sample.md) <sup><b>`TEMPLATE`</b></sup></sup></td></tr>
 </table>
 
 - [ vIPG Boilerplate ](#-vipg-boilerplate-)
   - [Table of Contents](#table-of-contents)
-  - [1. Setup](#1-setup)
-    - [1.1 Installation](#11-installation)
-    - [2. Developing](#2-developing)
-      - [2.1 Technology](#21-technology)
-      - [2.2 Configuration](#22-configuration)
-      - [2.3 Formatting and Linting](#23-formatting-and-linting)
-    - [3. Testing](#3-testing)
-    - [4. Building](#4-building)
-  - [5. Library](#5-library)
-    - [5.1 Versioning](#51-versioning)
-  - [6. API Reference](#6-api-reference)
+  - [Technology](#technology)
+  - [Installation](#installation)
+    - [Clone project and go to directory](#clone-project-and-go-to-directory)
+    - [Alignment to specified `node` version](#alignment-to-specified-node-version)
+    - [Removes dynamicly generated directories](#removes-dynamicly-generated-directories)
+    - [Install package dependencies](#install-package-dependencies)
+    - [Launch `dev` instance to browser](#launch-dev-instance-to-browser)
+  - [Configuration](#configuration)
+    - [Environment variables `.env`](#environment-variables-env)
+  - [Formatting](#formatting)
+    - [Formats project code for readability and familiarity](#formats-project-code-for-readability-and-familiarity)
+  - [Linting](#linting)
+    - [Lints project code to reduce syntax errors](#lints-project-code-to-reduce-syntax-errors)
+  - [Testing](#testing)
+    - [Executes unit and e2e test suites to ensure quality](#executes-unit-and-e2e-test-suites-to-ensure-quality)
+    - [Lints commit messages for a readable `git` history](#lints-commit-messages-for-a-readable-git-history)
+  - [Building](#building)
+    - [Bundle to `dist` folder](#bundle-to-dist-folder)
+    - [Start production instance](#start-production-instance)
+  - [Versioning](#versioning)
+  - [Considerations](#considerations)
 
 ---
 
-## <sup>1. Setup</sup>
+## <sub>Technology</sub>
 
-A step-by-step walk through to get an up-to-date local instance installed.
+<img alt="HTML5" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/640px-HTML5_Badge.svg.png" width="23"/><!--
+--> <img alt="Jest" src="https://cdn.auth0.com/blog/testing-react-with-jest/logo.png" width="21.5" /><!--
+--> <img alt="Github" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/640px-Git_icon.svg.png" width="22" /><!--
+--> <img alt="SASS" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/640px-Sass_Logo_Color.svg.png" width="29" /><!--
+--> <img alt="ESLint" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/ESLint_logo.svg/640px-ESLint_logo.svg.png" width="27" /><!--
+--> <img alt="Typescript" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/640px-Typescript_logo_2020.svg.png" width="23" /><!--
+--> <img alt="NodeJS" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/640px-Node.js_logo.svg.png" width="40" >
 
-### <sub>1.1 Installation</sub>
+<table align="right"><tr><td>
 
-:one: &nbsp; **Clone project** and go to directory.
+<a href="#top" title="Return to top">:top:</a></td></tr></table>
+
+## <sub>Installation</sub>
+
+### Clone project and go to directory
 
 > ```sh
 > gh repo clone darcher-figo/boilerplate
 > cd boilerplate
 > ```
 
-:two: &nbsp; ***Alignment*** to specified `node` version.
+### Alignment to specified `node` version
 
 > ```sh
 > # using nvm
@@ -63,7 +86,18 @@ A step-by-step walk through to get an up-to-date local instance installed.
 > sudo n stable # or 18.15.0
 > ```
 
-:three: &nbsp; ***Install*** package dependencies.
+### Removes dynamicly generated directories
+
+> ```sh
+> npm run clean
+>
+> # rm -rf node_modules &&
+> # rm -rf dist &&
+> # rm -rf coverage &&
+> # rm -rf package-lock.json
+> ```
+
+### Install package dependencies
 
 > ```sh
 > # install deps
@@ -73,38 +107,22 @@ A step-by-step walk through to get an up-to-date local instance installed.
 > npm update --latest
 > ```
 
-:four: &nbsp; Launch ***Dev*** instance to browser.
+### Launch `dev` instance to browser
 
 > ```sh
 > # run dev on localhost:3000
 > npm run dev
 > ```
 
-<br />
 <table align="right"><tr><td>
-<a href="#vipg-boilerplate" title="Return to top">
 
-:top:</a></td></tr></table>
+<a href="#top" title="Return to top">:top:</a></td></tr></table>
 
----
-
-### <sup>2. Developing</sup>
-
-#### <sub>2.1 Technology</sub>
-
-<img alt="HTML5" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/640px-HTML5_Badge.svg.png" width="23"/><!--
---> <img alt="Jest" src="https://cdn.auth0.com/blog/testing-react-with-jest/logo.png" width="21.5" /><!--
---> <img alt="Github" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/640px-Git_icon.svg.png" width="22" /><!--
---> <img alt="SASS" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/640px-Sass_Logo_Color.svg.png" width="29" /><!--
---> <img alt="ESLint" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/ESLint_logo.svg/640px-ESLint_logo.svg.png" width="27" /><!--
---> <img alt="Typescript" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/640px-Typescript_logo_2020.svg.png" width="23" /><!--
---> <img alt="NodeJS" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/640px-Node.js_logo.svg.png" width="40" >
-
-#### <sub>2.2 Configuration</sub>
+## <sub>Configuration</sub>
 
 Below is a configuration check to ensure each expected variable is defined and passed as a configuration export.
 
-:one: &nbsp; **Environment Variables** `.env`
+### Environment variables `.env`
 
 > ```txt
 > PORT=3000
@@ -117,9 +135,9 @@ Below is a configuration check to ensure each expected variable is defined and p
 > PUBLIC_URL=localhost:3000
 > ```
 
-#### <sub>2.3 Formatting and Linting</sub>
+## <sub>Formatting</sub>
 
-:one: &nbsp; **Formats** project code for readability and familiarity.
+### Formats project code for readability and familiarity
 
 > ```sh
 > npm run format
@@ -127,7 +145,13 @@ Below is a configuration check to ensure each expected variable is defined and p
 > # prettier --write --ignore-unknown
 > ```
 
-:two: &nbsp; **Lints** project code to reduce syntax errors.
+<table align="right"><tr><td>
+
+<a href="#top" title="Return to top">:top:</a></td></tr></table>
+
+## <sub>Linting</sub>
+
+### Lints project code to reduce syntax errors
 
 > ```sh
 > npm run lint
@@ -135,36 +159,18 @@ Below is a configuration check to ensure each expected variable is defined and p
 > # eslint **/*.{ts,tsx} --fix
 > ```
 
-:three: &nbsp; **Removes** dynamicly generated directories.
+## <sup>Testing</sup>
+
+### Executes unit and e2e test suites to ensure quality
 
 > ```sh
-> npm run clean
->
-> # rm -rf node_modules &&
-> # rm -rf dist &&
-> # rm -rf coverage &&
-> # rm -rf package-lock.json
-> ```
-
-<br />
-<table align="right"><tr><td>
-<a href="#vipg-boilerplate" title="Return to top">
-
-:top:</a></td></tr></table>
-
----
-
-### <sup>3. Testing</sup>
-
-:one: &nbsp; **Tests** with [Jest][jest-unit-test-url] unit testing library and [Playwright][playwright-e2e-url] e2e framework to ensure quality.
-
-> ```sh
+> # executes Jest & Playwright
 > npm run test
 >
 > # jest **/*.{ts,tsx} --colors --coverage
 > ```
 
-:two: &nbsp; **Lints** commit messages to promote a readable `git` history.
+### Lints commit messages for a readable `git` history
 
 > ```sh
 > npm run clint
@@ -175,17 +181,13 @@ Below is a configuration check to ensure each expected variable is defined and p
 > #   --edit
 > ```
 
-<br />
 <table align="right"><tr><td>
-<a href="#vipg-boilerplate" title="Return to top">
 
-:top:</a></td></tr></table>
+<a href="#top" title="Return to top">:top:</a></td></tr></table>
 
----
+## <sup>Building</sup>
 
-### <sup>4. Building</sup>
-
-:one: &nbsp; **Bundle** to `dist` folder.
+### Bundle to `dist` folder
 
 > ```sh
 > npm build
@@ -193,7 +195,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 > # tsc --project tsconfig.build.json
 > ```
 
-:two: &nbsp; ***Start*** production instance.
+### Start production instance
 
 > ```sh
 > npm start
@@ -201,54 +203,37 @@ Below is a configuration check to ensure each expected variable is defined and p
 > # node dist/src/main.js
 > ```
 
-<br />
-<table align="right"><tr><td>
-<a href="#vipg-boilerplate" title="Return to top">
+## <sup>Versioning</sup>
 
-:top:</a></td></tr></table>
+:soon: &nbsp; Implement [SemVer][sem-ver-url] for version automation.
+
+<table align="right"><tr><td>
+
+<a href="#top" title="Return to top">:top:</a></td></tr></table>
+
+## <sup>Considerations</sup>
+:pushpin: &nbsp; Future prospects and implementation ideas.
+- [ ] Outline versioning approach
+- [ ] Setup Artifactory
+- [ ] Artifactory configurations
+- [ ] Create mocked data
+- [ ] Create fixtures
 
 ---
 
-## <sup>5. Library</sup>
-
-> :pushpin: &nbsp; This project **requires** versioned updates to Artifactory; *list details when available*
-
-### <sub>5.1 Versioning</sub>
-
-<sup>:soon: &nbsp; Implement [SemVer][sem-ver-url] for version automation.</sup>
-
 <br />
-<table align="right"><tr><td>
-<a href="#vipg-boilerplate" title="Return to top">
-
-:top:</a></td></tr></table>
-
----
-
-## <sup>6. API Reference</sup>
-
-> :pushpin: &nbsp; This project **requires** mocks and/or fixtures for sample content; *list details when avaliable*
-
-<br />
-<table align="right"><tr><td>
-<a href="#vipg-boilerplate" title="Return to top">
-
-:top:</a></td></tr></table>
-
----
-
 <table align="center"><tr><td>
 
-<sub><sup>:beers: &nbsp;[<b>UNLICENSED</b>][unlicense-url]</sup></sub></td>
+<img alt="IPG" src="./img/logo.svg" width="24" valign="text-top" /></td><td>
+<i><u>υι</u>∫</i><b>κɪτ</b></td><td>
+<a href="#top" title="Return to top">:top:</a></td></tr></table>
+
 <!-- <td><i><u>υι</u>∫</i><b>κɪτ</b></td> -->
 <!--td><b>ʷʬ</b>⥂·★.⥄<b>τ&#866;s⨯</b></td-->
-</tr></table>
 
 [js-api-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
 [web-components-url]: https://developer.mozilla.org/en-US/docs/Web/API/Web_components
 [ipg-url]: https://www.independencepetgroup.com/
-[playwright-e2e-url]: https://playwright.dev/
-[jest-unit-test-url]: https://jestjs.io/
 [unlicense-url]: ./LICENSE.md
 [sem-ver-url]: http://semver.org/
 [contributors-shield]: https://img.shields.io/github/contributors/darcher-figo/boilerplate.svg
