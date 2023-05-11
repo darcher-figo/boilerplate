@@ -217,7 +217,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 ---
 
 <br />
-<table align="center"><tr><td>
+<table align="center"><tr><td valign="middle">
 
 <b>&copy; <sup><sub>MMXXIII</ore></sub></sup></b> <img alt="IPG" src="./img/logo.svg" width="22" valign="text-top" /></td><td>
 <a href="#top" title="Return to top">:top:</a></td></tr></table>
