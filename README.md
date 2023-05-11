@@ -219,14 +219,8 @@ Below is a configuration check to ensure each expected variable is defined and p
 <br />
 <table align="center"><tr><td>
 
-<img alt="IPG" src="./img/logo.svg" width="24" valign="text-top" /></td><td>
-<i><u>υτs</u>∫</i><b>κɪτ</b></td><td>
+<b>&copy; <sup><sub>MMXXIII</ore></sub></sup></b> <img alt="IPG" src="./img/logo.svg" width="22" valign="text-top" /></td><td>
 <a href="#top" title="Return to top">:top:</a></td></tr></table>
-
-<!--
-<td><i><u>υι</u>∫</i><b>κɪτ</b></td>
-<td><b>ʷʬ</b>⥂·★.⥄<b>τ&#866;s⨯</b></td>
--->
 
 [js-api-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
 [web-components-url]: https://developer.mozilla.org/en-US/docs/Web/API/Web_components
