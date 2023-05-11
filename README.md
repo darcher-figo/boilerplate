@@ -17,7 +17,7 @@ This vanilla boilerplate is a <u>Proof of Concept</u> to showcase an implementat
 <sup>:children_crossing: &nbsp; [<b>Guidelines</b>](./docs/README.md)</sup><br />
 <sup>:ticket: &nbsp; [<b>Licensing</b>](./LICENSE.md)</sup><br />
 <sup>:triangular_ruler: &nbsp; [<b>README</b>](./docs/README.sample.md) <sup><b>`TEMPLATE`</b></sup></sup>
-</td></tr>
+<br /></td></tr>
 <tr><th align="left" scope="col"><sup><sub>TECHNOLOGY</sub></sup></th></tr><tr><td align="center"><br />
 
 <img alt="HTML5" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/640px-HTML5_Badge.svg.png" width="23"/><!--
@@ -27,7 +27,7 @@ This vanilla boilerplate is a <u>Proof of Concept</u> to showcase an implementat
 --> <img alt="Typescript" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/640px-Typescript_logo_2020.svg.png" width="23" /><!--
 --> <img alt="SASS" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/640px-Sass_Logo_Color.svg.png" width="29" /><!--
 --> <img alt="NodeJS" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/640px-Node.js_logo.svg.png" width="40" >
-</td></tr>
+<br /><br /></td></tr>
 <tr><th align="left" scope="col"><sup><sub>BADGES</sub></sup></td></tr>
 
 <tr><td align="center"><br />
@@ -37,7 +37,7 @@ This vanilla boilerplate is a <u>Proof of Concept</u> to showcase an implementat
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]<br />
 [![Contributors][contributors-shield]][contributors-url]
-</th></tr></table>
+<br /><br /></th></tr></table>
 
 - [ vIPG Boilerplate ](#-vipg-boilerplate-)
   - [Table of Contents](#table-of-contents)
