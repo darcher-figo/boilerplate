@@ -9,7 +9,7 @@ This vanilla boilerplate is a <i>Proof of Concept</i> to showcase an implementat
 ## <sup>Table of Contents</sup>
 
 <table align="right">
-<tr><th align="left" valign="bottom"><sup><sub>INFO</sub></sup>
+<tr><th align="left"><sup><sub>INFO</sub></sup>
 
 [![Contributors][contributors-shield]][contributors-url]<br />
 [![Issues][issues-shield]][issues-url]<br />
@@ -18,11 +18,11 @@ This vanilla boilerplate is a <i>Proof of Concept</i> to showcase an implementat
 [![Stargazers][stars-shield]][stars-url]</th></tr>
 <tr><td><sup><sub><b>DOCS</b></sub></sup>
 
-[<sup>:scroll: &nbsp; <b>Code of Conduct</b></sup>](./docs/CODE_OF_CONDUCT.md)<br />
-[<sup>:triangular_flag_on_post: &nbsp; <b>Code Owners</b></sup>](./docs/CODEOWNER.md)<br />
-[<sup>:beginner: &nbsp; <b>Contributing</b></sup>](./docs/CONTRIBUTING.md)<br />
-[<sup>:books: &nbsp; <b>Guidelines</b></sup>](./docs/README.md)<br />
-[<sup>:inbox_tray: &nbsp; <b>README</b> `TEMPLATE`</sup>](./docs/README.sample.md)</td></tr>
+<sup>:scroll: &nbsp; [<b>Code of Conduct</b>](./docs/CODE_OF_CONDUCT.md)</sup><br />
+<sup>:triangular_flag_on_post: &nbsp; [<b>Code Owners</b>](./docs/CODEOWNER.md)</sup><br />
+<sup>:beginner: &nbsp; [<b>Contributing</b>](./docs/CONTRIBUTING.md)</sup><br />
+<sup>:books: &nbsp; [<b>Guidelines</b>](./docs/README.md)</sup><br />
+<sup>:inbox_tray: &nbsp; [<b>README</b> `TEMPLATE`](./docs/README.sample.md)</sup></td></tr>
 </table>
 
 - [ vIPG Boilerplate ](#-vipg-boilerplate-)
