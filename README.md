@@ -4,8 +4,6 @@
 
 This vanilla boilerplate is a <i>Proof of Concept</i> to showcase an implementation of [Web Components][web-components-url]&mdash;natively avaliable in the [JavaScript API][js-api-url].
 
-<sup>:information_source: &nbsp; **Like this `README` layout**? The template is located [here][readme-sample-url].</sup>
-
 ## <sup>Table of Contents</sup>
 
 <table align="right"><tr><th align="left"><sup><sub>INFO</sub></sup>
@@ -18,30 +16,30 @@ This vanilla boilerplate is a <i>Proof of Concept</i> to showcase an implementat
 <tr><td><sup><sub><b>DOCS</b></sub></sup>
 
 <sup>:scroll: &nbsp; [<b>Code of Conduct</b>](./docs/CODE_OF_CONDUCT.md) &nbsp; &nbsp;</sup><br />
-<sup>:triangular_flag_on_post: &nbsp; [<b>Code Owners</b>](./docs/CODEOWNER.md)</sup><br />
-<sup>:beginner: &nbsp; [<b>Contributing</b>](./docs/CONTRIBUTING.md)</sup><br />
-<sup>:books: &nbsp; [<b>Guidelines</b>](./docs/README.md)</sup><br />
-<sup>:inbox_tray: &nbsp; [<b>README</b>](./docs/README.sample.md) <sup><b>`TEMPLATE`</b></sup></sup></td></tr>
+<sup>:closed_lock_with_key: &nbsp; [<b>Code Owners</b>](./docs/CODEOWNER.md)</sup><br />
+<sup>:pencil2: &nbsp; [<b>Contributing</b>](./docs/CONTRIBUTING.md)</sup><br />
+<sup>:children_crossing: &nbsp; [<b>Guidelines</b>](./docs/README.md)</sup><br />
+<sup>:triangular_ruler: &nbsp; [<b>README</b>](./docs/README.sample.md) <sup><b>`TEMPLATE`</b></sup></sup></td></tr>
 </table>
 
 - [ vIPG Boilerplate ](#-vipg-boilerplate-)
   - [Table of Contents](#table-of-contents)
-  - [1. Get Started](#1-get-started)
+  - [1. Setup](#1-setup)
     - [1.1 Installation](#11-installation)
-  - [2. Developing](#2-developing)
-    - [2.1 Technology](#21-technology)
-    - [2.2 Configuration](#22-configuration)
-    - [2.3 Formatting and Linting](#23-formatting-and-linting)
-  - [3. Testing](#3-testing)
-  - [4. Building](#4-building)
-  - [5. Releasing](#5-releasing)
+    - [2. Developing](#2-developing)
+      - [2.1 Technology](#21-technology)
+      - [2.2 Configuration](#22-configuration)
+      - [2.3 Formatting and Linting](#23-formatting-and-linting)
+    - [3. Testing](#3-testing)
+    - [4. Building](#4-building)
+  - [5. Library](#5-library)
     - [5.1 Versioning](#51-versioning)
   - [6. API Reference](#6-api-reference)
   - [7. Licensing](#7-licensing)
 
 ---
 
-## <sup>1. Get Started</sup>
+## <sup>1. Setup</sup>
 
 A step-by-step walk through to get an up-to-date local instance installed.
 
@@ -91,9 +89,9 @@ A step-by-step walk through to get an up-to-date local instance installed.
 
 ---
 
-## <sup>2. Developing</sup>
+### <sup>2. Developing</sup>
 
-### <sub>2.1 Technology</sub>
+#### <sub>2.1 Technology</sub>
 
 <img alt="HTML5" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/640px-HTML5_Badge.svg.png" width="23"/><!--
 --> <img alt="Jest" src="https://cdn.auth0.com/blog/testing-react-with-jest/logo.png" width="21.5" /><!--
@@ -103,7 +101,7 @@ A step-by-step walk through to get an up-to-date local instance installed.
 --> <img alt="Typescript" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/640px-Typescript_logo_2020.svg.png" width="23" /><!--
 --> <img alt="NodeJS" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/640px-Node.js_logo.svg.png" width="40" >
 
-### <sub>2.2 Configuration</sub>
+#### <sub>2.2 Configuration</sub>
 
 Below is a configuration check to ensure each expected variable is defined and passed as a configuration export.
 
@@ -120,7 +118,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 > PUBLIC_URL=localhost:3000
 > ```
 
-### <sub>2.3 Formatting and Linting</sub>
+#### <sub>2.3 Formatting and Linting</sub>
 
 :one: &nbsp; **Formats** project code for readability and familiarity.
 
@@ -157,7 +155,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ---
 
-## <sup>3. Testing</sup>
+### <sup>3. Testing</sup>
 
 :one: &nbsp; **Tests** with [Jest][jest-unit-test-url] unit testing library and [Playwright][playwright-e2e-url] e2e framework to ensure quality.
 
@@ -186,7 +184,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ---
 
-## <sup>4. Building</sup>
+### <sup>4. Building</sup>
 
 :one: &nbsp; **Bundle** to `dist` folder.
 
@@ -212,13 +210,13 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ---
 
-## <sup>5. Releasing</sup>
+## <sup>5. Library</sup>
 
-> :question: &nbsp; This project does not need a release strategy, it is a template.
+> :question: &nbsp; This project **requires** versioned updates to Artifactory; *list details when available*
 
 ### <sub>5.1 Versioning</sub>
 
-<sup>:information_source: &nbsp;  Will implement [SemVer][sem-ver-url] to <b>semi-</b>automate the versioning process.</sup>
+<sup>:pushpin: &nbsp;  :soon: Implement [SemVer][sem-ver-url] for version automation.</sup>
 
 <br />
 <table align="right"><tr><td>
@@ -230,7 +228,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ## <sup>6. API Reference</sup>
 
-> :question: This project will likely only utilize mocks or fixtures to visualize content.
+> :question: This project **requires** mocks and/or fixtures for sample content; *list details when avaliable*
 
 <br />
 <table align="right"><tr><td>
@@ -242,7 +240,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 ## <sup>7. Licensing</sup>
 
-This project is free to use, additional Licensing information is located in the [LICENSE.md][unlicense-url] file.
+ Licensing information is located in the  file.
 
 <br />
 <table align="right"><tr><td>
@@ -252,12 +250,13 @@ This project is free to use, additional Licensing information is located in the 
 
 ---
 
-<table align="center"><tr>
-<td><i><u>υι</u>∫</i><b>κɪτ</b></td>
+<table align="center"><tr><td>
+
+<sub><sup>:beers: &nbsp;[<b>UNLICENSED</b>][unlicense-url]</sup></sub></td>
+<!-- <td><i><u>υι</u>∫</i><b>κɪτ</b></td> -->
 <!--td><b>ʷʬ</b>⥂·★.⥄<b>τ&#866;s⨯</b></td-->
 </tr></table>
 
-[readme-sample-url]: ./docs/README.sample.md
 [js-api-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
 [web-components-url]: https://developer.mozilla.org/en-US/docs/Web/API/Web_components
 [ipg-url]: https://www.independencepetgroup.com/
