@@ -4,18 +4,12 @@
 
 > :label: &nbsp; Vanilla Typescript starter kit as a github template
 
-This vanilla boilerplate is a <i>Proof of Concept</i> to showcase an implementation of [Web Components][web-components-url]&mdash;natively avaliable in the [JavaScript API][js-api-url].
+This vanilla boilerplate is a <u>Proof of Concept</u> to showcase an implementation of [Web Components][web-components-url]&mdash;*natively* avaliable in the [JavaScript API][js-api-url].
 
 ## <sup>Table of Contents</sup>
 
-<table align="right"><tr><th align="left"><sup><sub>INFO</sub></sup>
-
-[![Issues][issues-shield]][issues-url]<br />
-[![MIT License][license-shield]][license-url]<br />
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]<br />
-[![Contributors][contributors-shield]][contributors-url]</th></tr>
-<tr><td><sup><sub><b>DOCS</b></sub></sup>
+<table align="right">
+<tr><td><sub><sup><b>DOCS</b></sup></sub>
 
 <sup>:scroll: &nbsp; [<b>Code of Conduct</b>](./docs/CODE_OF_CONDUCT.md) &nbsp; &nbsp;</sup><br />
 <sup>:closed_lock_with_key: &nbsp; [<b>Code Owners</b>](./docs/CODEOWNER.md)</sup><br />
@@ -23,11 +17,26 @@ This vanilla boilerplate is a <i>Proof of Concept</i> to showcase an implementat
 <sup>:children_crossing: &nbsp; [<b>Guidelines</b>](./docs/README.md)</sup><br />
 <sup>:ticket: &nbsp; [<b>Licensing</b>](./LICENSE.md)</sup><br />
 <sup>:triangular_ruler: &nbsp; [<b>README</b>](./docs/README.sample.md) <sup><b>`TEMPLATE`</b></sup></sup></td></tr>
+<tr><td><sup><sub><b>TECH</b></sub></sup>
+
+<img alt="HTML5" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/640px-HTML5_Badge.svg.png" width="23"/><!--
+--> <img alt="Jest" src="https://cdn.auth0.com/blog/testing-react-with-jest/logo.png" width="21.5" /><!--
+--> <img alt="Github" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/640px-Git_icon.svg.png" width="22" /><!--
+--> <img alt="ESLint" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/ESLint_logo.svg/640px-ESLint_logo.svg.png" width="27" /><br /><!--
+--> <img alt="Typescript" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/640px-Typescript_logo_2020.svg.png" width="23" /><!--
+--> <img alt="SASS" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/640px-Sass_Logo_Color.svg.png" width="29" /><!--
+--> <img alt="NodeJS" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/640px-Node.js_logo.svg.png" width="40" ></td></tr>
+<tr><th align="left"><sup><sub>META</sub></sup>
+
+[![Issues][issues-shield]][issues-url]<br />
+[![MIT License][license-shield]][license-url]<br />
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]<br />
+[![Contributors][contributors-shield]][contributors-url]</th></tr>
 </table>
 
 - [ vIPG Boilerplate ](#-vipg-boilerplate-)
   - [Table of Contents](#table-of-contents)
-  - [Technology](#technology)
   - [Installation](#installation)
     - [Clone project and go to directory](#clone-project-and-go-to-directory)
     - [Alignment to specified `node` version](#alignment-to-specified-node-version)
@@ -50,20 +59,6 @@ This vanilla boilerplate is a <i>Proof of Concept</i> to showcase an implementat
   - [Considerations](#considerations)
 
 ---
-
-## <sub>Technology</sub>
-
-<img alt="HTML5" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/640px-HTML5_Badge.svg.png" width="23"/><!--
---> <img alt="Jest" src="https://cdn.auth0.com/blog/testing-react-with-jest/logo.png" width="21.5" /><!--
---> <img alt="Github" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/640px-Git_icon.svg.png" width="22" /><!--
---> <img alt="SASS" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/640px-Sass_Logo_Color.svg.png" width="29" /><!--
---> <img alt="ESLint" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/ESLint_logo.svg/640px-ESLint_logo.svg.png" width="27" /><!--
---> <img alt="Typescript" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/640px-Typescript_logo_2020.svg.png" width="23" /><!--
---> <img alt="NodeJS" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/640px-Node.js_logo.svg.png" width="40" >
-
-<table align="right"><tr><td>
-
-<a href="#top" title="Return to top">:top:</a></td></tr></table>
 
 ## <sub>Installation</sub>
 
@@ -225,16 +220,17 @@ Below is a configuration check to ensure each expected variable is defined and p
 <table align="center"><tr><td>
 
 <img alt="IPG" src="./img/logo.svg" width="24" valign="text-top" /></td><td>
-<i><u>υι</u>∫</i><b>κɪτ</b></td><td>
+<i><u>υτs</u>∫</i><b>κɪτ</b></td><td>
 <a href="#top" title="Return to top">:top:</a></td></tr></table>
 
-<!-- <td><i><u>υι</u>∫</i><b>κɪτ</b></td> -->
-<!--td><b>ʷʬ</b>⥂·★.⥄<b>τ&#866;s⨯</b></td-->
+<!--
+<td><i><u>υι</u>∫</i><b>κɪτ</b></td>
+<td><b>ʷʬ</b>⥂·★.⥄<b>τ&#866;s⨯</b></td>
+-->
 
 [js-api-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
 [web-components-url]: https://developer.mozilla.org/en-US/docs/Web/API/Web_components
 [ipg-url]: https://www.independencepetgroup.com/
-[unlicense-url]: ./LICENSE.md
 [sem-ver-url]: http://semver.org/
 [contributors-shield]: https://img.shields.io/github/contributors/darcher-figo/boilerplate.svg
 [contributors-url]: https://github.com/darcher-figo/boilerplate/graphs/contributors
