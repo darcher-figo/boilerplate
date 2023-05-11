@@ -8,17 +8,16 @@ This vanilla boilerplate is a <i>Proof of Concept</i> to showcase an implementat
 
 ## <sup>Table of Contents</sup>
 
-<table align="right">
-<tr><th align="left"><sup><sub>INFO</sub></sup>
+<table align="right"><tr><th align="left"><sup><sub>INFO</sub></sup>
 
-[![Contributors][contributors-shield]][contributors-url]<br />
 [![Issues][issues-shield]][issues-url]<br />
 [![MIT License][license-shield]][license-url]<br />
 [![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]</th></tr>
+[![Stargazers][stars-shield]][stars-url]<br />
+[![Contributors][contributors-shield]][contributors-url]</th></tr>
 <tr><td><sup><sub><b>DOCS</b></sub></sup>
 
-<sup>:scroll: &nbsp; [<b>Code of Conduct</b>](./docs/CODE_OF_CONDUCT.md)</sup><br />
+<sup>:scroll: &nbsp; [<b>Code of Conduct</b>](./docs/CODE_OF_CONDUCT.md) &nbsp; &nbsp;</sup><br />
 <sup>:triangular_flag_on_post: &nbsp; [<b>Code Owners</b>](./docs/CODEOWNER.md)</sup><br />
 <sup>:beginner: &nbsp; [<b>Contributing</b>](./docs/CONTRIBUTING.md)</sup><br />
 <sup>:books: &nbsp; [<b>Guidelines</b>](./docs/README.md)</sup><br />
