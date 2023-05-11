@@ -9,19 +9,21 @@ This vanilla boilerplate is a <i>Proof of Concept</i> to showcase an implementat
 ## <sup>Table of Contents</sup>
 
 <table align="right">
-<tr><th align="left" valign="bottom">
-  <sup><sub>INFO</sub></sup>
+<tr><th align="left" valign="bottom"><sup><sub>INFO</sub></sup>
 
-[![Forks][forks-shield]][forks-url]<br>
-[![Stargazers][stars-shield]][stars-url]<br>
-[![Issues][issues-shield]][issues-url]<br>
-[![MIT License][license-shield]][license-url]<br>
-[![Contributors][contributors-shield]][contributors-url]</th></tr>
-<tr><td><a href="./docs/CODEOWNER.md"><img src="./img/safe.svg" width="16" valign="text-top"> <sup><sub><b>OWNERS</b></sub></sup></a></td></tr>
-<tr><td><a href="./README.md"><img src="./img/note.svg" width="16" valign="text-top"> <sup><sub><b>README</b></sub></sup></a></td></tr>
-<tr><td><a href="./docs/README.md"><img src="./img/star.svg" width="16" valign="text-top"> <sup><sub><b>GUIDES</b></sub></sup></a></td></tr>
-<tr><td><a href="./docs/CODE_OF_CONDUCT.md"><img src="./img/sign.svg" width="16" valign="text-top"> <sup><sub><b>ETHOS</b></sub></sup></a></td></tr>
-<tr><td><a href="./docs/CONTRIBUTING.md"><img src="./img/gift.svg" width="16" valign="text-top"> <sup><sub><b>RULES</b></sub></sup></a></td></tr></td></tr></table>
+[![Contributors][contributors-shield]][contributors-url]<br />
+[![Issues][issues-shield]][issues-url]<br />
+[![MIT License][license-shield]][license-url]<br />
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]</th></tr>
+<tr><td><sup><sub><b>DOCS</b></sub></sup>
+
+[<sup>:scroll: &nbsp; <b>Code of Conduct</b></sup>](./docs/CODE_OF_CONDUCT.md)<br />
+[<sup>:triangular_flag_on_post: &nbsp; <b>Code Owners</b></sup>](./docs/CODEOWNER.md)<br />
+[<sup>:beginner: &nbsp; <b>Contributing</b></sup>](./docs/CONTRIBUTING.md)<br />
+[<sup>:books: &nbsp; <b>Guidelines</b></sup>](./docs/README.md)<br />
+[<sup>:inbox_tray: &nbsp; <b>README</b> `TEMPLATE`</sup>](./docs/README.sample.md)</td></tr>
+</table>
 
 - [ vIPG Boilerplate ](#-vipg-boilerplate-)
   - [Table of Contents](#table-of-contents)
@@ -82,9 +84,11 @@ A step-by-step walk through to get an up-to-date local instance installed.
 > npm run dev
 > ```
 
-<a title="Go to top of page" href="#vanilla-typescript-">
-  <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
-</a><br />
+<br />
+<table align="right"><tr><td>
+<a href="#vipg-boilerplate" title="Return to top">
+
+:top:</a></td></tr></table>
 
 ---
 
@@ -146,9 +150,11 @@ Below is a configuration check to ensure each expected variable is defined and p
 > # rm -rf package-lock.json
 > ```
 
-<a title="Go to top of page" href="#vanilla-typescript-">
-  <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
-</a><br />
+<br />
+<table align="right"><tr><td>
+<a href="#vipg-boilerplate" title="Return to top">
+
+:top:</a></td></tr></table>
 
 ---
 
@@ -173,9 +179,11 @@ Below is a configuration check to ensure each expected variable is defined and p
 > #   --edit
 > ```
 
-<a title="Go to top of page" href="#vanilla-typescript-">
-  <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
-</a><br />
+<br />
+<table align="right"><tr><td>
+<a href="#vipg-boilerplate" title="Return to top">
+
+:top:</a></td></tr></table>
 
 ---
 
@@ -197,9 +205,11 @@ Below is a configuration check to ensure each expected variable is defined and p
 > # node dist/src/main.js
 > ```
 
-<a title="Go to top of page" href="#vanilla-typescript-">
-  <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
-</a><br />
+<br />
+<table align="right"><tr><td>
+<a href="#vipg-boilerplate" title="Return to top">
+
+:top:</a></td></tr></table>
 
 ---
 
@@ -211,9 +221,11 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 <sup>:information_source: &nbsp;  Will implement [SemVer][sem-ver-url] to <b>semi-</b>automate the versioning process.</sup>
 
-<a title="Go to top of page" href="#vanilla-typescript-">
-  <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
-</a><br />
+<br />
+<table align="right"><tr><td>
+<a href="#vipg-boilerplate" title="Return to top">
+
+:top:</a></td></tr></table>
 
 ---
 
@@ -221,9 +233,11 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 > :question: This project will likely only utilize mocks or fixtures to visualize content.
 
-<a title="Go to top of page" href="#vanilla-typescript-">
-  <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
-</a><br />
+<br />
+<table align="right"><tr><td>
+<a href="#vipg-boilerplate" title="Return to top">
+
+:top:</a></td></tr></table>
 
 ---
 
@@ -231,10 +245,11 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 This project is free to use, additional Licensing information is located in the [LICENSE.md][unlicense-url] file.
 
+<br />
+<table align="right"><tr><td>
+<a href="#vipg-boilerplate" title="Return to top">
 
-<a title="Go to top of page" href="#vanilla-typescript-">
-  <img align="right" alt="Return to top" src="./img/to-top.svg" width="32" />
-</a><br />
+:top:</a></td></tr></table>
 
 ---
 
