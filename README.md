@@ -1,6 +1,6 @@
 # <hr /> <sup>vIPG Boilerplate</sup> [<img align="right" alt="company brand" src="./img/logo.lg.svg" width="128">][ipg-url]
 
-> :heavy_exclamation_mark: **Vanilla** is not solely used to *flavor* baked goods or *mask* the bitterness of your coffee, it *excels* in flexible cross-framework frontend projects, also!
+> :label: &nbsp; Vanilla Typescript starter kit as a github template
 
 This vanilla boilerplate is a <i>Proof of Concept</i> to showcase an implementation of [Web Components][web-components-url]&mdash;natively avaliable in the [JavaScript API][js-api-url].
 
