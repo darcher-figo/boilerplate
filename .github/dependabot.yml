@@ -11,3 +11,5 @@ updates:
       interval: weekly
       day: sunday
       time: 23:59:59
+    labels:
+      - npm deps
