@@ -163,7 +163,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 > # eslint **/*.{ts,tsx} --fix
 > ```
 
-## <sup>Testing</sup>
+## <sub>Testing</sub>
 
 ### <sup>Executes unit and e2e test suites to ensure quality</sup>
 
@@ -189,7 +189,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 <a href="#top" title="Return to top">:top:</a></td></tr></table>
 
-## <sup>Building</sup>
+## <sub>Building</sub>
 
 ### <sup>Bundle to `dist` folder</sup>
 
@@ -207,7 +207,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 > # node dist/src/main.js
 > ```
 
-## <sup>Versioning</sup>
+## <sub>Versioning</sub>
 
 > :soon: &nbsp; Implement [SemVer][sem-ver-url] for version automation.
 
@@ -215,7 +215,7 @@ Below is a configuration check to ensure each expected variable is defined and p
 
 <a href="#top" title="Return to top">:top:</a></td></tr></table>
 
-## <sup>Considerations</sup>
+## <sub>Considerations</sub>
 :pushpin: &nbsp; Future prospects and implementation ideas.
 - [ ] Outline versioning approach
 - [ ] Setup Artifactory
