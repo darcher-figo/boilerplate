@@ -75,7 +75,7 @@
     "build": "node_modules/.bin/tsc --project tsconfig.build.json",
     "dev": "node_modules/.bin/nodemon --ext .js, .ts, .json, .env --exec && node --experimental-specifier-resolution=node --loader ts-node/esm src/main.ts",
     "test": "node_modules/.bin/jest --colors --coverage **/*.ts",
-    "lint": "node_modules/.bin/eslint . --ext js,ts,jsx,tsx --fix",
+    "lint": "node_modules/.bin/eslint . --ext .js, .ts, .jsx, .tsx, .cjs, .mjs, .json --fix",
     "start": "node dist/src/main.js",
     "clean": "rm -rf node_modules && rm -rf dist && rm -rf coverage && rm -rf package-lock.json"
   },
