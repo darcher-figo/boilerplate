@@ -5,6 +5,7 @@
     "tslib": "^2.3.1"
   },
   "devDependencies": {
+    "@11ty/webc": "^0.11.4",
     "@commitlint/cli": "^17.0.0",
     "@commitlint/config-conventional": "^17.0.0",
     "@jest/globals": "^29.5.0",
@@ -60,22 +61,21 @@
       "main"
     ]
   },
-	"homepage": "https://github.com/darcher-figo/boilerplate#readme",
+  "homepage": "https://github.com/darcher-figo/boilerplate#readme",
   "repository": {
     "type": "git",
     "url": "git@github.com:darcher-figo/boilerplate.git"
   },
   "author": "Dylan Archer <darcher@insurefigo.com> (https://github.com/darcher-figo)",
-	"bugs": {
-		"url": "https://github.com/darcher-figo/boilerplate/issues"
-	},
+  "bugs": {
+    "url": "https://github.com/darcher-figo/boilerplate/issues"
+  },
   "scripts": {
-    "format": "node_modules/.bin/prettier --write --ignore-unknown .",
+    "format": "node_modules/.bin/prettier . --write --ignore-unknown",
     "build": "node_modules/.bin/tsc --project tsconfig.build.json",
     "dev": "node_modules/.bin/nodemon --ext .js, .ts, .json, .env --exec && node --experimental-specifier-resolution=node --loader ts-node/esm src/main.ts",
     "test": "node_modules/.bin/jest --colors --coverage **/*.ts",
-    "lint": "node_modules/.bin/eslint --fix **/*.ts",
-    "clint": "npx --no-install node_modules/.bin/commitlint --config commitlint.config.cjs --edit",
+    "lint": "node_modules/.bin/eslint . --ext js,ts,jsx,tsx --fix",
     "start": "node dist/src/main.js",
     "clean": "rm -rf node_modules && rm -rf dist && rm -rf coverage && rm -rf package-lock.json"
   },

@@ -1,15 +1,21 @@
 .github
 .yarn
 
-coverage
-build
-docs
-dist
-out
-temp
+coverage/
+build/
+docs/
+dist/
+temp/
+out/
+lib/
+
+*-lock.*
 
 *.yml
 *.html
 *.md
 *.json
 *.d.ts
+
+# See https://github.com/all-contributors/cli/issues/347
+.all-contributorsrc
