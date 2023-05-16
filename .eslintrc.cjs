@@ -12,14 +12,10 @@
     }
   },
   "ignorePatterns": [
-    "**/*.css",
-    "**/*.html",
-    "**/*.scss",
-    "**/*.svg",
-    "*.md",
-    ".*",
-    ".*/*",
-    "docs/*.md"
+    "docs/*",
+    "util(ities)?/*",
+    "dist/",
+    "*.d.ts"
   ],
   "plugins": [
     "@typescript-eslint/eslint-plugin",
