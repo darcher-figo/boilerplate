@@ -1,0 +1,25 @@
+body:
+  - attributes:
+      description: Ensure you have followed the correct process and prerequisit work.
+      label: Documentation checklist!
+      options:
+        - label: I have pulled the latest from the remote branch I started from.
+          required: true
+        - label: I have verified this branch is working in the current state.
+          required: true
+    type: checkboxes
+  - attributes:
+      description: What would you like to report?
+      label: Overview
+    type: textarea
+    validations:
+      required: true
+  - attributes:
+      description: Any additional info you'd like to provide.
+      label: Additional Info
+    type: textarea
+description: Report a typo or missing area of documentation
+labels:
+  - "area: documentation"
+name: 📝 Documentation
+title: "📝 Documentation: <short description of the request>"
