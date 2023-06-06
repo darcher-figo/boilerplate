@@ -1,16 +1,6 @@
-[<img align="right" alt="company brand" src="../img/logo.lg.svg" width="164">](https://www.independencepetgroup.com/)
-
 # Ethos 
 
 **Code of Conduct: The contributor covenant -** A set of rules outlining the policies, proper practices, and responsibilities of an individual, team, company, and/or organization.
-
-<br /><table><tr align="center" valign="middle" style="color:slategray">
-<td><img src="../img/safe.svg" width="16" /> <a href="./CODEOWNER.md"><sup><sub><b>CODE OWNERS
-<td><img src="../img/sign.svg" width="16" /> <a href="./CODE_OF_CONDUCT.md"><sup><sub><b>CODE OF CONDUCT
-<td><img src="../img/gift.svg" width="16" /> <a href="./CONTRIBUTING.md"><sup><sub><b>CONTRIBUTING
-<td><img src="../img/star.svg" width="16" /> <a href="./README.md"><sup><sub><b>BEST PRACTICES
-<td><img src="../img/note.svg" width="16" /> <a href="../README.md"><sup><sub><b>DOCUMENTATION
-<tr><td colspan="6">
 
 ## Our Pledge
 
